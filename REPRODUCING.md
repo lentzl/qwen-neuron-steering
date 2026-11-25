@@ -75,6 +75,14 @@ This tests positive, negative and zero doses, position selection, removal before
 
 `archive/construction` and `evidence/construction` document donor replacement, fixed memory-writer offsets, the key/value-only test, gradient scoring, selection of 1,024 coordinates, and exclusion of 132 coordinates in layers 19–20. The article explains the method step by step.
 
-The code snapshots record the exact proxy, sign filter, normalization order and selection logic. They are preserved for inspection, **not advertised as a turnkey pipeline**: machine-specific launch/audit dependencies have been removed or normalized, and some upstream binary artifacts and full transient activation/gradient tensors are not in the retained local archive. The final offset artifact and its fingerprints are retained in full. Reconstructing the search requires rerunning the documented activation captures and predecessor experiments, not merely running the final intervention CLI.
+The code snapshots record the exact proxy, sign filter, normalization order and selection logic. The retained discovery artifacts are now also supplied under `artifacts/discovery/`: the memory-writer coefficients, top 4,096 ranked candidates with scores and per-topic mean deltas, the intermediate causal-offset package, and the quality-evaluation offset package. They are recovered from previously saved backups, and their hashes match the historical construction records. See [recovery provenance](provenance/discovery-recovery.json).
 
-This distinction is intentional: the released final intervention is directly reusable, while the discovery history is supported by retained source and causal records with explicit archival gaps.
+With PyTorch installed, verify the deterministic construction from these retained candidates through to the published intervention:
+
+```bash
+python3 reproduction/check_discovery_lineage.py
+```
+
+This checks candidate ordering and donor-delta averaging, the 256/1,024/4,096 candidate packages, the quality package and its random control, all six layer partitions, the final 892 coordinates and their exact coefficients, and the dose calculation. It runs on CPU and makes no model calls.
+
+Full transient activation/gradient tensors and the all-coordinate ranking pool were not retained. Regenerating the original gradients and ranking from the base model therefore requires rerunning the documented captures. The historical launch/audit scripts also retain environment assumptions and are not a turnkey pipeline. We have verified the saved-candidate-to-final-intervention lineage; we have not rerun discovery end to end from the base weights. The initial release's statement about missing upstream binary artifacts is superseded by this recovery.

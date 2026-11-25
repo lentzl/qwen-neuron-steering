@@ -11,6 +11,7 @@ The article links directly to its evidence records. This release preserves succe
 | What happens on the earlier 16-question panel? | `evidence/cited/earlier-labels.json`, `earlier.json`, `evidence/engagement/earlier/` |
 | What happens on the reserved 12-question panel? | `evidence/cited/reserved.json`, `evidence/engagement/reserved/` |
 | How is the intervention constructed? | `evidence/construction/`, `archive/construction/` |
+| Can the saved candidates be traced to the final offsets? | `artifacts/discovery/`, `reproduction/check_discovery_lineage.py`, `provenance/discovery-recovery.json` |
 | What are the coding completions and corrected test outcomes? | `evidence/coding/`, `evidence/cited/coding.json` |
 | What are all persona measurements, including controls? | `evidence/persona/`, `evidence/cited/persona.json`, `persona-items.json` |
 | Which source bytes were privacy-normalized? | `provenance/exports.json` |

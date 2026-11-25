@@ -24,6 +24,7 @@ The panels have different exposure histories and are **not pooled**. Greater eng
 - The exact **95,163-byte offset artifact**, coordinate fingerprints and original inference hook.
 - Full saved prompts, answers, token IDs, labels, scoring records and persona readouts supporting the reported results.
 - Construction records, gradient-selection source and intermediate causal-experiment evidence.
+- Recovered discovery tensors, with historical hash matches and a CPU check of the candidate-to-final-intervention lineage.
 - A portable GPU inference entry point, CPU result checks and an operator test.
 - A file manifest and explicit privacy-export provenance.
 
