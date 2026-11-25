@@ -16,7 +16,7 @@ The main outcome is greater substantive engagement with sensitive questions:
 | Earlier transfer panel, 16 questions | 6/16 | 16/16 |
 | Reserved-event panel, 12 questions | 9/12 | 12/12 |
 
-The panels have different exposure histories and are **not pooled**. Greater engagement does not guarantee a correct answer. The article separately reports factual quality, a small coding-score decrease (HumanEval+ **157/164 → 154/164**), and selected persona shifts resembling effects reported in prior honesty-steering work. These results do not establish a general honesty axis, a fully identified native mechanism, or an equivalence guarantee for other capabilities.
+The central finding is that the intervention **reduces Qwen’s self-censorship on the tested topics sensitive to the Chinese government**, measured as increased substantive engagement and fewer evasive nonanswers. The panels have different exposure histories and are **not pooled**. We examine factual quality, coding performance (HumanEval+ **157/164 → 154/164**) and persona changes separately as downstream effects.
 
 ## What is released
 
