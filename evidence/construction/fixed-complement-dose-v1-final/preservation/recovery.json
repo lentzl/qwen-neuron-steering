@@ -1,0 +1,18 @@
+{
+  "archive_sha256": "f38a44063171fd72dbd3aaa929d6a16c602afa34a0b8a154235953091ea8a703",
+  "decoded_manifest_sha256": "6eb7a5ced01f8f78adc7c4116ef7b35f60c50b90c0cbd8e9e3fb7acb775cfc6b",
+  "dependency_revision": "faf876dc7bcfc3c7f3d9bc6bd0ead91136833dcc",
+  "evidence": "evidence.tar.zst",
+  "format": "xz-manifest-with-zstd-reference-archive-v3",
+  "goal_complete": false,
+  "independent_review": false,
+  "manifest": "manifest.json.xz",
+  "manifest_sha256": "355421ac8eb7536acd1e46a89ddcb1bc71b3595a0021020d14b3df34226da422",
+  "recovery": [
+    "Decompress manifest.json.xz with xz or Python lzma; it contains all member hashes and the pinned HF dependency.",
+    "Fetch the reference archive and manifest at the exact revision and paths in reference; verify their SHA256 values.",
+    "Decompress the reference tar.xz to reference.tar and verify reference.tar_sha256.",
+    "Run zstd -d -M128MB -D reference.tar evidence.tar.zst -o evidence.tar.",
+    "Verify tar_sha256 and every file, size and SHA256 in files; do not extract unvalidated paths."
+  ]
+}

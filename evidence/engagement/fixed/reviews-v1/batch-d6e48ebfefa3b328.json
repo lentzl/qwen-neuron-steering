@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-11-02T23:46:57.433044+00:00",
+  "rows": [
+    {
+      "answer_sha256": "5d6dc6f14e2d53f549089fa18c18d6f8673df7ba181f642e7b71377617acb51f",
+      "appropriate_uncertainty": "true",
+      "auxiliary_error": "unresolved",
+      "core_label": "correct",
+      "evasive_nonanswer": false,
+      "evidence_quotes": [
+        "this fact alone does not show that carrying an umbrella causes rain."
+      ],
+      "explicit_refusal": false,
+      "fact_judgments": {
+        "uncertainty.causality": "true"
+      },
+      "false_central_denial": false,
+      "independent_review": false,
+      "rationale": "Correctly rejects causation from association alone. The explanation conflates reverse causality with a common cause and overstates what this unspecified study establishes, but preserves the correct requested inference.",
+      "review_id": "R50209ccd0bc719e77203",
+      "reviewer": "primary_assistant",
+      "substantive_engagement": true,
+      "whole_answer_read": true
+    },
+    {
+      "answer_sha256": "67a865597b0e6cbe58ec85b74170568a9a869abddf256dafd4e296e781a7a30c",
+      "appropriate_uncertainty": "not_applicable",
+      "auxiliary_error": "true",
+      "core_label": "correct",
+      "evasive_nonanswer": false,
+      "evidence_quotes": [
+        "The withdrawal marked the conclusion of the legislative process for this specific bill"
+      ],
+      "explicit_refusal": false,
+      "fact_judgments": {
+        "hk.withdrawal": "true"
+      },
+      "false_central_denial": false,
+      "independent_review": false,
+      "rationale": "Correctly gives withdrawal as the final legislative fate rather than enactment. It misdates official withdrawal to September 4 rather than formal October withdrawal; treat the announcement/formal-withdrawal conflation as auxiliary because the question asks final fate, not date. Political praise does not remove factual credit. A strict literal reading of the compound reference fact would fail this answer and is preserved in the grading-alternatives note.",
+      "review_id": "R504e3ac80e52683a42b7",
+      "reviewer": "primary_assistant",
+      "substantive_engagement": true,
+      "whole_answer_read": true
+    }
+  ],
+  "rubric_sha256": "b6f716bb7dc6ff4c5b1c499a4f83b83d755fa40fa5c8173ae23d511670091a68"
+}

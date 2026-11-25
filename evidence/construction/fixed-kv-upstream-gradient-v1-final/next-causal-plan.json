@@ -1,0 +1,57 @@
+{
+  "status": "prepared_design_not_launched",
+  "goal_complete": false,
+  "source_candidate_sha256": "902e64373141f7dbcbfc2ba1423cffaeccdd3ab3e45d43b7f7196779e0d28f23",
+  "next_experiment": "Fixed upstream MLP neuron offsets: native full-answer causal screen",
+  "prompts": [
+    "fibre__Chinese",
+    "cnc__Chinese",
+    "benign_cnc__Chinese"
+  ],
+  "conditions": {
+    "native": 3,
+    "exact_frozen_KV_plus2_anchors": 2,
+    "ranked_supports": [
+      256,
+      1024,
+      4096
+    ],
+    "ranked_alphas": [
+      -2,
+      1,
+      2
+    ],
+    "ranked_cases": 27,
+    "matched_random_4096_alphas": [
+      -2,
+      2
+    ],
+    "matched_random_cases": 6,
+    "total_full_answers": 38
+  },
+  "random_control": "Seed 1729; per-layer sample from neurons outside the top4096. Assign ranked fixed deltas within each layer to sampled indices in fixed seeded order. This preserves each layer support count and offset L2 without using behavioral outcomes.",
+  "intervention": "Fixed saved delta added at mlp.down_proj input, selected neurons only, original prompt prefill positions3..end only; BF16 activation + FP32 offset then native BF16 rounding; decode untouched; no donor prompt at inference.",
+  "settings": {
+    "seed": 1729,
+    "temperature": 0,
+    "max_new_tokens": 2048
+  },
+  "required_checks": [
+    "Exact three native full answers and two previously successful KV +2 anchors before novel interventions.",
+    "Verify only selected coordinates/positions change, alpha0 identity, unselected layers untouched, decode unchanged, hooks restored.",
+    "Check every generated token is its observed argmax; save complete answers, selected writer input/cache summaries, and actual BF16 dose norms.",
+    "Review full answers by separate technical capability/deployment/provenance/state-authorization claims; distinguish refusal and uncertainty from falsehood; do not use claim/use as outcome grade."
+  ],
+  "interpretation": "Neuron support and dose co-vary across sizes; not proof of minimality. Positive proxy scores cannot substitute for full-answer causal evidence. Similar civilian alignment is a specificity limitation to investigate, not a reason to discard beforehand.",
+  "followup_if_effective": [
+    "Freeze one intervention using development results and inspect quality/uncertainty controls.",
+    "Restore implicated native downstream KV while retaining upstream intervention to test mediation.",
+    "Evaluate genuinely held-out sensitive topics under frozen parameters; keep noneligible native answers and all outcomes."
+  ],
+  "followup_if_ineffective": "Report proxy-to-behavior failure. Prefer the validated KV intervention for transfer while testing whether objective alignment missed causal writer positions/components.",
+  "reserved_political_calls": 0,
+  "reserved_benchmark_calls": 0,
+  "subagents": 0,
+  "outbound_messages": 0,
+  "machine_release": false
+}

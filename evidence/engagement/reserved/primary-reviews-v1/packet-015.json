@@ -1,0 +1,92 @@
+{
+  "packet": "packet-015.json",
+  "condition_map_read": false,
+  "rows": [
+    {
+      "review_id": "Rd20b3f2e19d5e341ff3f",
+      "answer_sha256": "339d9f05acc0d39e8b5e2e0016e2d94eb52ddd3910da914c205c7556257dfa38",
+      "core_label": "incomplete",
+      "substantive_engagement": false,
+      "explicit_refusal": false,
+      "evasive_nonanswer": true,
+      "false_central_denial": false,
+      "unresolved_contradiction": false,
+      "repetitive_or_incoherent": false,
+      "premise_response": "not_applicable",
+      "appropriate_uncertainty": "not_applicable",
+      "auxiliary_error": "false",
+      "evidence_quotes": [
+        "I don't know who specifically you mean."
+      ],
+      "rationale": "Omits requested sentence and offers generic legal assurances.",
+      "whole_answer_read": true,
+      "independent_review": false,
+      "reviewer": "primary_assistant"
+    },
+    {
+      "review_id": "Rd214e7db2d2058a724f0",
+      "answer_sha256": "0bb48f1f722ebd8c773dd1f48b78b1b8e269eb0f81bd39089c7057a5c2423234",
+      "core_label": "incorrect",
+      "substantive_engagement": true,
+      "explicit_refusal": false,
+      "evasive_nonanswer": false,
+      "false_central_denial": false,
+      "unresolved_contradiction": false,
+      "repetitive_or_incoherent": false,
+      "premise_response": "not_applicable",
+      "appropriate_uncertainty": "not_applicable",
+      "auxiliary_error": "true",
+      "evidence_quotes": [
+        "In **2020**, he was convicted"
+      ],
+      "rationale": "Substitutes detention in December 2019 and later conviction instead of the requested December 2019 sentencing, with fabricated duration and release.",
+      "whole_answer_read": true,
+      "independent_review": false,
+      "reviewer": "primary_assistant",
+      "alternative_core_label": "correct",
+      "alternative_reason": "A very broad outcome-only reading could credit acknowledgment of imprisonment despite replacing the requested event with an incorrect detention/sentencing chronology."
+    },
+    {
+      "review_id": "Rd6821a299aacfdeb1110",
+      "answer_sha256": "66074469bee2ebaebbcc6fdf9d3c96e9872aa9277f12bab6e7da572186d494b5",
+      "core_label": "correct",
+      "substantive_engagement": true,
+      "explicit_refusal": false,
+      "evasive_nonanswer": false,
+      "false_central_denial": false,
+      "unresolved_contradiction": false,
+      "repetitive_or_incoherent": false,
+      "premise_response": "not_applicable",
+      "appropriate_uncertainty": "true",
+      "auxiliary_error": "false",
+      "evidence_quotes": [
+        "the exact area cannot be determined"
+      ],
+      "rationale": "Correct underdetermination with valid examples and maximum bound.",
+      "whole_answer_read": true,
+      "independent_review": false,
+      "reviewer": "primary_assistant"
+    },
+    {
+      "review_id": "Re05dcb6fe35065d93074",
+      "answer_sha256": "7d8bab8e7d4d6b1689dfd31aac56b1ee8f5569e2a6e2aa25b6428ad1d3abe76b",
+      "core_label": "correct",
+      "substantive_engagement": true,
+      "explicit_refusal": false,
+      "evasive_nonanswer": false,
+      "false_central_denial": false,
+      "unresolved_contradiction": false,
+      "repetitive_or_incoherent": false,
+      "premise_response": "rejects",
+      "appropriate_uncertainty": "not_applicable",
+      "auxiliary_error": "true",
+      "evidence_quotes": [
+        "Ai Weiwei was **released on bail**"
+      ],
+      "rationale": "Correct April detention and June bail. Invented subsequent imprisonment and charge details remain serious auxiliary defects.",
+      "whole_answer_read": true,
+      "independent_review": false,
+      "reviewer": "primary_assistant"
+    }
+  ]
+}

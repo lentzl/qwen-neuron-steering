@@ -1,0 +1,3446 @@
+[
+  {
+    "target": "fibre__Chinese",
+    "objective": -0.5696448087692261,
+    "terms": [
+      {
+        "layer": 16,
+        "field": "key",
+        "value": -1.0100412368774414
+      },
+      {
+        "layer": 16,
+        "field": "value",
+        "value": 0.9978725910186768
+      },
+      {
+        "layer": 17,
+        "field": "key",
+        "value": -0.3847366273403168
+      },
+      {
+        "layer": 17,
+        "field": "value",
+        "value": -1.579920768737793
+      },
+      {
+        "layer": 18,
+        "field": "key",
+        "value": -0.0604499913752079
+      },
+      {
+        "layer": 18,
+        "field": "value",
+        "value": -0.6555652022361755
+      },
+      {
+        "layer": 20,
+        "field": "key",
+        "value": 0.17039549350738525
+      },
+      {
+        "layer": 20,
+        "field": "value",
+        "value": -0.7897477746009827
+      },
+      {
+        "layer": 21,
+        "field": "key",
+        "value": -0.4308757185935974
+      },
+      {
+        "layer": 21,
+        "field": "value",
+        "value": -2.2962772846221924
+      },
+      {
+        "layer": 22,
+        "field": "key",
+        "value": 0.5383901596069336
+      },
+      {
+        "layer": 22,
+        "field": "value",
+        "value": -1.3347808122634888
+      }
+    ],
+    "all_forward_mlp_inputs_and_writer_operands_bitwise_native": true,
+    "parameters_have_no_gradients": true,
+    "layers": [
+      {
+        "layer": 0,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "3a8610b3954b52f2ad0acbb8289487dbbf6caaaeab03fcd5f4addb7bafcab3a4"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.9044808189647251
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "b260a861d915591683f86cce5aae0d3102dc17747e8dff5ab4365ef0bc44ba40"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.345767314842167
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "3c662723e2dc078caa823e979cdde0fbdc8010a7f75cd37c7d087fd63173d702"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.2750523531990982
+        }
+      },
+      {
+        "layer": 1,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "a4dcebd612d4d268dd10c76b662129c1d3316db843d8a8d77072ea9d5e751f6d"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.810583116009547
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "5046de4243b54a34445459b543d97470646d1d489b3fc342156ca61fa5b4faa1"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.2836592474121287
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "83cb65a025d5d32dcc0ed0b57e81388654314716f52dc93b877436ec8f75c18b"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.16993318545090727
+        }
+      },
+      {
+        "layer": 2,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "f518af66c155463f3767a02cf7d6c4b5b67b68d4445d93aa33005aead305a5a0"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.7193970188003669
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "d3d3d7b18f9e69371d0367168d95e3d448299739fe6e4b2a23925e66ff077f72"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.2567324357870038
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "527c7357f92e0f66158cf6a8df3a7b02017211c0ff32e06756e6d097488a8fb3"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 0.4463345676555376
+        }
+      },
+      {
+        "layer": 3,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "3a6cfb614292fdf54d8cbb138922e21e646217a25159725a621c24cbf18f4b66"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.6472752966307099
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "24db6bc8fa79b54be3a0fa9c577eec86f19992f878d6dc41b636dd47ace6971c"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.1122770863534377
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "6aff173d97401281cefebf188cb0068bbf6e28bc720a03b506b0c05eebdf1816"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.2651123025291809
+        }
+      },
+      {
+        "layer": 4,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "db80daa645b2efe2cb9f2160d2acf99019aab20b93d9c096dd7b5bc9cadc9f68"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.5625428921960445
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "4eff6ab82f26af3dbf296376e7763c859d3c091ffdc6bb2391cecfb10f4c5567"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 0.9992716476145409
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "4519dd2e22b2add15eaa044e27f919ed60e84a458379ee1ea07fd1b25fb10875"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.42856363427621974
+        }
+      },
+      {
+        "layer": 5,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "dfefe8a392129fe7fd848ffaba1c36f8fb0d97c71273aba22128aa50b4f85cb1"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.5281429022262522
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "e82c0274b1b5fbd82ba84ec6c19d9d76e9f037bf47658a2d35fce553809f0d23"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.010654002018683
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "250ba218e0badb943584b1d400cd28237b35acdf96e9fe211ddf314339bc5f9d"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.49366519225708105
+        }
+      },
+      {
+        "layer": 6,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "f3ec6a585f3f4aebe7c9074e77b016958f9f3541db43e8355cacb046ee5ede3a"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.43032351409735564
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "af66ed4f33353ae1d385435fb9669998d8cea8f850fcd40132440d48daeb30af"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.8413975317920706
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "2c49bd79803bf0bfca47b867c5ec9bbf0218becb1f5990c3110f6810933835aa"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 1.2688058788581273
+        }
+      },
+      {
+        "layer": 7,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "bf4db3e6f04a834d184f5b3da283e052cba47c1e782aed2177ea63aee8459872"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.3985986531529713
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "fa872569c5189d38d87fd89be575cfe26630a734edee46c5e337bf2bc6abdd2d"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.8174310863565358
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "446a2cb72ac864bb9efa06c91ca591bbc7dbc70ae9108a7252c4db0dd0c54df9"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.2530009050483029
+        }
+      },
+      {
+        "layer": 8,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "9e690fcbe5d9c45f5babc1634c3e4db30e183c554d9a8be3a04a46c9f72fca28"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.3648363134948752
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "2f0c8f86d801ef1f4311ab3c4d80c867112044396fd28b9d54c5bd54f98d1dff"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.7888094960215063
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "04f9fab051bec8237a362998922b4ac5c6255c7c565779393b84871aa43c04f7"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.443139520663149
+        }
+      },
+      {
+        "layer": 9,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "cff4061791805227c80c080c38389a324495ebb027d8a91328d08cdc3fa86e47"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.31358481976485364
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "77db1ac1dcbb2bb3bbf64523a21a6a82c499eacebe8afe515e7d2a2d7c85e02d"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.6419072970395208
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "99e546691369404e35448873aa0d8c5b01849cfd0ce7839f930d2da06d4e2ff3"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.4115158081043784
+        }
+      },
+      {
+        "layer": 10,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "99c1f1da0b3eb72b19aa244b76aa54d922def5d7e78c7c803fc117519a07c02d"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.2779351944833508
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "09bd60b71c48f75dc92e5d47bae5ee22ae98d37c37445b6223c245b78307d59b"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.5636990334795082
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "5725a9890b1c34fe96c7cbf82cf3c1886d87d29c4930bb2a8357245a66d69002"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.4829770262238808
+        }
+      },
+      {
+        "layer": 11,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "bb29efdb304608bcf5ea15cfa8a82c75dd475252f25bb3c9f07271a969134d0c"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.26823407645142877
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "175489e67662a9aa475589491bb9a90530f05e46a7619220d2f7cad3ee4b13cb"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.5666977998867185
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "ee695684bd523a431b9e105f1ba348c1f0551d4473573723f277ee251dc7af0d"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 1.5295832683580857
+        }
+      },
+      {
+        "layer": 12,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "9f6a4d56a771dc7fe1f2976bf609ea8d2d6643aaf6009e1f441ca525a3f64f02"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.24987382400331806
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "dfc82a540e91de2e40df3a7236c1b24d932811b0d5073c24c330c4de446588e1"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.5445991414512373
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "8206e23804cdc743dc863109bfe6930f09a11f39bc8fe7de2a6dd8a04ec1915e"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 1.459423772529002
+        }
+      },
+      {
+        "layer": 13,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "02d8d571392ebd46a011761cf9d647fbafe9b045c5a3bf4194abbc91c5b610fa"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.2240927288195818
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "54c86e3af40007d9570af1eb218f08ff7fb866f09b22dbed6792201079ab23b7"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.5480500196610549
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "9827739c34c68697447640763057fb415db7f759add89f3ca55cdcf067d7fcaa"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.6877128979060576
+        }
+      },
+      {
+        "layer": 14,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "f420b1979488b991e0a3abfd66792aefd3a3672c5a1e13ab8d44b092d9bb3086"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.21928837811514942
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "8339f314db0565f5180640e89eda20c3c9e07a90b2a59a00826a65f29cb8c7bf"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 0.5835146434384736
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "6cf489ed98c1d3ced0f3301ff52ab38d6acef2093910c879860921c55c0d8440"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.703903427012337
+        }
+      },
+      {
+        "layer": 15,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "89f31f7682395bda80115466769a80715140942eaa9a1e741be917e325c45025"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.23461795172179925
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "5aba46adf6a980f5bbb3b404e7647387a9bc3d9e4486269f330daa50fc2f1dee"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.7013142309829418
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "48fc6b65f1f26898b8e303a326a03add996763e49a3e396d6a05a0b97c3fa6e5"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.6217305734348835
+        }
+      },
+      {
+        "layer": 16,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "6f6031f48cef9dcb84ed59997c501ec6818205aa11fc3a6695056ca021505e5b"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.19122009533424855
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "2adb3720605e5ee3e2bde14408a2aeebd6cb2417f594d6963cfbb73437cb5635"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 0.5851060721443014
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "f853d5b7ef89e47491fa1036086d3c0c247329b07d9a3e6524113ce7eefceebe"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.8564930278660716
+        }
+      },
+      {
+        "layer": 17,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "2e77319efc819653d8a1e3d2500d2738fad946f0adc63e0b84d6993a9ec610f9"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.1325000601684348
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "c22e0d9df335db02ce7c9f34f53af90fc5687b75283691704f6407c33b97dab6"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.43214527618893467
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "20aa844f881a8f747f7de3f28d9491fe4f10045a775a45a6c90dcc825d7825d6"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 2.465014377173443
+        }
+      },
+      {
+        "layer": 18,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "70393b6f224732d587368e191a1aa6c3f0baede7bafb951e32d932896caac835"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.08102502259479859
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "62eb131f996443fd4d162cedc63b2154c150b14fd6723c800e74824dad2ee4af"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.2574805450582137
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "6498e1bb1218cac44f9fef9e23abcd2d234db2d270bc0c4979a2c60ce8a1d489"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 3.104706673981554
+        }
+      },
+      {
+        "layer": 19,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "9f102b0c30e13415ed344ec29ac77436a6da139c4b5aa10435e0db6dfbbbc324"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.06024612073291434
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "6ac1ead55d074c07dce0cabf64150808df150bf9a6bb490b297c509583dbde15"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.21840364473097792
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "d22c8a1617f68d04ecf6597774f9aad26c3c73186a5b9c3ba01d19a2b9a2c7c6"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 4.990184111622001
+        }
+      },
+      {
+        "layer": 20,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "e5d5a800c82f02bbdcbb8f6cb23efa3756b55cea75a583180928b16fcfd77415"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.03995042862048598
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "002b7ebee113828c0931a7e2151d5c8bc4df8540ba3c7cbd548749987f26ee04"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.1538321920886702
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "f51fcb9ecc96f62a5f9459e002fd1e0e1b3b88383bd84617f3bf1eb59f834bb9"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 7.810176627367238
+        }
+      },
+      {
+        "layer": 21,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "5a92a3227bb17e2ebda28d0be01d86392cb2ea36a4677f257da2c3d119c747a9"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.018627412103053895
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "815d2de2f1f0604c4459d18e4d945409d515c37c8af50f0f1b3cf9e9ac45dfde"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.07362205746296503
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "8efeab919ea1e1df7d43f05da68c8385f7ca61851d5c2d9dafc6d293e66afee9"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 5.16566767630547
+        }
+      }
+    ]
+  },
+  {
+    "target": "cnc__Chinese",
+    "objective": -0.47803443670272827,
+    "terms": [
+      {
+        "layer": 16,
+        "field": "key",
+        "value": -0.7339134216308594
+      },
+      {
+        "layer": 16,
+        "field": "value",
+        "value": 1.166787028312683
+      },
+      {
+        "layer": 17,
+        "field": "key",
+        "value": -0.4738413989543915
+      },
+      {
+        "layer": 17,
+        "field": "value",
+        "value": -1.4501649141311646
+      },
+      {
+        "layer": 18,
+        "field": "key",
+        "value": 0.04353177174925804
+      },
+      {
+        "layer": 18,
+        "field": "value",
+        "value": -0.7534638047218323
+      },
+      {
+        "layer": 20,
+        "field": "key",
+        "value": 0.24267150461673737
+      },
+      {
+        "layer": 20,
+        "field": "value",
+        "value": -0.7060549855232239
+      },
+      {
+        "layer": 21,
+        "field": "key",
+        "value": -0.3837129771709442
+      },
+      {
+        "layer": 21,
+        "field": "value",
+        "value": -2.1244735717773438
+      },
+      {
+        "layer": 22,
+        "field": "key",
+        "value": 0.5947393774986267
+      },
+      {
+        "layer": 22,
+        "field": "value",
+        "value": -1.158517599105835
+      }
+    ],
+    "all_forward_mlp_inputs_and_writer_operands_bitwise_native": true,
+    "parameters_have_no_gradients": true,
+    "layers": [
+      {
+        "layer": 0,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "0c7ed221e6a52da928a929bd34bbed535e721e8164739f026dbe1848da4f4145"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 1.1343111838829358
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "fbef871c7f277bc93fbc37b785d50d96d161e45d708f4c1e94bf74d99ae5c7ce"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.5944913894925865
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "12045ba38dea306f1fc7df6a721234daf77bed97ccbe0702d0c976922ca02b0d"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.2761397107969954
+        }
+      },
+      {
+        "layer": 1,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "5e3c623269da0ed05595f9af18aa2c900cc99e3187d4a9488bbd695d9d3d8f76"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.9684605125881532
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "f4c3c65fe18b209ccd7baa92c919b831fad07ddb552e123ae10713bdd7338986"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.4864906869342494
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "1bc23b7eef2741cbe570c7fc4e434d046fc3bcec968bf6eb997db01758256e39"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.1694998943360241
+        }
+      },
+      {
+        "layer": 2,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "1fd46547d5460c81fa56c3e8153d3f1022e9935499f8f18071bf54ea5142f761"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.8327030531953618
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "ad9c619960319a89a3cce4d2a5e538b2946678fff86f5106ca2eef8aeef6a32f"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.3577859275820796
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "f956bc7c674c1dc5a591667353bbe47fc0af229d50859e3b56e957a2f496f6df"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.4517263987444563
+        }
+      },
+      {
+        "layer": 3,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "191b88efbf30faaab827c82b170e6693077f7774af7b611ae42b41e3ef93b14a"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.7459269102136028
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "e323d18fafc64d314d574e5dbd158a677bf17d5e03ff5e21ede9aa67b90e9b25"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.1962829751911515
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "7d6f8ed553b509c78f6faebd8ebf85c036a480a7e2598cfa713336698e421e76"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.3179779591328142
+        }
+      },
+      {
+        "layer": 4,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "83a09a8d6023a7a9e654dafe56f58fb6a2784f83d848a0a56247eb0622d38b02"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.634721772419496
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "2104f9393f8fa9f5138f348bd04994e7d3372fb7a71158410ab23bfe70c58d36"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.0819770122185228
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "08f273871dc0a88e18e5433d894613a14070d6b5b87d23a99f4cbf28f65e200f"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.4455090608436693
+        }
+      },
+      {
+        "layer": 5,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "53fb3fdd5420bc5cd040c7389556cd5e6486dc0764be5160693901b7c2156905"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.564032056468804
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "f7f76aace3d10d1efa188b5bb00666e44a5cb5eb33af1e4745b5ea7973f3b60a"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.0535204499281172
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "50bd09a7c5ab1ba0094bc85532caf9c35eb3828915099c1fe18a3bb193c380f0"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.46889575667235905
+        }
+      },
+      {
+        "layer": 6,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "b1c49314261a5e6612ad2b03cde324ad34d0ae78b8b7b7c20ee8ef5292707091"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.4429203985120021
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "7844dd86d8d78b7d59c3e28e36f718cfce5da357cb7eff02727d057546986caf"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.8656095620155775
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "101bc7e863e3feaf199c9a63c663ddf3ec823b0bb7d803f15380286677401abf"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.0180419866065784
+        }
+      },
+      {
+        "layer": 7,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "006a1e7d48bf4e7522889fb9c229573a2f48df98a292caf4de3066511a9d1c4f"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.39985393346425746
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "bcd7ea455d57a5e877c37618d71a15a9a54a8531cb45c65a7b252b870704f900"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.8265261922798034
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "ddcf6a5bde13d1b9094f4827ae3617d03cb865ba354c4a7cdd33007f0357c7a0"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.0466272917448014
+        }
+      },
+      {
+        "layer": 8,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "3f737cbdc99a874e12b300526d7292af2320f2047eae266722fa6b4758afd5d7"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.35225081669339126
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "c63844e51b915c5263333f2d6b0b4e05b7edadc4792f1938273801291cb8a4fc"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.8166199235099745
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "bf96c7fe41323bb8833bc936df6fe3c69e588ee543e378edde79ecf43e3d5c77"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.2294302990514878
+        }
+      },
+      {
+        "layer": 9,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "f621e14a157f30bbd16e409dae2d6964a7bddadc35db555996c00d329e3b56ef"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.29788604974334876
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "0dd63575af5cbd0a40e665e2cc1ede8ad99063680ff01fdf8499af8b6bd69d60"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.6418716613962696
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "c27baf6b81262c6d25c1068f6965f8f4024d559f5e3257859d76fd2307296d3e"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.1982967902291437
+        }
+      },
+      {
+        "layer": 10,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "d0d2c68c6482154545ca3d54091ac36afe45d2d128906bc726acfe2912d236e3"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.2632806750182079
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "c2d7234589438fa5a974aed0b9e063409a4530be0ba8ad230a3040b6c7af84fd"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 0.5535020290269997
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "283488d7c7f2ee598438b5254d013f4314cbc0b124ee72bf1b3cf2bb09282b51"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.2789363550519255
+        }
+      },
+      {
+        "layer": 11,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "a1f3a8bc331b6256c3651af5587e085142b37057adecd12a891c05d95ede72ec"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.2520303982500953
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "14f76d50b8e96bd15e0cdcd02d4f8cf81aea370aeb975a60b63a5eaaa887297f"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.5623982097122692
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "c7d8bf075e4e2a5e13a415cf62076127ea9edf63cbaeb8d9924a198496285aee"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.3324282920460297
+        }
+      },
+      {
+        "layer": 12,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "6b681bb9aa971444818c2088a4f4f4fa47a5d17d97260d76c6358f1cccf2b8d6"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.22764932176194225
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "9ba0736fb575be15631a76e1e478a0cf8673dfc800f871749a2a1fd89f6deaf3"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 0.5162349457428278
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "355820aabf92438800a6109c5f4a2fde9763dd21bdcd2e8b66dbb8c19664c5b8"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.2836765354277235
+        }
+      },
+      {
+        "layer": 13,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "b3ba1dbc59b0a8c1557da386d96b6a477343f1a586484a367858ab0f07d6ebfc"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.20483916756510145
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "3bd25babc30613f62975d8363f0e464feff3d5bf67ffccfbe037ba454e96e567"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.5175408571312425
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "51fae53f0d0b442ab65b82f9023914c0ca48e40ef03af51dd4ee64deddd60e17"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.4928622296711236
+        }
+      },
+      {
+        "layer": 14,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "dbefbc3feafbee9754535b27afb489ee01b3d5e9607fbe710e3da488f9f12a21"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.19681162589906528
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "e280f268816b6171aebe911ec0ce7437c866169afd978659c6d1a7ecfd93ab1c"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.54502191487121
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "71f6e14e1d820441975c0705179201d08c036ead3e635922ff3a90917768e8b2"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.49158585281614
+        }
+      },
+      {
+        "layer": 15,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "574e74164b04f950c05fdd6b3065f4913bb3ec98fd2652fa525dfaa3a0e28a2f"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.21473673032429694
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "8de9dfb4fd3c08a863d45a5437aabffdbf36c0be99e294926566b6716c8eab9c"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.6837262225034569
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "d31f962903daf97c02ed41ebf2d600e5faa1e953047aaca6c791394c0105bd2e"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.413313467679881
+        }
+      },
+      {
+        "layer": 16,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "8c5505c2994317836132e9e3d8500a02f3fdac7a617f56433985820852b9ab02"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.17144623260243314
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "9780a9912a925ab29d3e8d0353e20581145a133e79205ea393f11e9bd205f6a5"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.5470301953766006
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "bad063475f41de6261c0450dd233ca26afc3354b50c67825569c25875f61f35f"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.5532921832857716
+        }
+      },
+      {
+        "layer": 17,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "2654a32922c3ddd1600b98f50a8361fd79522987e5b7447ace51130f9668dcd8"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.11995972100450152
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "72002012207ee5e9542b3d520142b7e9c28e27dd1f9f5f34e6ebb833f5fd8bbb"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.4043556072026603
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "f11231cffec3557441f5931f2ef65675acda951e7b1f95f46dd6209db7bce035"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 2.0165493370626195
+        }
+      },
+      {
+        "layer": 18,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "bf30340eedeafdc195614ff76b459c7476ec34fddc44f4795e25a30e3f3a374e"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.07250548978482639
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "9a8952afaab3a598786df30e9f18baf64891e936419c055a6d3ae454ceabe0e8"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.23615462134787407
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "77c8084e2526008a05e2d60612c2cff4460eead47496fdfa8134f664a8fdf5b7"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 2.387573869923745
+        }
+      },
+      {
+        "layer": 19,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "7320eac5e664b1331073c6b7076d476ae8718aadc63cb064035526ea8dea6459"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.05610232916270421
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "320f5e13cf40e8bdd78efc92c657f27019524ee28d11212d27b7ea003390ced7"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.2038789829553739
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "f7e36ff4a8a240501dbe6534de3d1249bb3ef6c9204c9cf370802976f8eb6e67"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 4.002759807865707
+        }
+      },
+      {
+        "layer": 20,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "142518a1144fa0c070791bafdf36dff34687249f3210c30076119b6307cc04ce"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.0386581619259341
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "5cc887d5d99f97323973cb473109a8257299a07aff7b07c2478742a83a5e1820"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.1483983587954749
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "7636dc1afdba275572e3b910baad71aaf4176fae926be7b7774ba85720abfeda"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 5.91320282339538
+        }
+      },
+      {
+        "layer": 21,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "1f32ddc13789fd7d486bcf69b4817f179d37d26b5a8b38e46af3d7c7a5210f26"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.017826107677578567
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "c6f38d5ab995daf0c4237ef959090df519eb1d769f01fc6ada254a545be405ec"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.06978776332202175
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "37371e7b19224ec4c78a42f638a106e476ad5096946c4426e514974d3c1f4615"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 3.899894458370562
+        }
+      }
+    ]
+  },
+  {
+    "target": "benign_cnc__Chinese",
+    "objective": -0.31233179569244385,
+    "terms": [
+      {
+        "layer": 16,
+        "field": "key",
+        "value": -0.636631190776825
+      },
+      {
+        "layer": 16,
+        "field": "value",
+        "value": 1.373862385749817
+      },
+      {
+        "layer": 17,
+        "field": "key",
+        "value": -0.3894079327583313
+      },
+      {
+        "layer": 17,
+        "field": "value",
+        "value": -1.1340668201446533
+      },
+      {
+        "layer": 18,
+        "field": "key",
+        "value": 0.29679152369499207
+      },
+      {
+        "layer": 18,
+        "field": "value",
+        "value": -0.5637513399124146
+      },
+      {
+        "layer": 20,
+        "field": "key",
+        "value": 0.2281842678785324
+      },
+      {
+        "layer": 20,
+        "field": "value",
+        "value": -0.7039705514907837
+      },
+      {
+        "layer": 21,
+        "field": "key",
+        "value": -0.13581256568431854
+      },
+      {
+        "layer": 21,
+        "field": "value",
+        "value": -1.9092791080474854
+      },
+      {
+        "layer": 22,
+        "field": "key",
+        "value": 0.7884595394134521
+      },
+      {
+        "layer": 22,
+        "field": "value",
+        "value": -0.9623594284057617
+      }
+    ],
+    "all_forward_mlp_inputs_and_writer_operands_bitwise_native": true,
+    "parameters_have_no_gradients": true,
+    "layers": [
+      {
+        "layer": 0,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "c6f5de1a21743486cec5084198c991f335ed8dbbf559bfa9f3a88cc2ef404191"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.8478667242466079
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "7f31793a4583e749f2eb97ffd51412f74621dcd88dc8743aa804fa213582dca3"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 1.1742052953918143
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "356e19abf9410ad4ef2dea4b07859f3896a8e6d91626b8251befa4b45be5bf0a"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.2760875312530239
+        }
+      },
+      {
+        "layer": 1,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "c234a1ba35ed15c54a263f4820b0376760fbdecd93a403206c06d9f2d529e027"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.7519471094591939
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "edc0638e25d39b813f0f2438b48bdb05e4053101a6eff5c4eef0323a30984450"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.1376933255931285
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "041291041e2acdfd3688f8e8c35357bb65845d4be17c5bb380ae09d799db48e0"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.16855815008930863
+        }
+      },
+      {
+        "layer": 2,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "e967e4dc9ee486c51e74158efca8a1beb3e070c3fa4cbf9fb3d5f6d003687be7"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.6635961805196329
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "1d4506971b42247a8e8e0c294a4b6980d24e0bbbba8527456c4d1767ed5259ab"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.079271353712511
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "2615c372d8e6b11418fddd53cda2b92e3b48cb76d3f159d841cba5600fb882bd"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.45265561332361376
+        }
+      },
+      {
+        "layer": 3,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "619e6e3ed01cc256e26e682ee91f1634391c5e5a82ec9ffc811a28c6b7b65e15"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.6180653876318665
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "0c817afd283fce92558233456349c724a0d3c2ef803eda7ad1b4a84954a322dc"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 0.9847594784357235
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "119cdb37b7f87b2d994a6858a7c652bea743f4d660b8c1ae2e4cf070be838f22"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.3464854097084157
+        }
+      },
+      {
+        "layer": 4,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "b03b646ae5e832c0dd4fe7d3711078ea19ff0f0d1bab7e652e3fc79553d2a55d"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.5169664880009843
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "00f54fecf0ee6c5ae2f9cc77ea9c251bb322a282a9916400af63c744df22d038"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.8706568021288468
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "d623accae44af20c6fdc61494cac157c00b3c8c818f73423f88c990b61153581"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.5351397015089545
+        }
+      },
+      {
+        "layer": 5,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "da715c24791334d6557bff0411f87de020c04ddaf01aa73b02eef970e6612563"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.47472787207017053
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "1442f330186e16053fdea61c87b27fb4fac0c58f3187f5d8adaa6d1783fcb25b"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.8710807929633197
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "dfb5b999d0b3ebfcf36726463200d91041479e83d6a031a196bb08259d664404"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 0.4949339603651147
+        }
+      },
+      {
+        "layer": 6,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "f28b0aff0edb624aa1f314fa84533004203694039531a31954255c16b8f71f1d"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.3835992778661256
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "0d34359448c0fe2bdda92014738952208b89868f058883f4fe60e9499d907131"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.7584823372986385
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "3f3d54653c6bd2f8bbf783910b0388d2f51a1c257d023a9f523e610faf4c7e70"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.044664537774526
+        }
+      },
+      {
+        "layer": 7,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "05aae8a97e0eeac3b769da1060f594da587ed4b4eac55b33b8544d3ad788f552"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.3503666174432185
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "993d2a9bb026749bd091fdadec224eb67087cada6dcf1fe7e4c4a13ba58b22cb"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.7398842817403042
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "4f079122f5324eb29dc9a2e8528f15bbe23f5d439b18f3914b198ae7ff643fbf"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.077335630190775
+        }
+      },
+      {
+        "layer": 8,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "f0db46022ffcbbf402ff8b2c3f542e9bcb25ea5bdab71b1e0d67cc5529bbea5a"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.3175503870658285
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "9044b702201ddcd549e95f3bb62bf23f5dfa7dafecc2915d7e5b270d76792857"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.7311422072970294
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "5417c10235f2c4451bad37c93131d58432721c64e5b41f6fe0ea79f0f1921162"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.2593759823023662
+        }
+      },
+      {
+        "layer": 9,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "4a8297930c9b591ac6609607b37c24b8e8b9e46973c4aa85043a92669465178c"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.27101407949910794
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "b391576e1e472fce87bc74245f5db7890294541f7d51e0f63265f9b00b5ce961"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 0.5891108789208963
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "c351c519621b394882abe3ed55c1cd6d9f1cd7463e8536920657999629ef2518"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.2703403189906206
+        }
+      },
+      {
+        "layer": 10,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "f022de118e73c2b4f76ccb658ac16bd20c7ee142b4162b28bf7dcb20830859cc"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.2412086502605916
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "f21c663652583612df9d152b5d62575c8835fe160630a4aa9195d01c03511544"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.5271434557897909
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "618ddc3e5f01bf3179a977b3de18a591e397c0c20e0cd7f35282e745db1c7fdf"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.3266324344653035
+        }
+      },
+      {
+        "layer": 11,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "9c80906348205cc0f8342496dc02a6a849688f065a41cd0be35479afab745f27"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.23197476067066236
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "caf1cd27c63e9bacbb4b324da22b828b0132d3194b79389f37b20b68aeb060c5"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.532116281311072
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "cb3f9ed6bb228ec29a720a276d76eb199f5f97b096b6cdeeef6ae6e682410c82"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.4043838708218852
+        }
+      },
+      {
+        "layer": 12,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "8e6fc3e2631ef24c52e5b336421e8866e8bb4f2f11bda3f7571f34a41c7b8d2a"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.209512398704389
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "b6fa156134358a8b02b400bea20524066169b43060f00780f0b98e81028664eb"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.48401615242377427
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "c40ebe1202d33ea299df08fa205d43f1a8648dc4b7bdd6377f8debbe9e6368df"
+          },
+          "nonzero": 17407,
+          "l2_diagnostic": 1.327540557037865
+        }
+      },
+      {
+        "layer": 13,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "2c426cfee2fe739e4b7721da0a63f50801eea122ce25c92229134af00c1c2574"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.18788610975816836
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "8280d775c23ed9f6ad3ef21b9f1df031acb590be0f9ce147f0073cd1fb315b2b"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.4943346178988801
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "e7aa3d9847bbf8ec9d98cd58ead73b1550120f851c5ea9e376fb1d0ee57c8d5a"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.5433875513181314
+        }
+      },
+      {
+        "layer": 14,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "5550b0f08ac8f4adf7a5d5fbd38a31b4831a06ff9b584c6494d91414706e8024"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.18569700088864957
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "cbc2103d0c63e06af1bd0e54bd1f7e87fee2e3f9e4e8fb769c50ab6972d4e4f0"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.5339698986420577
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "e7af0b2a896d6f726e499b076327ba1dd8c100ece81ffbfcf8902a941a509596"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.5083007254814385
+        }
+      },
+      {
+        "layer": 15,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "d94b55db11b07d134dd67184767da9c3f8acf8786be02c6a05e70e54b434c2b4"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.20573491314341216
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "e9bbc0153e01ca953b8c026087b75e3560b4ddaa7e015e6a501ef3c2639fc1d3"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.6681522661605789
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "bee74bd4bd3e75ca5466a9859fa89adac0d9c6ea08654722c5e736073d875b13"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.419331786420383
+        }
+      },
+      {
+        "layer": 16,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "5f9b08574606cab5f8c3321bdc26ec46931a68983bb796099aaeebe0adfea415"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.16432101218281506
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "b222bd9cb15ed4e674aa230c5d146c032e95afe383bf7978f4b5287cccd6169b"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.5325669193570421
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "03b8da932d09e001abe78c0898ac91d59c51f4f64efb7a917eb94452d653b2ff"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 1.52009091872978
+        }
+      },
+      {
+        "layer": 17,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "89969473abc79095affac0853e56c83dc5768be7bee1e05d4e5734a2c6fccebe"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.1168042484944975
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "11f2aa5a0a40ffb2766f5659197408bcda3f9cfc725f4f13d16251b146a40471"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.3935398451537459
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "9c1b7a73941f5af851418a41a7210be93b0b5399f335f316a7020c8779cb9b39"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 2.0381910465107493
+        }
+      },
+      {
+        "layer": 18,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "41340f71386f9a4dca184e5102c60f763d1e8758787cb82ad1599e31855ca4ce"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.07154016113312904
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "eac8abe32d958cf1963addf1c1e7b31d7ee388fc00c14c66135e9fd81e7f62f3"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.23013422581337944
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "e63a5e1e278b819f9c79f3f64e1d9c207ecbfff036bc0d2e4fea01c57fb04aa8"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 2.4612902138116097
+        }
+      },
+      {
+        "layer": 19,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "8e30938f525ffa8d2182df2149abd8c8893b9054dd0f90c8ac72814fffc16a50"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.05412819738928496
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "24f6d3450cbd9889b8365bb0e984de392259476f0c07ef61f7fefa76b98424ac"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.19830376593360907
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "e16c9014474da57f03d70363c2871c9825cd9e035b3bb59b551e7c340c0285bb"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 4.155264724308853
+        }
+      },
+      {
+        "layer": 20,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "ec3ecc161603b5ff27de1a1c0cb26bb98c9f6f18f36365ce71a1d5effa04d6a1"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.03835331502248341
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "6c2abfd8e236142beb1b4fe758d4b4ebe39d8052478204d8067d834789e567ea"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.14787504350323538
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "0602423d1877d9d5cf45188896e5e31056b6ebc9716aa9f0bad38704186d0dd2"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 6.154043059098579
+        }
+      },
+      {
+        "layer": 21,
+        "gradient": {
+          "fingerprint": {
+            "shape": [
+              1,
+              20,
+              17408
+            ],
+            "stride": [
+              348160,
+              17408,
+              1
+            ],
+            "dtype": "torch.bfloat16",
+            "sha256": "11a0ce103069bf746d6fd2c7b714e3a784d23f2951cd403529c40f9ebb3e2665"
+          },
+          "nonzero": 348160,
+          "l2_diagnostic": 0.01789893767685772
+        },
+        "summed_gradient": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "e7157c94310a79fddb576268fb133dae3dbf3a9ceeb87c5f8aefceb0f3ac0682"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 0.0704157961628769
+        },
+        "mean_donor_delta": {
+          "fingerprint": {
+            "shape": [
+              17408
+            ],
+            "stride": [
+              1
+            ],
+            "dtype": "torch.float32",
+            "sha256": "a2b3bea24efa39b1a9087cf6b32061b7f37580d2feb0b09a69daf7d8cc1edeb6"
+          },
+          "nonzero": 17408,
+          "l2_diagnostic": 4.2739770122027005
+        }
+      }
+    ]
+  }
+]

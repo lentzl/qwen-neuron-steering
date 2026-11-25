@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-11-04T08:34:59.051799+00:00",
+  "model": {
+    "config_sha256": "a5bde9d45d5ec446c8323cbe2abf26d3afe52d1494a18d39fee2495d9ad92f36",
+    "decoder_blocks": "model.language_model.layers",
+    "dtype": "bfloat16",
+    "layer_count": 64,
+    "model": "Qwen/Qwen3.6-27B",
+    "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+    "tokenizer_config_sha256": "5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b",
+    "tokenizer_json_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+    "weight_index_sha256": "a8ad2c26fb707ff8c245806315b03e3b4b74595528492423af5dae0ce39b4d9b"
+  },
+  "positive": {
+    "alpha": 2.484356321608939,
+    "arithmetic": "FP32 alpha*delta addition to selected BF16 activations, cast to BF16",
+    "configuration_id": "571e94683c8eb697d364b7518c353433092e5f75017d4f9d722944821b3ac14c",
+    "decode_edits": false,
+    "hook": "mlp.down_proj input",
+    "implementation_sha256": "ea3cfbb7fa0ecf4e07ddc33f09ad0ee0e3e1eb84b19fdac759054b60606947c9",
+    "model_identity": {
+      "config_sha256": "a5bde9d45d5ec446c8323cbe2abf26d3afe52d1494a18d39fee2495d9ad92f36",
+      "decoder_blocks": "model.language_model.layers",
+      "dtype": "bfloat16",
+      "layer_count": 64,
+      "model": "Qwen/Qwen3.6-27B",
+      "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+      "tokenizer_config_sha256": "5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b",
+      "tokenizer_json_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "weight_index_sha256": "a8ad2c26fb707ff8c245806315b03e3b4b74595528492423af5dae0ce39b4d9b"
+    },
+    "offsets_artifact_sha256": "6aefb83dae922e546c3fcdc14bb372e2613cd3b020308bc45dd0936b212ddd79",
+    "partition": "complement",
+    "position_scope": "range(3,len(formatted_input_token_ids))",
+    "treatment": "mlp"
+  },
+  "negative": {
+    "alpha": -2.484356321608939,
+    "arithmetic": "FP32 alpha*delta addition to selected BF16 activations, cast to BF16",
+    "configuration_id": "0d7536fecf56d0f0f8f5259aa6e60bbf8be00417946292f54c5518098259b1f8",
+    "decode_edits": false,
+    "hook": "mlp.down_proj input",
+    "implementation_sha256": "ea3cfbb7fa0ecf4e07ddc33f09ad0ee0e3e1eb84b19fdac759054b60606947c9",
+    "model_identity": {
+      "config_sha256": "a5bde9d45d5ec446c8323cbe2abf26d3afe52d1494a18d39fee2495d9ad92f36",
+      "decoder_blocks": "model.language_model.layers",
+      "dtype": "bfloat16",
+      "layer_count": 64,
+      "model": "Qwen/Qwen3.6-27B",
+      "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+      "tokenizer_config_sha256": "5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b",
+      "tokenizer_json_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "weight_index_sha256": "a8ad2c26fb707ff8c245806315b03e3b4b74595528492423af5dae0ce39b4d9b"
+    },
+    "offsets_artifact_sha256": "6aefb83dae922e546c3fcdc14bb372e2613cd3b020308bc45dd0936b212ddd79",
+    "partition": "complement",
+    "position_scope": "range(3,len(formatted_input_token_ids))",
+    "treatment": "mlp"
+  },
+  "offset_artifact": {
+    "local_path": "ARCHIVE/fixed-memory-source-validation-v1-launch/fixed-memory-source-validation-v1-preparation/runtime-assets/fixed-mlp-strength-v1-code/offset-partitions.pt",
+    "sha256": "6aefb83dae922e546c3fcdc14bb372e2613cd3b020308bc45dd0936b212ddd79",
+    "bytes": 95163,
+    "torch_load_weights_only": true,
+    "selection": [
+      "variants",
+      "mlp__complement"
+    ]
+  },
+  "operator": {
+    "path": "ARCHIVE/prompt-update-gate/signed-event-confirmation-v1-preparation/causal_patch.py",
+    "sha256": "ea3cfbb7fa0ecf4e07ddc33f09ad0ee0e3e1eb84b19fdac759054b60606947c9",
+    "class": "FixedMLPOffset"
+  },
+  "application": "Load offsets on the GPU machine with torch.load(artifact,map_location=\"cpu\",weights_only=True)[\"variants\"][\"mlp__complement\"]. For each independent prompt, construct a new FixedMLPOffset(torch,session.model,session.blocks,ids,offsets,alpha), using the same serialized token IDs that session.generate receives. Wrap generation in the patch context and call verify() afterward. Hooks are removed at the end of prefill. The reference runner supplies the pinned Session, exact serialization, empty-cache checks and runtime assertions.",
+  "reference_runner": "ARCHIVE/prompt-update-gate/signed-event-confirmation-v1-preparation/run_comparison_v1.py",
+  "runtime_contract": "ARCHIVE/prompt-update-gate/signed-event-confirmation-v1-preparation/core-source-contract-v1.json",
+  "scope": {
+    "prompt_positions": "range(3,len(formatted_input_token_ids))",
+    "decode_edits": false
+  },
+  "support": {
+    "neurons": 892,
+    "layers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      21
+    ],
+    "partition": "mlp__complement"
+  },
+  "donor_prompts_at_inference": 0,
+  "model_parameters_modified": false,
+  "local_tensor_deserialization_performed": false,
+  "status": "exact_reproduction_recipe;scientific_efficacy_and_limits_are_reported_separately",
+  "limitations": "This recipe is pinned to the tested model revision, backend and serialization. It is not a general-purpose patch for arbitrary models. The negative is an experimental control, not a recommended deployment setting."
+}

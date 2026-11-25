@@ -1,0 +1,11 @@
+{
+  "reason": "Our added canonical-self-pass assertion prevented task32 grading. The pinned canonical solution fails two expanded polynomial-residual checks. Official EvalPlus uses its special residual oracle and does not impose this extra canonical-self-pass gate.",
+  "change": "Remove only additional canonical-self-pass assertion; keep diagnostics, same image, dataset, oracle, test inputs, tolerances, sanitizer, time/memory limits and saved model outputs.",
+  "scope": "Uniform rule for both arms and every task. Existing163task scores remain valid because their canonical gate passed; score only previously blocked task32. No tests or tasks dropped.",
+  "no_new_inference": true,
+  "original_preserved": true,
+  "original_wrapper_sha256": "f53d5c24e638f239a9a43c22b3f0abf065e190084dc96e8e1955639e4d90761a",
+  "corrected_wrapper_sha256": "0f98e4259c39d2f5adfaa97c2d1774f7efd056aff10d0a96ad83db48ed813fdd",
+  "max_containers": 1,
+  "wall_cap_seconds": 480
+}

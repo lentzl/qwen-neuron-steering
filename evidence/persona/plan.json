@@ -1,0 +1,64 @@
+{
+  "purpose": "Write-up extension; completed study conclusions frozen",
+  "alpha": 2.484356321608939,
+  "arms": [
+    "native",
+    "positive",
+    "negative",
+    "random01",
+    "random02",
+    "random03"
+  ],
+  "core_arms": [
+    "native",
+    "positive",
+    "negative"
+  ],
+  "random_seeds": {
+    "random01": 20261027,
+    "random02": 20261028,
+    "random03": 20261029
+  },
+  "yes_ids": [
+    7179,
+    9175,
+    9405,
+    9542,
+    13602
+  ],
+  "no_ids": [
+    874,
+    2083,
+    2233,
+    2665,
+    8725
+  ],
+  "wall_seconds": 14400,
+  "max_prefills": 13782,
+  "replay_generations": 2,
+  "panel_questions": 2160,
+  "traits": 135,
+  "per_trait_polarity": {
+    "Yes": 8,
+    "No": 8
+  },
+  "label_order_diagnostics": "First example of each polarity for each135traits; reverse Yes or No to No or Yes; three core arms;270prompts810prefills",
+  "native_reuse": false,
+  "positions": "range(3,len(input_ids))",
+  "decode_edits": false,
+  "analysis": [
+    "all135traits and both polarities",
+    "mean signed log2 Yes/No odds; delta from native",
+    "matched random-sign comparisons descriptive only:3 controls cannot substitute for39",
+    "native-confidence adjustment: across-trait OLS effect vs native signed margin; residual correlations with pinned Sauers vector",
+    "within-trait native-margin adjustment; conditional answer probability and answer-class mass",
+    "label-order effects on270preselected prompts",
+    "BH correction for any exploratory per-trait tests; no135independent discoveries claim"
+  ],
+  "storage": "remote and hashverified local incremental copies; noHF",
+  "automatic_retry": false,
+  "automatic_extension": false,
+  "freeform_generations": 0,
+  "historical_control_protocol": "persona-ensemble-v1-preparation/control-design-v1.json;39random signs final9promptpositions, not an allprompt null",
+  "created_utc": "2026-11-04T21:30:47.151259+00:00"
+}

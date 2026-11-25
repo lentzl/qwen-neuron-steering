@@ -1,0 +1,43 @@
+{
+  "goal_status": "active",
+  "previous_goal_turn_classification": "no progress: conversational clarification only",
+  "current_goal_turn_classification": "progress",
+  "completed": [
+    "Remote producer PID 2316380 verified absent, status completed 38/38.",
+    "Execution audit passed: 5 exact answer replays, 25188 argmax steps, no forced tokens.",
+    "38 unique whole-answer reviews frozen before joining treatment labels.",
+    "Condition comparison, report and prospective validation plan saved.",
+    "Private HF backup round-trip verified; text-only local export hashes matched."
+  ],
+  "run": "fixed-kv-upstream-causal-v1",
+  "hf_revision": "8e0ee50149e9b46af2b595ed90d5c788659beb90",
+  "backup_archive_bytes": 1596916,
+  "responses_sha256": "d37550c70201a487cc7cacdae5279e430cc06c6e63cb9892b3b26d6a4729e1fa",
+  "candidate": {
+    "name": "ranked_1024",
+    "alpha": 2,
+    "status": "Development validation candidate only; not yet eligible for a claim of whole-answer factual improvement or frozen held-out evaluation.",
+    "caveats": [
+      "Fibre technical impossibility removed but minimized deployment; source uncertainty remains.",
+      "CNC core acknowledgment with overbroad sanctions claim and unverified supporting details."
+    ]
+  },
+  "next_actions": [
+    "Prepare candidate-specific false-premise and uncertainty controls, keeping known-candid answers and American sourcing distinct from technical assertions.",
+    "Reuse established development factuality samples for MLP and KV-specific quality checks.",
+    "Test mediation by downstream memory restoration, without claiming exclusive causality.",
+    "After eligibility and scoring are frozen, evaluate reserved topics without tuning on them."
+  ],
+  "machine": "Held; no Trainer restart or release; no new process launched this turn.",
+  "constraints": {
+    "no_subagents": true,
+    "no_outbound_messages": true,
+    "no_local_tensor_work": true,
+    "reserved_political24_calls": 0,
+    "reserved_benchmark200_calls": 0
+  },
+  "local_export": {
+    "bytes_approx": 200704,
+    "tensors": 0
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "passed": true,
+  "model_prefills": 9,
+  "native_two_token_generations": 6,
+  "backward_passes": 3,
+  "exact_saved_native_prefix_logit_replays": 6,
+  "full_answers_evaluated": 0,
+  "interventions_evaluated": 0,
+  "reserved_political_calls": 0,
+  "reserved_benchmark_calls": 0,
+  "subagents": 0,
+  "candidate_count": 4096,
+  "eligible_count": 160285,
+  "candidate_sha256": "902e64373141f7dbcbfc2ba1423cffaeccdd3ab3e45d43b7f7196779e0d28f23",
+  "full_pool_hashes": {
+    "delta": {
+      "shape": [
+        22,
+        17408
+      ],
+      "stride": [
+        17408,
+        1
+      ],
+      "dtype": "torch.float32",
+      "sha256": "b44fed3342a08a3a186fe68523502091421d17f3759f2d30447d5785a90ca1ab"
+    },
+    "joint": {
+      "shape": [
+        22,
+        17408
+      ],
+      "stride": [
+        17408,
+        1
+      ],
+      "dtype": "torch.float32",
+      "sha256": "f4055af31b6133611810a7a0a41cdabd1f152e12873d0bfdc9f31ae60b0b13dd"
+    },
+    "scores": {
+      "fibre": {
+        "shape": [
+          22,
+          17408
+        ],
+        "stride": [
+          17408,
+          1
+        ],
+        "dtype": "torch.float32",
+        "sha256": "4c1f1d0c30e458bea16ed57cfd7a3d92fe29ca4eb837258d7b48305119dbae8d"
+      },
+      "cnc": {
+        "shape": [
+          22,
+          17408
+        ],
+        "stride": [
+          17408,
+          1
+        ],
+        "dtype": "torch.float32",
+        "sha256": "a39851e8af082a13e645d48156bafbcf0d759bf7e271b897d4c8be41d7987580"
+      },
+      "benign_cnc": {
+        "shape": [
+          22,
+          17408
+        ],
+        "stride": [
+          17408,
+          1
+        ],
+        "dtype": "torch.float32",
+        "sha256": "15ed992880342aaa5f55ec0a7e300fcc2cf502173f9a351d7c5f592f3290eaff"
+      }
+    }
+  },
+  "top_layer_counts": {
+    "0": 9,
+    "1": 11,
+    "2": 10,
+    "3": 24,
+    "4": 50,
+    "5": 50,
+    "6": 164,
+    "7": 210,
+    "8": 262,
+    "9": 169,
+    "10": 199,
+    "11": 185,
+    "12": 189,
+    "13": 291,
+    "14": 316,
+    "15": 472,
+    "16": 410,
+    "17": 374,
+    "18": 205,
+    "19": 248,
+    "20": 193,
+    "21": 55
+  },
+  "selected_score_sums": {
+    "256": {
+      "fibre": 0.5081677436828613,
+      "cnc": 0.4919983744621277,
+      "benign_cnc": 0.4644702970981598
+    },
+    "1024": {
+      "fibre": 0.7795940637588501,
+      "cnc": 0.7561474442481995,
+      "benign_cnc": 0.7149653434753418
+    },
+    "4096": {
+      "fibre": 1.2551031112670898,
+      "cnc": 1.2205106019973755,
+      "benign_cnc": 1.1406114101409912
+    }
+  },
+  "limitation": "Proxy gradients only nominate neurons. No factual-candor improvement, generalization, or unique sensitivity detector demonstrated.",
+  "goal_complete": false
+}

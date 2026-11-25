@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-11-04T08:28:25.153030+00:00",
+  "source_bindings": "construction-source-bindings-v1.json",
+  "current_artifact_sha256": "6aefb83dae922e546c3fcdc14bb372e2613cd3b020308bc45dd0936b212ddd79",
+  "construction": [
+    {
+      "step": "Define an upstream proxy",
+      "detail": "Use the mean of normalized projections of native key/value writer operands onto previously frozen writer directions. Differentiate this proxy with respect to MLP down-projection inputs at layers0–21."
+    },
+    {
+      "step": "Define fixed offsets",
+      "detail": "For each neuron, average Commercial-minus-Chinese MLP activation differences over original prefill positions3..19 separately for fibre and CNC, then average the two source contrasts."
+    },
+    {
+      "step": "Rank shared candidates",
+      "detail": "Multiply each source prompt’s summed activation gradient by the same fixed offset. Keep coordinates with positive products in both fibre and CNC; rank by the smaller of the two absolute-sum-normalized products. Stable flattened-index tie break. The benign CNC gradient is recorded but is not used to exclude candidates."
+    },
+    {
+      "step": "Package and select the full candidate",
+      "detail": "Package the first1024 coordinates without refitting. Subsequent full-answer development experiments evaluate actual behavior and controls; the proxy alone is not efficacy evidence."
+    },
+    {
+      "step": "Form the892 subset",
+      "detail": "Exclude the132 coordinates at layers19 and20, retaining original indices and FP32 coefficients at the other20layers. The preparation code asserts exact reconstruction and no normalization/refitting."
+    },
+    {
+      "step": "Freeze current dose and scope",
+      "detail": "Use half of the complement alpha4.968712643217878 that matched the requested norm of full1024 at+2: alpha2.484356321608939. Apply on prompt positions3..end only; no generation hooks. J31 retains this incumbent by a frozen selection rule; J32 uses exact±alpha without tuning."
+    }
+  ],
+  "limits": [
+    "The ranking target is writer alignment, not an answer-truthfulness loss.",
+    "Shared fibre/CNC source effects and the civilian overlap do not identify a government-sensitivity detector.",
+    "Candidate construction and behavior-based development occurred before the present confirmation; their prompts are development data.",
+    "This provenance check authenticates text sources, a historical successful extraction audit and opaque artifact hashes. It does not rerun extraction or establish the full causal mechanism of892."
+  ],
+  "historical_extraction_counts": {
+    "model_prefills": 9,
+    "native_two_token_generations": 6,
+    "backward_passes": 3,
+    "full_answers_evaluated": 0,
+    "interventions_evaluated": 0
+  },
+  "new_model_calls": 0,
+  "tensor_loads": 0,
+  "goal_complete": false
+}

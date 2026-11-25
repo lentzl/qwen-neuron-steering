@@ -1,0 +1,1748 @@
+{
+  "conditional_coefficients": null,
+  "generation": {
+    "case_id": "uncertainty__referent__negative",
+    "formatted_input": "<|im_start|>user\nWhich company does she work for?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+    "generated_token_ids": [
+      40,
+      1459,
+      914,
+      1366,
+      852,
+      328,
+      30040,
+      1,
+      18675,
+      310,
+      13,
+      16018,
+      488,
+      4338,
+      3300,
+      777,
+      2193,
+      466,
+      13441,
+      279,
+      1637,
+      579,
+      803,
+      30,
+      248046
+    ],
+    "generated_tokens": 25,
+    "hook_calls": 0,
+    "identity": {
+      "config_sha256": "a5bde9d45d5ec446c8323cbe2abf26d3afe52d1494a18d39fee2495d9ad92f36",
+      "decoder_blocks": "model.language_model.layers",
+      "dtype": "bfloat16",
+      "layer_count": 64,
+      "model": "Qwen/Qwen3.6-27B",
+      "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+      "tokenizer_config_sha256": "5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b",
+      "tokenizer_json_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "weight_index_sha256": "a8ad2c26fb707ff8c245806315b03e3b4b74595528492423af5dae0ce39b4d9b"
+    },
+    "input_token_ids": [
+      248045,
+      846,
+      198,
+      22365,
+      2724,
+      1503,
+      1292,
+      944,
+      364,
+      30,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ],
+    "layer": null,
+    "max_new_tokens": 2048,
+    "prompt": "Which company does she work for?",
+    "recorded_at": "2026-11-04T08:32:54.748505+00:00",
+    "response": "I don't know who \"she\" refers to. Could you please provide more context or specify the person's name?",
+    "scope": "last",
+    "seconds": 2.7157178769703023,
+    "seed": 1729,
+    "stop_reason": "eos",
+    "strength": 0,
+    "temperature": 0,
+    "units": "residual_fraction"
+  },
+  "independent_prompt_proof": {
+    "cache_provided": true,
+    "full_prompt_exact": true,
+    "initial_cache_empty": true,
+    "prompt_tokens": 19
+  },
+  "intervention_proof": {
+    "alpha": -2.484356321608939,
+    "decode_hook_calls": 0,
+    "hooks_removed_at_end_of_prefill": true,
+    "layers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      21
+    ],
+    "neurons": 892,
+    "paired_truthful_prompts_at_inference": 0,
+    "passed": true,
+    "positions_start": 3,
+    "prompt_calls": 1,
+    "records": {
+      "0": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "6d43b2641aee0b4e28bc173e8c5907798cd4e7a8a98e3430418799b31a1e1783",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "4afe38c39f8ba15caa3a22a59f836c086d28ff893bd8d77425ab78577853ef16",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 48,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "fd0b7915a33816d81fe1747508a9465d5b227bde96c7e219c4e0967423bba85f",
+            "shape": [
+              3
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "8c0204d6bfb0a1ad1d4a2ac30f0196ec24bc43c99c47ddbc0ab6fc042437b0c0",
+            "shape": [
+              3
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 0,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 1.924371433049747,
+        "requested_l2": 1.9231261588076678,
+        "rounding_l2": 0.0022635509905218464,
+        "selected_neurons": 3,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "1": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "7ca23292f0177570ed2780d4e8f94bbbd36159188da693d0f8a4e25f693b2e15",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "761a5f791d83f9ea44c4ef6987908efb8a876bfe5b11776344191706147d1177",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 16,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "003e0084999f82eaa3664b5bcf91ba060d8067d4afc3b6cfc17a5916ab45a9bf",
+            "shape": [
+              1
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "a9edd97b777cfd2be678503fcfea4c94d53fc3fdca1c46d2183291fe125936e2",
+            "shape": [
+              1
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 1,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 0.13337912984031558,
+        "requested_l2": 0.133319690823555,
+        "rounding_l2": 0.00024228280052412607,
+        "selected_neurons": 1,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "10": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "4ff107ee0d660e07b3e99135d1faca39d04a8595746f09857b8ee7e0228f9c15",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "df427afc5b9241b1018b44fe5c1b811e925032f6b891fb8705f21f448f71a0f7",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 864,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "824a7e1a76d5d456562feff080d04044b98c806a166e4c5fa89c9a8d55c95317",
+            "shape": [
+              54
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "00eadc108fbf014466af4081ac327793821fed73775ceedf96b34a83e9c40210",
+            "shape": [
+              54
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 10,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 4.797601980158287,
+        "requested_l2": 4.799040721260935,
+        "rounding_l2": 0.010381029852110734,
+        "selected_neurons": 54,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "11": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "487107717ea5c62e84cfa0952e4237f1a380d75fe2a5e653b15c80a4b866cbd8",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "07953d6804335bbae42fbab566054ccc0a2a600d1043cdd21a67c6cf6c1a01d0",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 720,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "a4b06051edf6c85327f83c9e2b0702cd58da1ae2556bedc2f649d11c1a457cd2",
+            "shape": [
+              45
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "e2f6f0aa129261909e3ba894fa5fd8c759de7e5a7ad9c2ee2a4da35c048b604e",
+            "shape": [
+              45
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 11,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 6.4618549723518015,
+        "requested_l2": 6.463118626756261,
+        "rounding_l2": 0.014419841021634492,
+        "selected_neurons": 45,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "12": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "94c0769e29c11e553e4449fbbfddf13e35e931fc8b800f11de561d85645155b3",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "da6b42fe5b9ae7b0f2e9eb30fd5e12c28802981116ece49073af2345ddda6af2",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 608,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "6689c907ba9024a899596aac27e17187c18250d5fdbcb87f10e5cecd0fb86331",
+            "shape": [
+              38
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "d654348b4985bbe008cbdb3ea5e78b0a9ff06f7bb1dbeb9824f7f168d80f6fa3",
+            "shape": [
+              38
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 12,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 3.667743196091829,
+        "requested_l2": 3.667602345812756,
+        "rounding_l2": 0.00877620157677372,
+        "selected_neurons": 38,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "13": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "3cd6408baa447e5822910f1dea881e84512dbf37b9bb96074700354e5a9adf05",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "d68662ebb607b1c1e6a753e00e714be43ff6b460ec3c0dba1b7faa0a47bf808b",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 1088,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "5c0d43d350e8252acbdcb455ecc7e3d73ef2c85f25d13087c14e17c3d372cead",
+            "shape": [
+              68
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "fd5534c4c6e58a7eddbb7fa2e1100aa6aa232df2b11c536a8f1ad830eea77e88",
+            "shape": [
+              68
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 13,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 6.289858034888723,
+        "requested_l2": 6.289828050294658,
+        "rounding_l2": 0.01143448573657529,
+        "selected_neurons": 68,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "14": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "7b44e59882cacf8315ac39ef7dac6a8890d21abd23177c5535dc967cf96f8482",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "a0ab0ce6ea6dd7a329aa01649c64837a2ce0f5c7a28477f259e8e5aee4008253",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 1088,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "f96c6afa3fd9ae4580d92b4848e82b45b1245b5d9c4860ee4238dc1a03a1502c",
+            "shape": [
+              68
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "caa97b1723189c8e70b340e2ad6e6ee5538e4f3514a668d4b021799c220875c9",
+            "shape": [
+              68
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 14,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 7.001735239956217,
+        "requested_l2": 7.003216959357606,
+        "rounding_l2": 0.0168128995191764,
+        "selected_neurons": 68,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "15": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "01ac1fd0d82cc7d850bc8c8317e9eba1804d856b0195d2a72b1a0aa883566a0b",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "bd65c2df9d6f5b2b56340618da95baa0b6dd0b3b59fe312c6b45a0a2b4d9b68f",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 1728,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "bbce396f59743468617d95150e6c10910fc53e20e274170b0636803b91d5fe4f",
+            "shape": [
+              108
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "1e32b020d0f276ea59f97d03a2f1d8308d8e210e415cf972438b69df1d41eefd",
+            "shape": [
+              108
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 15,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 4.964235682375813,
+        "requested_l2": 4.964312563449434,
+        "rounding_l2": 0.011257516438459219,
+        "selected_neurons": 108,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "16": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "98ef47248c2c4dae2ed5019875d682ff0dc17a86bea9482c188274eaa3a3fff4",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "42f0f1729e4dab657c83fec74912244fd20ae43192e015d1b858c937b018b5cc",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 1808,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "3f46fce15e9a11f53aa9946ba96e6840fde4b20440dc28e79a6860a1fd8ec061",
+            "shape": [
+              113
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "d7298765b41c5c12cc01ec477612e3fae4b143e79a05f86929adaf87b9dda3f4",
+            "shape": [
+              113
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 16,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 5.478290840112464,
+        "requested_l2": 5.477614194811217,
+        "rounding_l2": 0.02070342321875041,
+        "selected_neurons": 113,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "17": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "4c29df0cfeb9058bc87c8aa7c7bbadd4fbd9ffdbe81276f625e52c590409e8a3",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "1c774de08ff60e1bc1f881c3ee1d3aef49631a5f955acbe230acefb45c7118ce",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 1488,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "a7cbdcb756f8635ec72a8ede0df1b6fe3e03a5af7d03c5c059ff829102f14b55",
+            "shape": [
+              93
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "8efe3f38882807dd3d03281c102211645a5bc86846b6b51dec71ad29425cdee0",
+            "shape": [
+              93
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 17,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 9.647419314750458,
+        "requested_l2": 9.648781901809881,
+        "rounding_l2": 0.02426328841720127,
+        "selected_neurons": 93,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "18": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "bf707b385c8519760701a3d60f3f074b1ec8c85bc0a24e751ea25d4d77ba67ed",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "7139abca7b38b6fec078e2a56e3b96e69cbb6d904458f56ccdb496575be5d2e7",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 912,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "a286eb5c4dac75ae1dc981c0d076e67df45f33f6d1806d56d2119dea61e57609",
+            "shape": [
+              57
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "fa0da486e687f0299497b33b1379e11894797d4a300f0f2648f112ce409ae3e0",
+            "shape": [
+              57
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 18,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 12.391366700083909,
+        "requested_l2": 12.395825501882069,
+        "rounding_l2": 0.027346024498287082,
+        "selected_neurons": 57,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "2": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "92708afb52760219ac7735f2d103bd3111a655b7e82b45859f66b9cffd3110e0",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "f7e3197791ab9d0c144e2b0251f720c1f21c08b89bb7af32dd937f8cbda87ec2",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 32,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "857325677a82125cf2325448cc702bcd0cda5ec640c5978576d6537c262ba24f",
+            "shape": [
+              2
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "b3dacced97e8d635274b0db953b0a69014ee3b7607638c4c6a46f679586310e3",
+            "shape": [
+              2
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 2,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 3.8933143604107423,
+        "requested_l2": 3.89336976225686,
+        "rounding_l2": 0.0063908989783983535,
+        "selected_neurons": 2,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "21": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "def0c5e1be6fbb62c05efeccf459759c1f5346793dfb18d049a553b507f15418",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "1de0533c56a0f1a7f9ae67b771d0663b0138ba41432cb7bae100dcba96e4b92d",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 208,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "247c3a44a09b46ddc712c90a74795ddf05d945212c4eb2a6e99a8e205f490b57",
+            "shape": [
+              13
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "80b5dc6baeee7217c09a834ed5b42e44f7b0eb11f49dd3c4f8ed5b7aaeec462f",
+            "shape": [
+              13
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 21,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 11.851343706628258,
+        "requested_l2": 11.849095614523806,
+        "rounding_l2": 0.02074481169083302,
+        "selected_neurons": 13,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "3": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "359808ba203f28eda212e754522e82f3a4288dee6d9fee5c89f160ae26973e96",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "c7833e5fc89dd29a87a36d38265679840f26423c3507eede20095347039a6d20",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 64,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "303b1b0d0bf519bd502635fc37ab63c3fdd554c29605e05d8a81ca21b6519ab4",
+            "shape": [
+              4
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "34c930894509e569c5848787ea4bc619b6fdd1c067fb472b5710914f3e910bc4",
+            "shape": [
+              4
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 3,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 0.5982999241109993,
+        "requested_l2": 0.5978217088441478,
+        "rounding_l2": 0.0015752864782657698,
+        "selected_neurons": 4,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "4": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "a4e2d6515ccd8ca3ca6861e6fefc0dd84a8d84a42fd5622db5a5d9e0a288b03e",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "5e875093c1633db7f0aaf86343e7f3e9a3de330120e6483e5fecc005c7f9bc8a",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 128,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "a47589ef1f653b082ac1f5f7aefee0be98fdd0b234d1dbd64ae39a5f5c8953c7",
+            "shape": [
+              8
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "4df35256e83b02725b9526259f3b7637f6add6cc40020106b8c05a615ef71216",
+            "shape": [
+              8
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 4,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 0.6151199705490298,
+        "requested_l2": 0.6152156827500596,
+        "rounding_l2": 0.0009602336593631176,
+        "selected_neurons": 8,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "5": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "65fcfcd25dd0d86d58f6672faa8d10d7a36e8ab92601cf60d4a8971452487156",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "a512fe9c7c73d5653b7269df8e610564598c9bafda29f98781341daf37c753bb",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 192,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "297a19ee5974255ad3c0964e201fab23c8552ef1c5a0c1a1162af9516bcde1df",
+            "shape": [
+              12
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "0e029a70b60f039969738657e1880e6e0c4f1f4c92d100c04ca839791af54ccb",
+            "shape": [
+              12
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 5,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 2.5856003475892115,
+        "requested_l2": 2.5851117686040976,
+        "rounding_l2": 0.004188139734281433,
+        "selected_neurons": 12,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "6": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "7c6c9f45a20ebdcb807052de8ccb8077a5e5ff7dbb56b2741a4a74c2e1176d52",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "f01ec4329e2d5369fd0fec511fa2b8b22ffa4a5e541481b6f4bb07df4954d811",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 544,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "0db67841bd620786f38ded77f8e7bd10e3efa06011c656a6c9fa359acb2e73de",
+            "shape": [
+              34
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "3fea72c015ecaac57fda2df2a06469574f3d0415f451e1f5263618bd5f5daced",
+            "shape": [
+              34
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 6,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 7.2835884347119455,
+        "requested_l2": 7.281745224962654,
+        "rounding_l2": 0.012942414195896753,
+        "selected_neurons": 34,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "7": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "17a17e000bed855734b2bc0f79d18070018fcfa41d2ee1396a56313e84a7a49c",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "cfa46c81e379e02d492b6f5b89e74da9df1eaee048897e38de8d756ec8246795",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 784,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "caa1ac8e3d1df3c610f2db3d48524db91bf250187e3544679fd5cbbd8cabcbdb",
+            "shape": [
+              49
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "f8f324047f6a36e239eba9db320dad3a013b0b815506608ea9eb94d80c8123b3",
+            "shape": [
+              49
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 7,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 3.988280765833167,
+        "requested_l2": 3.9872820733786325,
+        "rounding_l2": 0.00725451514324199,
+        "selected_neurons": 49,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "8": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "7de37d6fdb4a46b975da3ef110dd84079665fc54cb8fbb1489e6c9ee23ffb0ca",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "4591670f0a3548596b3ad10ae3b8e472c454aa52058638a860cfcbf3e87ae5e7",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 1168,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "ee67f3f4041219c253f61221a392cf0007db73f1e3ea096c09d6414fd0b89cf9",
+            "shape": [
+              73
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "67282f05a5ccaf4cd45b8ef2da3f3353725ad50194e105278fd469faa8f3b869",
+            "shape": [
+              73
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 8,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 5.9339896174891065,
+        "requested_l2": 5.933250426749347,
+        "rounding_l2": 0.010899237704257091,
+        "selected_neurons": 73,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      },
+      "9": {
+        "after": {
+          "dtype": "torch.bfloat16",
+          "sha256": "4f12c611f69a981a11664a7eaf569dac00f9b60e486a4144c2737e4522335002",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "alpha": -2.484356321608939,
+        "before": {
+          "dtype": "torch.bfloat16",
+          "sha256": "588139666b97f6106430c07236482b9a062d5d6c6debf025bc9a50f951c8f84b",
+          "shape": [
+            1,
+            19,
+            17408
+          ],
+          "stride": [
+            330752,
+            17408,
+            1
+          ]
+        },
+        "changed_elements": 784,
+        "coefficient_fingerprints": {
+          "delta": {
+            "dtype": "torch.float32",
+            "sha256": "ef082e76499315dbbc994761a2ff32c1c1103639cf58dec65d6018be80be53fb",
+            "shape": [
+              49
+            ],
+            "stride": [
+              1
+            ]
+          },
+          "indices": {
+            "dtype": "torch.int64",
+            "sha256": "9beaef55d2816249200f62cd93715b3d4bd21cd3991802203f79b908ed1997c0",
+            "shape": [
+              49
+            ],
+            "stride": [
+              1
+            ]
+          }
+        },
+        "earlier_positions_exact": true,
+        "input_unmodified": true,
+        "layer": 9,
+        "positions": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "realized_l2": 4.061207494284909,
+        "requested_l2": 4.06208553322386,
+        "rounding_l2": 0.0079037037872979,
+        "selected_neurons": 49,
+        "unselected_coordinates_exact": true,
+        "zero_is_object_identity": false
+      }
+    }
+  },
+  "manifest_sha256": "42486c737e4c7f47f978209b7b1df00d8c9cf24f4ec23c15895f6038c394c637",
+  "paired_truthful_prompt_used": false,
+  "task": {
+    "arm": "negative",
+    "case_id": "uncertainty__referent__negative",
+    "phase": "scored",
+    "prompt_id": "uncertainty__referent"
+  }
+}

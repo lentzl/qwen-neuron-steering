@@ -1,0 +1,3954 @@
+[
+  {
+    "id": "extraversion/Yes/0",
+    "match": "Yes",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.9997187769983293,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "9b4733bda3437f340c8e9c813aa9a8ddd1b11f868c3c835dd52195f99edaa55c",
+        "input_sha256": "810fa6e990349eb0f3813dd1ca9514c9cb820fb5f9382d216eb5972628c159c8",
+        "log_normalizer": 24.97439423129631,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "ba8ae44acf32904d880d7ab3084bc0225b2708ea0aed2dcc1fa5e48097305e9f",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -0.7212986924814306,
+        "no_logits": [
+          7.5625,
+          12.125,
+          12.3125,
+          24.5,
+          13.3125
+        ],
+        "no_logprob": -0.47437102471766934,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.17537614196771756,
+        "yes_logits": [
+          13.8125,
+          24.0,
+          12.5,
+          10.8125,
+          12.1875
+        ],
+        "yes_logprob": -0.974337179752748
+      },
+      "negative": {
+        "answer_class_mass": 0.999075991591702,
+        "argmax": 2665,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "9b4733bda3437f340c8e9c813aa9a8ddd1b11f868c3c835dd52195f99edaa55c",
+        "input_sha256": "810fa6e990349eb0f3813dd1ca9514c9cb820fb5f9382d216eb5972628c159c8",
+        "log_normalizer": 23.012024050055896,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "e6fa6d9167cd5d178024e55a4ff65fe059370f342cc6a93b17fe8fa02a85eafb",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -2.8796351254118417,
+        "no_logits": [
+          11.25,
+          11.9375,
+          18.125,
+          22.875,
+          13.0625
+        ],
+        "no_logprob": -0.12832878704930906,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "f88154267e89ebbe917f01d7fac38ef966c592bc895687015510dced4b9a0557",
+        "seconds": 0.4072198870126158,
+        "yes_logits": [
+          16.5,
+          20.875,
+          11.125,
+          11.3125,
+          10.9375
+        ],
+        "yes_logprob": -2.1243397552699115
+      },
+      "positive": {
+        "answer_class_mass": 0.9993413026019193,
+        "argmax": 9175,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "9b4733bda3437f340c8e9c813aa9a8ddd1b11f868c3c835dd52195f99edaa55c",
+        "input_sha256": "810fa6e990349eb0f3813dd1ca9514c9cb820fb5f9382d216eb5972628c159c8",
+        "log_normalizer": 24.4057121529847,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "e2330504982cdd171c0aececd11fef139ea87e8befb76c242e5102e5c99b1841",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 5.0496123772459365,
+        "no_logits": [
+          5.84375,
+          8.5,
+          12.125,
+          20.875,
+          10.0
+        ],
+        "no_logprob": -3.5305302633541196,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "bca5263f30697acae0d0bd59db5fc50db097d44c169547159b6ae7c4760760d7",
+        "seconds": 0.40966043702792376,
+        "yes_logits": [
+          16.25,
+          24.375,
+          11.875,
+          11.0625,
+          12.1875
+        ],
+        "yes_logprob": -0.030405681145495578
+      },
+      "random01": {
+        "answer_class_mass": 0.9993758261310945,
+        "argmax": 9175,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "9b4733bda3437f340c8e9c813aa9a8ddd1b11f868c3c835dd52195f99edaa55c",
+        "input_sha256": "810fa6e990349eb0f3813dd1ca9514c9cb820fb5f9382d216eb5972628c159c8",
+        "log_normalizer": 24.523794627840736,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "21dfaf468aa1f14eab9763d3a6a3d008c5c53ed0c88fdd32e9d66ca7e8346ca3",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 0.541052651408195,
+        "no_logits": [
+          6.84375,
+          11.8125,
+          11.3125,
+          23.625,
+          12.6875
+        ],
+        "no_logprob": -0.8987648913559809,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "5b7f0d45e9bea16a87ea4e02bb8f9ab1712544fc3cca2b5f10d5a5442df01ed9",
+        "seconds": 0.40421724901534617,
+        "yes_logits": [
+          13.75,
+          24.0,
+          12.75,
+          10.625,
+          12.375
+        ],
+        "yes_logprob": -0.5237357714979076
+      },
+      "random02": {
+        "answer_class_mass": 0.9997591551098595,
+        "argmax": 9175,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "9b4733bda3437f340c8e9c813aa9a8ddd1b11f868c3c835dd52195f99edaa55c",
+        "input_sha256": "810fa6e990349eb0f3813dd1ca9514c9cb820fb5f9382d216eb5972628c159c8",
+        "log_normalizer": 24.350719633811362,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "1d5cdc5fd524abb2a6881255b1771e742f6fa58c54d2e4f1ffcb16d50cafe9d4",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 1.9837574534212983,
+        "no_logits": [
+          6.84375,
+          9.9375,
+          11.6875,
+          22.75,
+          11.875
+        ],
+        "no_logprob": -1.6006821691374498,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "af41f8bb50f24c70721f4738e54f6d04695cfd05ab576543b3b019b26863f8d4",
+        "seconds": 0.4136253790347837,
+        "yes_logits": [
+          14.4375,
+          24.125,
+          11.5625,
+          10.8125,
+          12.125
+        ],
+        "yes_logprob": -0.22564628338369985
+      },
+      "random03": {
+        "answer_class_mass": 0.9998642515622056,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "9b4733bda3437f340c8e9c813aa9a8ddd1b11f868c3c835dd52195f99edaa55c",
+        "input_sha256": "810fa6e990349eb0f3813dd1ca9514c9cb820fb5f9382d216eb5972628c159c8",
+        "log_normalizer": 25.487993140764463,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "7b40f4084aa55440cbe2059dd7187b1dd9df5bc120beda4f95c8b2b27fd744af",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -3.0656209885504153,
+        "no_logits": [
+          9.125,
+          12.8125,
+          14.25,
+          25.375,
+          13.75
+        ],
+        "no_logprob": -0.11296587365162125,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "ec2eff904dd02dafd1dece8ab6038398559963f6a39d0261e6e4d831b1e930d2",
+        "seconds": 0.40980200096964836,
+        "yes_logits": [
+          13.75,
+          23.25,
+          12.0625,
+          10.5625,
+          11.625
+        ],
+        "yes_logprob": -2.237892418530734
+      }
+    },
+    "trait": "extraversion"
+  },
+  {
+    "id": "extraversion/Yes/1",
+    "match": "Yes",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.9997613775147641,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "c85558fe35dbfedac1acada34130e79a4f09eed04dce7a8c6f125916ebc83a5b",
+        "input_sha256": "ed4ae188a82ba51733f342ce605a6fcbd0cbf21cd86649386e538271c1c0191d",
+        "log_normalizer": 26.142939193324057,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "44e02e85757c00c5ca28da328813e23746134bc50a4c12e6584f2df5b62e3da2",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -2.7049918858949886,
+        "no_logits": [
+          8.6875,
+          13.25,
+          13.875,
+          26.0,
+          14.625
+        ],
+        "no_logprob": -0.142919359763642,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.17347059299936518,
+        "yes_logits": [
+          14.0,
+          24.125,
+          12.8125,
+          10.8125,
+          12.4375
+        ],
+        "yes_logprob": -2.0178768589092826
+      },
+      "negative": {
+        "answer_class_mass": 0.9969234162663168,
+        "argmax": 9175,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "c85558fe35dbfedac1acada34130e79a4f09eed04dce7a8c6f125916ebc83a5b",
+        "input_sha256": "ed4ae188a82ba51733f342ce605a6fcbd0cbf21cd86649386e538271c1c0191d",
+        "log_normalizer": 21.992617834653345,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "0396039c2b71ac2b30d2e6f349fa6d4758e35d6c8b04175ac72a82c449e83358",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 0.72402178861862,
+        "no_logits": [
+          9.9375,
+          10.4375,
+          16.75,
+          21.0,
+          11.8125
+        ],
+        "no_logprob": -0.9783125428726542,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "aecd650ef160892e56c258404583a6622e302dd6da76b18d6da8362661484e2e",
+        "seconds": 0.4048284749733284,
+        "yes_logits": [
+          17.375,
+          21.5,
+          11.3125,
+          11.625,
+          11.3125
+        ],
+        "yes_logprob": -0.4764588814276891
+      },
+      "positive": {
+        "answer_class_mass": 0.9992129897103998,
+        "argmax": 9175,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "c85558fe35dbfedac1acada34130e79a4f09eed04dce7a8c6f125916ebc83a5b",
+        "input_sha256": "ed4ae188a82ba51733f342ce605a6fcbd0cbf21cd86649386e538271c1c0191d",
+        "log_normalizer": 24.777353716656712,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "d5cf3f408458d40f01a62a5ac1668ce148bb09432f86d4a034a314669ab1bb79",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 5.229897142589189,
+        "no_logits": [
+          5.96875,
+          8.1875,
+          12.375,
+          21.125,
+          10.25
+        ],
+        "no_logprob": -3.652173678272817,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "a25b0c0036bee025243e45e1b43b5d9855cd8d9d31f29262c952daa229c123f2",
+        "seconds": 0.40429846005281433,
+        "yes_logits": [
+          16.5,
+          24.75,
+          11.75,
+          11.1875,
+          12.25
+        ],
+        "yes_logprob": -0.02708521926860641
+      },
+      "random01": {
+        "answer_class_mass": 0.9995857291413481,
+        "argmax": 2665,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "c85558fe35dbfedac1acada34130e79a4f09eed04dce7a8c6f125916ebc83a5b",
+        "input_sha256": "ed4ae188a82ba51733f342ce605a6fcbd0cbf21cd86649386e538271c1c0191d",
+        "log_normalizer": 25.313714605972034,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "cc7430a9b1f265fa28d3c80b00ad0928dfec283d513fe209a1afc096723072ba",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -1.4426340239822204,
+        "no_logits": [
+          7.96875,
+          13.125,
+          12.6875,
+          25.0,
+          13.9375
+        ],
+        "no_logprob": -0.31368741891355256,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "bda6b5d7a7dfdb1243fe9eba0761e784bf802f0e2a6f5bdcbbdb6a6f89fcd9ca",
+        "seconds": 0.4146285339957103,
+        "yes_logits": [
+          13.75,
+          24.0,
+          13.1875,
+          10.75,
+          12.6875
+        ],
+        "yes_logprob": -1.3136451252166772
+      },
+      "random02": {
+        "answer_class_mass": 0.9996091754850398,
+        "argmax": 2665,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "c85558fe35dbfedac1acada34130e79a4f09eed04dce7a8c6f125916ebc83a5b",
+        "input_sha256": "ed4ae188a82ba51733f342ce605a6fcbd0cbf21cd86649386e538271c1c0191d",
+        "log_normalizer": 24.474531792258624,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "3b745a4d33174cd31f2b6b0030ca0bb2937fab6a86aa3be3dcb54212f0600e9d",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -0.7212743495693393,
+        "no_logits": [
+          8.1875,
+          11.8125,
+          13.0,
+          24.0,
+          13.3125
+        ],
+        "no_logprob": -0.47448703356691624,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "20557a304ece6598367eb3d65cd5564aa55ce26f24536ff7927684768229d0f1",
+        "seconds": 0.41840454103657976,
+        "yes_logits": [
+          13.9375,
+          23.5,
+          12.125,
+          10.75,
+          12.0625
+        ],
+        "yes_logprob": -0.9744363153811122
+      },
+      "random03": {
+        "answer_class_mass": 0.9998818475031466,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "c85558fe35dbfedac1acada34130e79a4f09eed04dce7a8c6f125916ebc83a5b",
+        "input_sha256": "ed4ae188a82ba51733f342ce605a6fcbd0cbf21cd86649386e538271c1c0191d",
+        "log_normalizer": 25.704060328747904,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "cf097c56255b8edf6b83b4c1222ea178f955f96660985310f890446b6ce2ff70",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -3.6065678954064957,
+        "no_logits": [
+          9.75,
+          13.0,
+          15.1875,
+          25.625,
+          14.1875
+        ],
+        "no_logprob": -0.07901681758933066,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "49c0ad0b616e15689c77d915580fbec85353b2c81cc8c76c52cd16846aec686b",
+        "seconds": 0.40808907203609124,
+        "yes_logits": [
+          14.1875,
+          23.125,
+          12.0625,
+          10.6875,
+          11.625
+        ],
+        "yes_logprob": -2.5788991857883587
+      }
+    },
+    "trait": "extraversion"
+  },
+  {
+    "id": "extraversion/Yes/2",
+    "match": "Yes",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.9995827533492818,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "52536191affea91da45dabac01b2c4f7902f4c64058df367831992af5ed25d4d",
+        "input_sha256": "1489beead4ebba55a470f8717b2951bfc1cc7e1f6a34bfabf39ef00af0eb8852",
+        "log_normalizer": 27.023673928040008,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "6cb7a65231fbbb6772761b3e912117dc8a4eae94d7362d0a1f2cba8c0e658c3e",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -5.410052373710489,
+        "no_logits": [
+          8.625,
+          13.625,
+          14.125,
+          27.0,
+          15.0
+        ],
+        "no_logprob": -0.02366365862404507,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.17335198598448187,
+        "yes_logits": [
+          12.75,
+          23.25,
+          11.8125,
+          9.4375,
+          11.5625
+        ],
+        "yes_logprob": -3.77362620814311
+      },
+      "negative": {
+        "answer_class_mass": 0.9973469616081694,
+        "argmax": 2665,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "52536191affea91da45dabac01b2c4f7902f4c64058df367831992af5ed25d4d",
+        "input_sha256": "1489beead4ebba55a470f8717b2951bfc1cc7e1f6a34bfabf39ef00af0eb8852",
+        "log_normalizer": 23.102011123431964,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "a140abe395fc1847433fbc79065978a8c832a0a5529ef1b7767d4308450ff117",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -3.4171810583459155,
+        "no_logits": [
+          11.25,
+          12.0,
+          18.375,
+          23.0,
+          13.6875
+        ],
+        "no_logprob": -0.09214145464092738,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "d1e579f6b87e1a718b77461c448a70a33760589e9e271d80710ee41a1f882568",
+        "seconds": 0.43959154695039615,
+        "yes_logits": [
+          16.5,
+          20.625,
+          11.0625,
+          11.1875,
+          11.1875
+        ],
+        "yes_logprob": -2.4607508706962484
+      },
+      "positive": {
+        "answer_class_mass": 0.9993190594374152,
+        "argmax": 9175,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "52536191affea91da45dabac01b2c4f7902f4c64058df367831992af5ed25d4d",
+        "input_sha256": "1489beead4ebba55a470f8717b2951bfc1cc7e1f6a34bfabf39ef00af0eb8852",
+        "log_normalizer": 24.674477295930114,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "ac85ca611b04feac23ac301352b1480b828bd2177a7e954077ccaa36223764ef",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 4.328224897810943,
+        "no_logits": [
+          6.0625,
+          9.0625,
+          12.375,
+          21.625,
+          10.625
+        ],
+        "no_logprob": -3.0493608141969624,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "44c72b3def5bec7780e9a337838c5224d45a3158e9b16cb7b31edbc201f943a2",
+        "seconds": 0.42559315694961697,
+        "yes_logits": [
+          16.125,
+          24.625,
+          12.0,
+          11.0,
+          12.5
+        ],
+        "yes_logprob": -0.04926392944994973
+      },
+      "random01": {
+        "answer_class_mass": 0.9993995775410315,
+        "argmax": 2665,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "52536191affea91da45dabac01b2c4f7902f4c64058df367831992af5ed25d4d",
+        "input_sha256": "1489beead4ebba55a470f8717b2951bfc1cc7e1f6a34bfabf39ef00af0eb8852",
+        "log_normalizer": 26.53426330886271,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "db5bcfc69810d6bb93906452462a622c959d412f929c03f90bf412042e8f831a",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -4.869008335719469,
+        "no_logits": [
+          8.3125,
+          13.9375,
+          13.8125,
+          26.5,
+          14.8125
+        ],
+        "no_logprob": -0.03424830783590238,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "5ec1395ba508d7536b72437b9d47d6ce62f2332bb782f93ea9164d467aed073a",
+        "seconds": 0.4337008170550689,
+        "yes_logits": [
+          12.875,
+          23.125,
+          12.5625,
+          9.625,
+          11.875
+        ],
+        "yes_logprob": -3.409187707862724
+      },
+      "random02": {
+        "answer_class_mass": 0.9995102900298071,
+        "argmax": 2665,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "52536191affea91da45dabac01b2c4f7902f4c64058df367831992af5ed25d4d",
+        "input_sha256": "1489beead4ebba55a470f8717b2951bfc1cc7e1f6a34bfabf39ef00af0eb8852",
+        "log_normalizer": 25.687486232961174,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "4c81daa713efacf85113ddc17d0abe2175d8b1d3dcff7e7ea72879ae074837a1",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -3.9673207128363477,
+        "no_logits": [
+          8.625,
+          12.5,
+          14.1875,
+          25.625,
+          14.3125
+        ],
+        "no_logprob": -0.06246119448772802,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "bfc990bb68b801c2ec9f502597fc9c603af5f8a5d65ee5ab7612143b8e10ee24",
+        "seconds": 0.4394860420143232,
+        "yes_logits": [
+          13.1875,
+          22.875,
+          11.5,
+          9.8125,
+          11.5625
+        ],
+        "yes_logprob": -2.8123983609673147
+      },
+      "random03": {
+        "answer_class_mass": 0.9998643807599532,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "52536191affea91da45dabac01b2c4f7902f4c64058df367831992af5ed25d4d",
+        "input_sha256": "1489beead4ebba55a470f8717b2951bfc1cc7e1f6a34bfabf39ef00af0eb8852",
+        "log_normalizer": 26.187135434193433,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "6c14973b53aca274694d20c9b777fed7ec0d16912c3d5a2de7ae682252c872da",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -3.9672961906274242,
+        "no_logits": [
+          9.5625,
+          13.3125,
+          15.0625,
+          26.125,
+          14.5
+        ],
+        "no_logprob": -0.06210801439892677,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "9b8dcdb96df135d46cc6cfb949aca93aca3d4b2633253df16c644b9d24160d17",
+        "seconds": 0.43187829601811245,
+        "yes_logits": [
+          14.0,
+          23.375,
+          12.0,
+          10.5,
+          11.6875
+        ],
+        "yes_logprob": -2.812028183378537
+      }
+    },
+    "trait": "extraversion"
+  },
+  {
+    "id": "extraversion/Yes/3",
+    "match": "Yes",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.9998729540210515,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "977ceecb702b0d388cae8ef42d3402222a3d83edc5851b725d814efe45304aa5",
+        "input_sha256": "92801b2202db0284dfbe963cd1d9c57192cdd9bc1a9fe510bdd1633b199258a0",
+        "log_normalizer": 28.753730926636266,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "869dbe70dccce7cd824e8e1e5f6347f4795e451fee6e9e2d7c566f385b32f484",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -8.11512457357339,
+        "no_logits": [
+          9.3125,
+          14.0,
+          15.375,
+          28.75,
+          15.5
+        ],
+        "no_logprob": -0.0037272163928783186,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.18056151899509132,
+        "yes_logits": [
+          12.25,
+          23.125,
+          11.0625,
+          9.0,
+          10.25
+        ],
+        "yes_logprob": -5.628702934458001
+      },
+      "negative": {
+        "answer_class_mass": 0.9992547981826748,
+        "argmax": 2665,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "977ceecb702b0d388cae8ef42d3402222a3d83edc5851b725d814efe45304aa5",
+        "input_sha256": "92801b2202db0284dfbe963cd1d9c57192cdd9bc1a9fe510bdd1633b199258a0",
+        "log_normalizer": 23.680157842933273,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "dde04dd7e398fe8139a653283089ab5aae3dc526e74f88212591828c3ce20d68",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -4.678155451549445,
+        "no_logits": [
+          12.125,
+          12.3125,
+          19.5,
+          23.625,
+          13.5
+        ],
+        "no_logprob": -0.03906216691421349,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "f7de60fb3b128ca452edf5de96a026dccb32ec9f7f9d3378cd7378080ac4529a",
+        "seconds": 0.3905855629709549,
+        "yes_logits": [
+          16.625,
+          20.375,
+          10.75,
+          11.0625,
+          10.4375
+        ],
+        "yes_logprob": -3.2817124283768493
+      },
+      "positive": {
+        "answer_class_mass": 0.9993233235131402,
+        "argmax": 2665,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "977ceecb702b0d388cae8ef42d3402222a3d83edc5851b725d814efe45304aa5",
+        "input_sha256": "92801b2202db0284dfbe963cd1d9c57192cdd9bc1a9fe510bdd1633b199258a0",
+        "log_normalizer": 24.37774090153299,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "1c8e73c0b69d3e2fd112e1ba9fc908433dc4b47a1e6b9d79b06ae5c8fc808c3f",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -1.8031143380922496,
+        "no_logits": [
+          8.625,
+          11.9375,
+          14.5,
+          24.125,
+          13.5
+        ],
+        "no_logprob": -0.252645269496508,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "12cf9140984d187df71c86dc075835a2db694c7ab93512b61b65d569ceece611",
+        "seconds": 0.3944524290272966,
+        "yes_logits": [
+          14.5,
+          22.875,
+          12.0,
+          10.625,
+          11.9375
+        ],
+        "yes_logprob": -1.5024688891723628
+      },
+      "random01": {
+        "answer_class_mass": 0.9994772527410307,
+        "argmax": 2665,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "977ceecb702b0d388cae8ef42d3402222a3d83edc5851b725d814efe45304aa5",
+        "input_sha256": "92801b2202db0284dfbe963cd1d9c57192cdd9bc1a9fe510bdd1633b199258a0",
+        "log_normalizer": 27.505764122337737,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "6360e560a181f30d9669802d5af523cd61e457cb316270ec40b778f4eb46878b",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -7.574085281881475,
+        "no_logits": [
+          8.875,
+          13.875,
+          14.8125,
+          27.5,
+          14.75
+        ],
+        "no_logprob": -0.005756912520158863,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "21e880cfbed640883407ab46fff8793f4d036156e0a51bf49db86271977f1d38",
+        "seconds": 0.392862334032543,
+        "yes_logits": [
+          11.875,
+          22.25,
+          11.0625,
+          8.625,
+          10.0625
+        ],
+        "yes_logprob": -5.255712770976881
+      },
+      "random02": {
+        "answer_class_mass": 0.9997428454039897,
+        "argmax": 2665,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "977ceecb702b0d388cae8ef42d3402222a3d83edc5851b725d814efe45304aa5",
+        "input_sha256": "92801b2202db0284dfbe963cd1d9c57192cdd9bc1a9fe510bdd1633b199258a0",
+        "log_normalizer": 26.8828803816531,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "d91282be622c3fc6816d85826463ac23c06b36bad8be55de9b1da8efafa6a745",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -7.03304809329729,
+        "no_logits": [
+          9.8125,
+          12.9375,
+          15.5,
+          26.875,
+          14.5
+        ],
+        "no_logprob": -0.007863755991309063,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "2145af385fcdccc7d1f0aabd096f31f0adc24a85915cbe4992682a7feb150409",
+        "seconds": 0.4005516490433365,
+        "yes_logits": [
+          12.3125,
+          22.0,
+          10.375,
+          9.0625,
+          9.9375
+        ],
+        "yes_logprob": -4.882801212602825
+      },
+      "random03": {
+        "answer_class_mass": 0.9998641021180585,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "977ceecb702b0d388cae8ef42d3402222a3d83edc5851b725d814efe45304aa5",
+        "input_sha256": "92801b2202db0284dfbe963cd1d9c57192cdd9bc1a9fe510bdd1633b199258a0",
+        "log_normalizer": 27.13275959824108,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "0a34fa8657a0a163f448d97eaa053df0e43b010376407da3c997b4d2cd9aceba",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -7.033027018465476,
+        "no_logits": [
+          9.8125,
+          13.1875,
+          15.875,
+          27.125,
+          14.4375
+        ],
+        "no_logprob": -0.007742586137993612,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "935f2d00b7dc8f9e7e5591591341045c54316cf6aad8b679d1732eb5456f7ffe",
+        "seconds": 0.3903704559779726,
+        "yes_logits": [
+          12.8125,
+          22.25,
+          10.5625,
+          9.1875,
+          9.8125
+        ],
+        "yes_logprob": -4.882665434789256
+      }
+    },
+    "trait": "extraversion"
+  },
+  {
+    "id": "extraversion/Yes/4",
+    "match": "Yes",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.9995926443212851,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "6b525419c9b442ce6678613dfd6a170537e595df0795629d9b77bff9b1f0205d",
+        "input_sha256": "3118569b0ef2f199a789a1f87f607bce6bd3f7afc1b5a232671a3b187051ce56",
+        "log_normalizer": 27.284062623584067,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "84f96726775011b576d599f773aee10b2503f4a78bdbd6baa4588978a2bd110b",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -4.869046546765148,
+        "no_logits": [
+          9.0,
+          13.6875,
+          14.375,
+          27.25,
+          14.9375
+        ],
+        "no_logprob": -0.03405426737042916,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.17988915101159364,
+        "yes_logits": [
+          13.375,
+          23.875,
+          12.25,
+          10.25,
+          11.625
+        ],
+        "yes_logprob": -3.4090201532758293
+      },
+      "negative": {
+        "answer_class_mass": 0.9952426575569997,
+        "argmax": 2665,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "6b525419c9b442ce6678613dfd6a170537e595df0795629d9b77bff9b1f0205d",
+        "input_sha256": "3118569b0ef2f199a789a1f87f607bce6bd3f7afc1b5a232671a3b187051ce56",
+        "log_normalizer": 22.225957418222766,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "783b175cab96a4a227c0008be90988a9ff204accff55ae30754ba6aa2e0c94bc",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -2.1521272991696643,
+        "no_logits": [
+          11.0,
+          11.375,
+          18.0,
+          22.0,
+          12.5
+        ],
+        "no_logprob": -0.2076937261952807,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "3439306c095c2cdd07143ce80db7f81bc0787248aae075116024a117ff5b57d8",
+        "seconds": 0.39594228100031614,
+        "yes_logits": [
+          16.875,
+          20.5,
+          10.9375,
+          11.25,
+          10.8125
+        ],
+        "yes_logprob": -1.6994346958208233
+      },
+      "positive": {
+        "answer_class_mass": 0.9994459631351604,
+        "argmax": 9175,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "6b525419c9b442ce6678613dfd6a170537e595df0795629d9b77bff9b1f0205d",
+        "input_sha256": "3118569b0ef2f199a789a1f87f607bce6bd3f7afc1b5a232671a3b187051ce56",
+        "log_normalizer": 24.39419749293679,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "f772ce11e1edb2113a71813740b5f164774451b2dfb46c0662dce68f19a88ea0",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 5.771016658235837,
+        "no_logits": [
+          5.8125,
+          7.65625,
+          12.3125,
+          20.375,
+          9.1875
+        ],
+        "no_logprob": -4.0188650957751015,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "03750b9895388f0fa7f3f2655b4ff975600c9025a3e4c9f6f5548505e4de9885",
+        "seconds": 0.39172772999154404,
+        "yes_logits": [
+          16.75,
+          24.375,
+          11.5625,
+          11.3125,
+          11.8125
+        ],
+        "yes_logprob": -0.01870117015445416
+      },
+      "random01": {
+        "answer_class_mass": 0.9992333531112823,
+        "argmax": 2665,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "6b525419c9b442ce6678613dfd6a170537e595df0795629d9b77bff9b1f0205d",
+        "input_sha256": "3118569b0ef2f199a789a1f87f607bce6bd3f7afc1b5a232671a3b187051ce56",
+        "log_normalizer": 26.3207205002643,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "137fd0b9cb2fdd4466c1e2919b49cec44a2da0259665491a8c2c40b53c4f6c98",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -3.7870018728245665,
+        "no_logits": [
+          8.625,
+          13.5,
+          13.9375,
+          26.25,
+          14.3125
+        ],
+        "no_logprob": -0.07070654020005307,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "c683bef84b38ea4353f1775b72a898aa77a25da9c33e76ed7d87917df42bf62e",
+        "seconds": 0.39628479699604213,
+        "yes_logits": [
+          13.4375,
+          23.625,
+          12.625,
+          10.25,
+          11.9375
+        ],
+        "yes_logprob": -2.6956562111236337
+      },
+      "random02": {
+        "answer_class_mass": 0.9996130055068702,
+        "argmax": 2665,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "6b525419c9b442ce6678613dfd6a170537e595df0795629d9b77bff9b1f0205d",
+        "input_sha256": "3118569b0ef2f199a789a1f87f607bce6bd3f7afc1b5a232671a3b187051ce56",
+        "log_normalizer": 26.173992559534785,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "92aef6efaa767bdf2252879d7f96a46104ab834fa38417640f05532b5c4dfed9",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -4.3280031986203555,
+        "no_logits": [
+          8.9375,
+          12.6875,
+          14.1875,
+          26.125,
+          14.3125
+        ],
+        "no_logprob": -0.048977114139621136,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "9267d24b92b53215951f13a65825990966091e84916b5c58066860d491056e3c",
+        "seconds": 0.3900245859986171,
+        "yes_logits": [
+          13.25,
+          23.125,
+          11.625,
+          10.125,
+          11.4375
+        ],
+        "yes_logprob": -3.0489203287177453
+      },
+      "random03": {
+        "answer_class_mass": 0.9998554471824618,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "6b525419c9b442ce6678613dfd6a170537e595df0795629d9b77bff9b1f0205d",
+        "input_sha256": "3118569b0ef2f199a789a1f87f607bce6bd3f7afc1b5a232671a3b187051ce56",
+        "log_normalizer": 25.945110592959484,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "4846726dc6bb14402ed5509b17ff377bd2101523008370b813bae279b8e42fca",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -3.786943280684085,
+        "no_logits": [
+          9.5,
+          13.0625,
+          14.75,
+          25.875,
+          13.875
+        ],
+        "no_logprob": -0.07008690600653011,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "8fcaeb36fb324abd19965cece823cf7cf65ed7fe46019c2f07ffee89b1816263",
+        "seconds": 0.3900128770037554,
+        "yes_logits": [
+          13.9375,
+          23.25,
+          12.0625,
+          10.5625,
+          11.4375
+        ],
+        "yes_logprob": -2.694995963953133
+      }
+    },
+    "trait": "extraversion"
+  },
+  {
+    "id": "extraversion/Yes/5",
+    "match": "Yes",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.9996695511273744,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "05b8b2510218ca3e4ad9c6edd159fdf544332352363129b1953e1edd2657f1e2",
+        "input_sha256": "745c145e0fc7c1e3f07c13d627c77e7bc23839ad22a4f4b45c1bc00716ee7be3",
+        "log_normalizer": 26.423934419086844,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "183cd7d2000f3c82e8959dd6d735915eacf991b803ec4b842ed18f4dbb1df80f",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -4.328017616474918,
+        "no_logits": [
+          8.875,
+          13.3125,
+          14.125,
+          26.375,
+          14.5625
+        ],
+        "no_logprob": -0.04892007424457745,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.17487278301268816,
+        "yes_logits": [
+          13.1875,
+          23.375,
+          12.125,
+          10.0,
+          11.75
+        ],
+        "yes_logprob": -3.048873282517942
+      },
+      "negative": {
+        "answer_class_mass": 0.9984348562106329,
+        "argmax": 2665,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "05b8b2510218ca3e4ad9c6edd159fdf544332352363129b1953e1edd2657f1e2",
+        "input_sha256": "745c145e0fc7c1e3f07c13d627c77e7bc23839ad22a4f4b45c1bc00716ee7be3",
+        "log_normalizer": 23.3476877671626,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "ea28f361007fab3512e2050132ae8b32c2e13d4139bc2cbd20df3a5a4b0f22c8",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -3.420024258265007,
+        "no_logits": [
+          11.25,
+          12.0625,
+          18.25,
+          23.25,
+          13.6875
+        ],
+        "no_logprob": -0.0908827199137292,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "b6857b0b4e34c164c9f380c86968ee9b1df6eec6682640bb898c51e69c49d745",
+        "seconds": 0.4302332030492835,
+        "yes_logits": [
+          16.375,
+          20.875,
+          11.0625,
+          11.125,
+          11.25
+        ],
+        "yes_logprob": -2.461462891976737
+      },
+      "positive": {
+        "answer_class_mass": 0.9994570201989446,
+        "argmax": 9175,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "05b8b2510218ca3e4ad9c6edd159fdf544332352363129b1953e1edd2657f1e2",
+        "input_sha256": "745c145e0fc7c1e3f07c13d627c77e7bc23839ad22a4f4b45c1bc00716ee7be3",
+        "log_normalizer": 24.766845776924438,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "89b7d9fcd38ac4318611635737c2fea7ab31827ccd66541bf14a7c548caefbe9",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 5.951230972669999,
+        "no_logits": [
+          5.53125,
+          7.84375,
+          11.9375,
+          20.625,
+          9.75
+        ],
+        "no_logprob": -4.141655096843458,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "557e44e4abd4302f48b10e9f93a8d8924210f6bf6a1d9b47a7cba2ea818114f9",
+        "seconds": 0.4172263239743188,
+        "yes_logits": [
+          16.5,
+          24.75,
+          11.875,
+          11.25,
+          12.4375
+        ],
+        "yes_logprob": -0.01657612727622748
+      },
+      "random01": {
+        "answer_class_mass": 0.9995295387912555,
+        "argmax": 2665,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "05b8b2510218ca3e4ad9c6edd159fdf544332352363129b1953e1edd2657f1e2",
+        "input_sha256": "745c145e0fc7c1e3f07c13d627c77e7bc23839ad22a4f4b45c1bc00716ee7be3",
+        "log_normalizer": 25.695435776993826,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "d69cbf61ae19c73e1e816dfc1730c36022b0d84a3354f116f2c487040fcc3801",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -3.7869654851368195,
+        "no_logits": [
+          8.5625,
+          13.3125,
+          13.875,
+          25.625,
+          14.25
+        ],
+        "no_logprob": -0.07041187496186296,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "5f9e65b9aebdaf36f23ad2cf76cd61f12a2aed5c1c2537ba887344543ab5bd69",
+        "seconds": 0.4198624509735964,
+        "yes_logits": [
+          13.25,
+          23.0,
+          12.375,
+          9.9375,
+          11.875
+        ],
+        "yes_logprob": -2.695336323862275
+      },
+      "random02": {
+        "answer_class_mass": 0.999504015541765,
+        "argmax": 2665,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "05b8b2510218ca3e4ad9c6edd159fdf544332352363129b1953e1edd2657f1e2",
+        "input_sha256": "745c145e0fc7c1e3f07c13d627c77e7bc23839ad22a4f4b45c1bc00716ee7be3",
+        "log_normalizer": 24.8932242755406,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "a02479b399bfddddb7d586a93a627d2e252998772737ee28a366932ebd339dbf",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -2.7049377759580873,
+        "no_logits": [
+          8.75,
+          12.125,
+          13.875,
+          24.75,
+          13.9375
+        ],
+        "no_logprob": -0.14318180354436905,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "e573147f4a3d33b93a71e1d3ff56390bf06f92a622bad0d10e368d6e474f440f",
+        "seconds": 0.4215739910141565,
+        "yes_logits": [
+          13.5625,
+          22.875,
+          11.625,
+          10.3125,
+          11.8125
+        ],
+        "yes_logprob": -2.0181017965398063
+      },
+      "random03": {
+        "answer_class_mass": 0.9998657439854468,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "05b8b2510218ca3e4ad9c6edd159fdf544332352363129b1953e1edd2657f1e2",
+        "input_sha256": "745c145e0fc7c1e3f07c13d627c77e7bc23839ad22a4f4b45c1bc00716ee7be3",
+        "log_normalizer": 25.46413399150087,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "75cd269bbcdfb3553f52e153a6e542d64daf45946dd83cb793685ff976726493",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -3.426239443502178,
+        "no_logits": [
+          9.875,
+          12.875,
+          15.125,
+          25.375,
+          14.0
+        ],
+        "no_logprob": -0.08908324419548563,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "b84940169c5433eedd4b5d4b16118e2d16be87c66c1b3e341c3725047f0fe4b3",
+        "seconds": 0.4170631259912625,
+        "yes_logits": [
+          14.0625,
+          23.0,
+          11.875,
+          10.625,
+          11.6875
+        ],
+        "yes_logprob": -2.463971454382296
+      }
+    },
+    "trait": "extraversion"
+  },
+  {
+    "id": "extraversion/Yes/6",
+    "match": "Yes",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.999534331417372,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "ea0f2808eabba4854e961759568982282b8a7b3b476cd561b86f505a2c2476fd",
+        "input_sha256": "805ee3f43e7b1f3fa19ed5e342248e1c8cdb22c9aa8e7a6c092f5273d88324f4",
+        "log_normalizer": 27.38140648144606,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "b6a773eb66141062afd2a433064fb53ecc47732d1880105faeaea3e28d80a26e",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -7.393726100532073,
+        "no_logits": [
+          9.5,
+          13.9375,
+          15.3125,
+          27.375,
+          15.0625
+        ],
+        "no_logprob": -0.006394737723709909,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.17417782195843756,
+        "yes_logits": [
+          12.3125,
+          22.25,
+          11.0625,
+          9.0,
+          10.4375
+        ],
+        "yes_logprob": -5.131335138139995
+      },
+      "negative": {
+        "answer_class_mass": 0.99885690956155,
+        "argmax": 2665,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "ea0f2808eabba4854e961759568982282b8a7b3b476cd561b86f505a2c2476fd",
+        "input_sha256": "805ee3f43e7b1f3fa19ed5e342248e1c8cdb22c9aa8e7a6c092f5273d88324f4",
+        "log_normalizer": 23.909410178179243,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "9f572201258fe9cf49d05cc995c24307408f23fb8951e05e90012e9bc06799c2",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -5.397834140672462,
+        "no_logits": [
+          11.9375,
+          12.5,
+          19.25,
+          23.875,
+          14.0
+        ],
+        "no_logprob": -0.024585479696799695,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "fc209dee77bea606660599cf024cd2c78db2faac75f4b99c3d2f023725130914",
+        "seconds": 0.42955255397828296,
+        "yes_logits": [
+          16.125,
+          20.125,
+          10.25,
+          10.625,
+          10.375
+        ],
+        "yes_logprob": -3.766078995434132
+      },
+      "positive": {
+        "answer_class_mass": 0.9989461505376687,
+        "argmax": 9175,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "ea0f2808eabba4854e961759568982282b8a7b3b476cd561b86f505a2c2476fd",
+        "input_sha256": "805ee3f43e7b1f3fa19ed5e342248e1c8cdb22c9aa8e7a6c092f5273d88324f4",
+        "log_normalizer": 24.08019516333748,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "2ff77f9e7b9b5400e0cbdf410f212a866c06453cc38e6be85c02f78e2c11741f",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 3.606911389099956,
+        "no_logits": [
+          6.65625,
+          9.1875,
+          12.4375,
+          21.5,
+          10.625
+        ],
+        "no_logprob": -2.5800554619698843,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "441860de891e589c2d9ca8c7a16d025e8cc88abf53c76755546727c54585548f",
+        "seconds": 0.4256029980024323,
+        "yes_logits": [
+          15.6875,
+          24.0,
+          11.8125,
+          11.0,
+          12.1875
+        ],
+        "yes_logprob": -0.07993500208569415
+      },
+      "random01": {
+        "answer_class_mass": 0.9993927739174799,
+        "argmax": 2665,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "ea0f2808eabba4854e961759568982282b8a7b3b476cd561b86f505a2c2476fd",
+        "input_sha256": "805ee3f43e7b1f3fa19ed5e342248e1c8cdb22c9aa8e7a6c092f5273d88324f4",
+        "log_normalizer": 26.51166976475463,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "627934fc930aa9e685e23e8710f3800dfb38eb892f327344cb97b554ef6f7d15",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -6.49201432777651,
+        "no_logits": [
+          8.625,
+          13.8125,
+          14.1875,
+          26.5,
+          14.5
+        ],
+        "no_logprob": -0.011656018673146917,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "3784788512ba10728aab660efb8dbfaef60d79dc6ba201afa9cac1a91f85c256",
+        "seconds": 0.4166892580105923,
+        "yes_logits": [
+          12.0,
+          22.0,
+          11.625,
+          8.8125,
+          10.8125
+        ],
+        "yes_logprob": -4.5115774461262035
+      },
+      "random02": {
+        "answer_class_mass": 0.9992674706550067,
+        "argmax": 2665,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "ea0f2808eabba4854e961759568982282b8a7b3b476cd561b86f505a2c2476fd",
+        "input_sha256": "805ee3f43e7b1f3fa19ed5e342248e1c8cdb22c9aa8e7a6c092f5273d88324f4",
+        "log_normalizer": 26.016794950574365,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "e67f4434d480648fb4661dbb12866e96af53b3e079d3fdf6cff5133382103ffa",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -5.950992968490236,
+        "no_logits": [
+          9.4375,
+          12.8125,
+          15.0,
+          26.0,
+          14.25
+        ],
+        "no_logprob": -0.016768421901129926,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "02588d1d1b92bee2df3c12e6a9e39052466e9638c373f75bd906961a98ed4c2f",
+        "seconds": 0.4210188449942507,
+        "yes_logits": [
+          12.5,
+          21.875,
+          10.6875,
+          9.1875,
+          10.4375
+        ],
+        "yes_logprob": -4.141682419542196
+      },
+      "random03": {
+        "answer_class_mass": 0.9998405844544417,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "ea0f2808eabba4854e961759568982282b8a7b3b476cd561b86f505a2c2476fd",
+        "input_sha256": "805ee3f43e7b1f3fa19ed5e342248e1c8cdb22c9aa8e7a6c092f5273d88324f4",
+        "log_normalizer": 26.264366502584487,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "4c4bafbba900830b897e21c1ac67673ebbd5f6157b36ba98a944931c3dfa66f3",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -6.131259118739608,
+        "no_logits": [
+          10.125,
+          13.25,
+          15.9375,
+          26.25,
+          14.25
+        ],
+        "no_logprob": -0.014324784302836235,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "e1b70473bab5669eab50b51a3a9ace37b39edff8387346f733eebc7c2b87194e",
+        "seconds": 0.4194517169962637,
+        "yes_logits": [
+          13.1875,
+          22.0,
+          10.875,
+          9.625,
+          10.375
+        ],
+        "yes_logprob": -4.26418975573965
+      }
+    },
+    "trait": "extraversion"
+  },
+  {
+    "id": "extraversion/Yes/7",
+    "match": "Yes",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.9995191904776309,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "7e3d0a6518f1ea1cd96c9da3d9d08f47f7ed635725ba7e53d6f38f877a575466",
+        "input_sha256": "1df69cc153d3d250cd107b43d094199b4f6582ffe9fc29d5ac6a733dc3f2abff",
+        "log_normalizer": 27.634101262675625,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "dbcef02d15fbedd85fea8bf8a89ade30119707eac36556dc68d80f0ea18367fc",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -6.852751948104822,
+        "no_logits": [
+          8.8125,
+          13.625,
+          14.5,
+          27.625,
+          14.8125
+        ],
+        "no_logprob": -0.009095703192691929,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.17611634399509057,
+        "yes_logits": [
+          12.25,
+          22.875,
+          11.375,
+          9.0,
+          10.5625
+        ],
+        "yes_logprob": -4.759061395098222
+      },
+      "negative": {
+        "answer_class_mass": 0.9973762833492594,
+        "argmax": 2665,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "7e3d0a6518f1ea1cd96c9da3d9d08f47f7ed635725ba7e53d6f38f877a575466",
+        "input_sha256": "1df69cc153d3d250cd107b43d094199b4f6582ffe9fc29d5ac6a733dc3f2abff",
+        "log_normalizer": 23.678569960208232,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "5a6a60fd7b35623f13619c76ef8194bf1896656d47a279c883ceb985e1abd858",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -4.498837665002413,
+        "no_logits": [
+          11.375,
+          12.125,
+          18.75,
+          23.625,
+          13.5625
+        ],
+        "no_logprob": -0.045906739117690165,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "58600ebc7ec92542b4c91723748d8bb0dc8fdf8e480f991cbd9c1154d8851600",
+        "seconds": 0.4331896879593842,
+        "yes_logits": [
+          16.25,
+          20.5,
+          10.5625,
+          10.625,
+          10.5
+        ],
+        "yes_logprob": -3.1642633824110007
+      },
+      "positive": {
+        "answer_class_mass": 0.9986311613418615,
+        "argmax": 9175,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "7e3d0a6518f1ea1cd96c9da3d9d08f47f7ed635725ba7e53d6f38f877a575466",
+        "input_sha256": "1df69cc153d3d250cd107b43d094199b4f6582ffe9fc29d5ac6a733dc3f2abff",
+        "log_normalizer": 23.76346531561257,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "9f7a5c7c4c3821d786cb668c50cd006d8d4a5d70e00f356b74ea8d595b7aec82",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 1.0822378209435661,
+        "no_logits": [
+          7.59375,
+          10.625,
+          13.3125,
+          22.625,
+          12.0625
+        ],
+        "no_logprob": -1.138342725782305,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "78a9d4e8f87e716a642c8670d31dc4a135853ee1d1fbacc195032c81ed67d947",
+        "seconds": 0.42924935498740524,
+        "yes_logits": [
+          15.0625,
+          23.375,
+          11.9375,
+          10.8125,
+          12.125
+        ],
+        "yes_logprob": -0.3881926314999333
+      },
+      "random01": {
+        "answer_class_mass": 0.9989629648250768,
+        "argmax": 2665,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "7e3d0a6518f1ea1cd96c9da3d9d08f47f7ed635725ba7e53d6f38f877a575466",
+        "input_sha256": "1df69cc153d3d250cd107b43d094199b4f6582ffe9fc29d5ac6a733dc3f2abff",
+        "log_normalizer": 26.517085939491814,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "5edbee2cd91b1d52e69a3ad8af43cb42b5402f7ddec84504158181ee624cc935",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -5.95103543901405,
+        "no_logits": [
+          8.8125,
+          13.5,
+          14.5,
+          26.5,
+          14.25
+        ],
+        "no_logprob": -0.017072729103006168,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "ac8facfa0743d769e472ab54b227f5d49c23db0e61d9977dbdd0a2ffc5b893f5",
+        "seconds": 0.4369921660399996,
+        "yes_logits": [
+          12.3125,
+          22.375,
+          11.4375,
+          8.9375,
+          10.625
+        ],
+        "yes_logprob": -4.142016165067911
+      },
+      "random02": {
+        "answer_class_mass": 0.9989891279792712,
+        "argmax": 2665,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "7e3d0a6518f1ea1cd96c9da3d9d08f47f7ed635725ba7e53d6f38f877a575466",
+        "input_sha256": "1df69cc153d3d250cd107b43d094199b4f6582ffe9fc29d5ac6a733dc3f2abff",
+        "log_normalizer": 25.655789998587995,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "0141489746bb3a335519b9da37eae711a1daeded7d7e1be767dacf8acdcc4d1b",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -5.04931493751581,
+        "no_logits": [
+          9.0625,
+          12.3125,
+          14.5625,
+          25.625,
+          13.9375
+        ],
+        "no_logprob": -0.030764193169570575,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "f1cdd77eb2578b3ba149716f1d0ca3a3ddf03d30052c4467148bce1e27b59058",
+        "seconds": 0.43252493697218597,
+        "yes_logits": [
+          12.6875,
+          22.125,
+          10.9375,
+          9.4375,
+          10.6875
+        ],
+        "yes_logprob": -3.53068260586787
+      },
+      "random03": {
+        "answer_class_mass": 0.9998451048116422,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "7e3d0a6518f1ea1cd96c9da3d9d08f47f7ed635725ba7e53d6f38f877a575466",
+        "input_sha256": "1df69cc153d3d250cd107b43d094199b4f6582ffe9fc29d5ac6a733dc3f2abff",
+        "log_normalizer": 26.52342239594142,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "47bd1e3a38f0c973330c04a11f066ed00e50f59b3bba32f913c2423f1d634846",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -5.409993491945357,
+        "no_logits": [
+          9.5,
+          13.125,
+          15.3125,
+          26.5,
+          14.25
+        ],
+        "no_logprob": -0.02340216993275135,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "a8b8f3b10a6aca563d79e3585de20ca1de35e3893805e6c0c4c27e386c1e33a0",
+        "seconds": 0.4268009749939665,
+        "yes_logits": [
+          13.3125,
+          22.75,
+          11.3125,
+          9.75,
+          10.6875
+        ],
+        "yes_logprob": -3.7733239057223287
+      }
+    },
+    "trait": "extraversion"
+  },
+  {
+    "id": "extraversion/No/0",
+    "match": "No",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.9993095016727083,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "a37ba7e2a146d45ba7a7df52245c659ecc71c15b014d1e7861ce9639ec494ca6",
+        "input_sha256": "aa5a565c238189ff7230a3d1ebf4a02887d1e8ff563753d17a95ead3adcedc16",
+        "log_normalizer": 27.273947202043914,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "161b824d573af79bf0c4613e86f17f950e1712e2e94bd92920f9df78bdc555de",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 5.410048316290653,
+        "no_logits": [
+          8.875,
+          13.875,
+          14.75,
+          27.25,
+          15.0
+        ],
+        "no_logprob": -0.02393712635653955,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.17340394703205675,
+        "yes_logits": [
+          13.1875,
+          23.5,
+          11.9375,
+          9.75,
+          11.5625
+        ],
+        "yes_logprob": -3.7738968634864847
+      },
+      "negative": {
+        "answer_class_mass": 0.9985942041170394,
+        "argmax": 2665,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "a37ba7e2a146d45ba7a7df52245c659ecc71c15b014d1e7861ce9639ec494ca6",
+        "input_sha256": "aa5a565c238189ff7230a3d1ebf4a02887d1e8ff563753d17a95ead3adcedc16",
+        "log_normalizer": 23.695435994247344,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "93280906231863aac442a5b954798323ae6472fc44b735d9a4250cebca807477",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 3.961014871089459,
+        "no_logits": [
+          11.375,
+          12.375,
+          18.625,
+          23.625,
+          13.9375
+        ],
+        "no_logprob": -0.06364133654418325,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "01bc6b94f2711e2996cb958823d8de24164eb754a45927b2b1734e5d5e5c9972",
+        "seconds": 0.42316294298507273,
+        "yes_logits": [
+          16.375,
+          20.875,
+          11.25,
+          11.125,
+          11.125
+        ],
+        "yes_logprob": -2.8092076265958568
+      },
+      "positive": {
+        "answer_class_mass": 0.9991916585086866,
+        "argmax": 9175,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "a37ba7e2a146d45ba7a7df52245c659ecc71c15b014d1e7861ce9639ec494ca6",
+        "input_sha256": "aa5a565c238189ff7230a3d1ebf4a02887d1e8ff563753d17a95ead3adcedc16",
+        "log_normalizer": 23.976625182038713,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "519ac9aa3b68f04f58a393ca15b830bc5064f5ca02dcb64d50090aa1c7f5c55a",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -1.9840290411976798,
+        "no_logits": [
+          7.40625,
+          10.0625,
+          13.875,
+          22.375,
+          11.375
+        ],
+        "no_logprob": -1.6014002264588285,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "7c3e6e5239d88e7d8883280151a6985bd30c35e305b2776b61221f7fadf8dcba",
+        "seconds": 0.4245771569549106,
+        "yes_logits": [
+          16.0,
+          23.75,
+          11.875,
+          11.0625,
+          12.0625
+        ],
+        "yes_logprob": -0.2261760904036052
+      },
+      "random01": {
+        "answer_class_mass": 0.9988250152898938,
+        "argmax": 2665,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "a37ba7e2a146d45ba7a7df52245c659ecc71c15b014d1e7861ce9639ec494ca6",
+        "input_sha256": "aa5a565c238189ff7230a3d1ebf4a02887d1e8ff563753d17a95ead3adcedc16",
+        "log_normalizer": 26.65594370869907,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "c4810953fe23dea365b365f39cda1a9de4e7e00b1aa8ad80a3aaa47dad29df1a",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 5.049327607935632,
+        "no_logits": [
+          8.75,
+          14.0625,
+          14.5,
+          26.625,
+          14.6875
+        ],
+        "no_logprob": -0.030928227966022348,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "c4dfd920cca340755a13293ac527c062923af2dc513bceeddf6afa9222300f1a",
+        "seconds": 0.4256329999770969,
+        "yes_logits": [
+          13.25,
+          23.125,
+          12.5,
+          9.875,
+          11.6875
+        ],
+        "yes_logprob": -3.530855423130099
+      },
+      "random02": {
+        "answer_class_mass": 0.9993236097917293,
+        "argmax": 2665,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "a37ba7e2a146d45ba7a7df52245c659ecc71c15b014d1e7861ce9639ec494ca6",
+        "input_sha256": "aa5a565c238189ff7230a3d1ebf4a02887d1e8ff563753d17a95ead3adcedc16",
+        "log_normalizer": 25.784365875176256,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "f6a761e745cd891bf23ffdefe0a9016ccd0fe7e43e22056e46ffd376ac86eb2e",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 4.868925530539604,
+        "no_logits": [
+          9.25,
+          12.5625,
+          15.3125,
+          25.75,
+          14.0625
+        ],
+        "no_logprob": -0.03432622328715951,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "a26a0db505e2ac359153d40abd080aadee5d3d22847815746dcd3f8e80bf6b31",
+        "seconds": 0.4291327759856358,
+        "yes_logits": [
+          13.4375,
+          22.375,
+          11.0625,
+          9.75,
+          10.9375
+        ],
+        "yes_logprob": -3.4092082271370217
+      },
+      "random03": {
+        "answer_class_mass": 0.999809742848377,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "a37ba7e2a146d45ba7a7df52245c659ecc71c15b014d1e7861ce9639ec494ca6",
+        "input_sha256": "aa5a565c238189ff7230a3d1ebf4a02887d1e8ff563753d17a95ead3adcedc16",
+        "log_normalizer": 26.079129804061097,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "fb37bac381fac18378ab495b26f4a16ae381f7e5cd7413d631056d3625494496",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 3.606562423632998,
+        "no_logits": [
+          9.8125,
+          13.375,
+          15.5625,
+          26.0,
+          14.25
+        ],
+        "no_logprob": -0.07908922110719985,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "f234116e31b3c6696fe68a073fbd3159c7ccb652378823c51ce5938062993b1d",
+        "seconds": 0.4189544919645414,
+        "yes_logits": [
+          14.625,
+          23.5,
+          12.125,
+          10.875,
+          11.6875
+        ],
+        "yes_logprob": -2.578967796561855
+      }
+    },
+    "trait": "extraversion"
+  },
+  {
+    "id": "extraversion/No/1",
+    "match": "No",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.9996709858487758,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "e7ecec13add837a0b239f01bc037ead647e83496f4bcbe2bd8c5b0a080efd224",
+        "input_sha256": "f01fe9bf309b70625f0b9ff48c3edfbdb26a897a687d0ae8ffb8e2d9676e6d2e",
+        "log_normalizer": 26.90164605645374,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "122705c90165ed04d0165b11d82801bae4929954edd356d20ee39a5b97a404d3",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 5.229690518123514,
+        "no_logits": [
+          9.5625,
+          13.875,
+          14.9375,
+          26.875,
+          14.9375
+        ],
+        "no_logprob": -0.026630684994032094,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.17750061297556385,
+        "yes_logits": [
+          13.3125,
+          23.25,
+          12.0,
+          10.25,
+          11.3125
+        ],
+        "yes_logprob": -3.651575922832425
+      },
+      "negative": {
+        "answer_class_mass": 0.9972256411239501,
+        "argmax": 2665,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "e7ecec13add837a0b239f01bc037ead647e83496f4bcbe2bd8c5b0a080efd224",
+        "input_sha256": "f01fe9bf309b70625f0b9ff48c3edfbdb26a897a687d0ae8ffb8e2d9676e6d2e",
+        "log_normalizer": 22.832920828236357,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "8b43b1ba5e3c41e4478c34e022607a6e5f14334940ac11766ec01bae61334ac1",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 3.7804446376852927,
+        "no_logits": [
+          11.375,
+          12.4375,
+          18.125,
+          22.75,
+          13.5
+        ],
+        "no_logprob": -0.07302548811699339,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "f1a5f5019fffa51ab01935e02b519eb16453afe0f2ece12706dfee341f30f4c7",
+        "seconds": 0.40508635801961645,
+        "yes_logits": [
+          15.875,
+          20.125,
+          11.25,
+          10.875,
+          10.875
+        ],
+        "yes_logprob": -2.693430029991518
+      },
+      "positive": {
+        "answer_class_mass": 0.9991128687509131,
+        "argmax": 2665,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "e7ecec13add837a0b239f01bc037ead647e83496f4bcbe2bd8c5b0a080efd224",
+        "input_sha256": "f01fe9bf309b70625f0b9ff48c3edfbdb26a897a687d0ae8ffb8e2d9676e6d2e",
+        "log_normalizer": 24.077565866447955,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "2bdf2ef87405e330ed891545291f6b4c152ab3166af1f1edfd1f72de6ea37354",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 2.163486004866975,
+        "no_logits": [
+          9.0,
+          12.125,
+          15.1875,
+          23.875,
+          12.9375
+        ],
+        "no_logprob": -0.20237118937071585,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "34b26234c008a9b97b81e682c66668bb5b2b0e043d1ae23f3312df607be9c749",
+        "seconds": 0.40326126001309603,
+        "yes_logits": [
+          14.8125,
+          22.375,
+          12.0,
+          10.6875,
+          11.625
+        ],
+        "yes_logprob": -1.7019854138251596
+      },
+      "random01": {
+        "answer_class_mass": 0.9993343659535816,
+        "argmax": 2665,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "e7ecec13add837a0b239f01bc037ead647e83496f4bcbe2bd8c5b0a080efd224",
+        "input_sha256": "f01fe9bf309b70625f0b9ff48c3edfbdb26a897a687d0ae8ffb8e2d9676e6d2e",
+        "log_normalizer": 26.034333025395526,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "ef2a0d979bd408d932ca1fb77743f9b2940854ac9facb47b9b8eb65b29c9ea2b",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 4.868991459293567,
+        "no_logits": [
+          8.75,
+          13.8125,
+          14.0625,
+          26.0,
+          14.1875
+        ],
+        "no_logprob": -0.03431394778988306,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "38916ddc7836bd610faac14fcf0f1d16e6139c2800cf6d1b593b5bf1cd2d03e1",
+        "seconds": 0.40125032502692193,
+        "yes_logits": [
+          12.6875,
+          22.625,
+          12.1875,
+          9.625,
+          11.25
+        ],
+        "yes_logprob": -3.4092416499696725
+      },
+      "random02": {
+        "answer_class_mass": 0.999641401627106,
+        "argmax": 2665,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "e7ecec13add837a0b239f01bc037ead647e83496f4bcbe2bd8c5b0a080efd224",
+        "input_sha256": "f01fe9bf309b70625f0b9ff48c3edfbdb26a897a687d0ae8ffb8e2d9676e6d2e",
+        "log_normalizer": 25.905147211027014,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "7a73e387665c91048779a67cdc5fc5aba58749a6cf650909c77d59a23de816c1",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 5.0492897366577525,
+        "no_logits": [
+          9.875,
+          12.6875,
+          15.25,
+          25.875,
+          14.25
+        ],
+        "no_logprob": -0.030111984625918353,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "c79f4ebd0c2a28990125378cddd73424e3046327d76f6846a1e3f544d36292e9",
+        "seconds": 0.4061234150431119,
+        "yes_logits": [
+          13.25,
+          22.375,
+          11.0625,
+          10.0,
+          10.75
+        ],
+        "yes_logprob": -3.530012929420508
+      },
+      "random03": {
+        "answer_class_mass": 0.9998410420465873,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "e7ecec13add837a0b239f01bc037ead647e83496f4bcbe2bd8c5b0a080efd224",
+        "input_sha256": "f01fe9bf309b70625f0b9ff48c3edfbdb26a897a687d0ae8ffb8e2d9676e6d2e",
+        "log_normalizer": 25.673791406948915,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "819b3e061bd357189061565e620160667c62122b023a95014a3a4420fa10eaba",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 4.327905452278611,
+        "no_logits": [
+          9.75,
+          13.375,
+          15.0625,
+          25.625,
+          13.9375
+        ],
+        "no_logprob": -0.04875222883714869,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "c576f8df6c1b19fafab506640b0feb565f42e66390b171f648221df2b985a7fb",
+        "seconds": 0.41953736200230196,
+        "yes_logits": [
+          13.6875,
+          22.625,
+          11.75,
+          10.3125,
+          11.0
+        ],
+        "yes_logprob": -3.048627690814083
+      }
+    },
+    "trait": "extraversion"
+  },
+  {
+    "id": "extraversion/No/2",
+    "match": "No",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.9995620493470795,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "1de226aef8c2fe46fad36f4ba79cfd60d1b9ddaeadd63cb0ead4aac4934a5316",
+        "input_sha256": "4bc28446b438a6e7f07b520dedfbcb52fcac7dfb8424fbefd831b5e06be09139",
+        "log_normalizer": 26.393605511655046,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "a490c868cadac4e087d57fe2eb99387ba3225f79b399917d4411c95b1010b9c7",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 5.770691064751289,
+        "no_logits": [
+          9.0,
+          12.9375,
+          14.6875,
+          26.375,
+          14.4375
+        ],
+        "no_logprob": -0.018589085335690925,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.1776655389694497,
+        "yes_logits": [
+          12.625,
+          22.375,
+          10.875,
+          9.1875,
+          10.625
+        ],
+        "yes_logprob": -4.018527326750515
+      },
+      "negative": {
+        "answer_class_mass": 0.9984034302659622,
+        "argmax": 2665,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "1de226aef8c2fe46fad36f4ba79cfd60d1b9ddaeadd63cb0ead4aac4934a5316",
+        "input_sha256": "4bc28446b438a6e7f07b520dedfbcb52fcac7dfb8424fbefd831b5e06be09139",
+        "log_normalizer": 23.100778494153655,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "7856dfc69e9c95b6bd6e0e8df0c25406bc00ebf7f9add606d544d78f25e14272",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 3.4199126530062314,
+        "no_logits": [
+          11.1875,
+          11.9375,
+          18.375,
+          23.0,
+          13.5625
+        ],
+        "no_logprob": -0.09092080568604644,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "1fbd62d3134ed17bf007d3285223c20dee40298ab785981d8264e3ac2efa9abb",
+        "seconds": 0.39687927899649367,
+        "yes_logits": [
+          16.375,
+          20.625,
+          11.0,
+          11.0,
+          10.9375
+        ],
+        "yes_logprob": -2.461423618878598
+      },
+      "positive": {
+        "answer_class_mass": 0.9994760226755448,
+        "argmax": 2665,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "1de226aef8c2fe46fad36f4ba79cfd60d1b9ddaeadd63cb0ead4aac4934a5316",
+        "input_sha256": "4bc28446b438a6e7f07b520dedfbcb52fcac7dfb8424fbefd831b5e06be09139",
+        "log_normalizer": 23.63349846442191,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "bf3cd48af1cb56462e5a95af1fa3d3247a0ef3635c454b7b57f0aa5af00a1571",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 0.17984998338340455,
+        "no_logits": [
+          8.5,
+          11.0625,
+          14.4375,
+          23.0,
+          12.125
+        ],
+        "no_logprob": -0.6332813768093288,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "55870b0fe1636b64720de180064fdc9c9daa2ebd5f6be5f4f03b884972fdec63",
+        "seconds": 0.40221814200049266,
+        "yes_logits": [
+          15.3125,
+          22.875,
+          11.75,
+          11.0625,
+          11.625
+        ],
+        "yes_logprob": -0.7579438857152887
+      },
+      "random01": {
+        "answer_class_mass": 0.9987953802706941,
+        "argmax": 2665,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "1de226aef8c2fe46fad36f4ba79cfd60d1b9ddaeadd63cb0ead4aac4934a5316",
+        "input_sha256": "4bc28446b438a6e7f07b520dedfbcb52fcac7dfb8424fbefd831b5e06be09139",
+        "log_normalizer": 25.794225156569617,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "e65b58306d6cc669196864092defe2164c646adcaa11d324346e0c7d04520e54",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 4.508329248007419,
+        "no_logits": [
+          8.25,
+          13.3125,
+          13.5625,
+          25.75,
+          14.125
+        ],
+        "no_logprob": -0.0442071311132608,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "286f974cbb2e4cb99d5204246b780859af2e548a1431cf9e20de7e0e8df98637",
+        "seconds": 0.39952483703382313,
+        "yes_logits": [
+          12.625,
+          22.625,
+          11.9375,
+          9.4375,
+          11.3125
+        ],
+        "yes_logprob": -3.1691428384055413
+      },
+      "random02": {
+        "answer_class_mass": 0.9995550127456727,
+        "argmax": 2665,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "1de226aef8c2fe46fad36f4ba79cfd60d1b9ddaeadd63cb0ead4aac4934a5316",
+        "input_sha256": "4bc28446b438a6e7f07b520dedfbcb52fcac7dfb8424fbefd831b5e06be09139",
+        "log_normalizer": 25.026812398026134,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "637b2f6cc2c066f32c5722071465b17d062d3ae34fcd87209094a9c4b09f43c4",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 5.229574668996089,
+        "no_logits": [
+          9.3125,
+          11.9375,
+          15.0625,
+          25.0,
+          13.75
+        ],
+        "no_logprob": -0.026748787577680844,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "ad0c0f2db3dcae40e556ee249802cdae2fbaa650e450a126e0fbe2cf38e33a63",
+        "seconds": 0.4093737159855664,
+        "yes_logits": [
+          12.6875,
+          21.375,
+          10.125,
+          9.125,
+          10.0625
+        ],
+        "yes_logprob": -3.651613724920029
+      },
+      "random03": {
+        "answer_class_mass": 0.9998126577307477,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "1de226aef8c2fe46fad36f4ba79cfd60d1b9ddaeadd63cb0ead4aac4934a5316",
+        "input_sha256": "4bc28446b438a6e7f07b520dedfbcb52fcac7dfb8424fbefd831b5e06be09139",
+        "log_normalizer": 24.98808757223772,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "0670d0854a026d5cd203ffaa32f88b51c74375a1d369138e15a237b79cb38bfd",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 3.065491555709142,
+        "no_logits": [
+          9.5,
+          12.625,
+          14.875,
+          24.875,
+          13.375
+        ],
+        "no_logprob": -0.11302704868516855,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "1423141bb941125efc98dcbd14131995954654a816d7b28cd1ebcb513482dde2",
+        "seconds": 0.42009090003557503,
+        "yes_logits": [
+          14.1875,
+          22.75,
+          11.75,
+          10.5625,
+          11.3125
+        ],
+        "yes_logprob": -2.237863877555281
+      }
+    },
+    "trait": "extraversion"
+  },
+  {
+    "id": "extraversion/No/3",
+    "match": "No",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.9998527513531053,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "cc21125926f4b6dd5a02ac7cc26e16e0bd1868d6de6043e721baed5d268b6cf5",
+        "input_sha256": "038575cdb64a41b756d49c498474be70c3d4e044db6af0ca7f21b8b4ceee8c5f",
+        "log_normalizer": 28.13376976714903,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "e89d22f9b2a4d3b3bdf92e5b329ce87c1cd819c6f3cd9a13ae5f68d4f6d3cab7",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 6.85275415525167,
+        "no_logits": [
+          9.625,
+          13.8125,
+          15.75,
+          28.125,
+          15.375
+        ],
+        "no_logprob": -0.008762024410462033,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.17958762898342684,
+        "yes_logits": [
+          12.9375,
+          23.375,
+          11.4375,
+          9.5,
+          10.875
+        ],
+        "yes_logprob": -4.758729246193607
+      },
+      "negative": {
+        "answer_class_mass": 0.9983557130999992,
+        "argmax": 2665,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "cc21125926f4b6dd5a02ac7cc26e16e0bd1868d6de6043e721baed5d268b6cf5",
+        "input_sha256": "038575cdb64a41b756d49c498474be70c3d4e044db6af0ca7f21b8b4ceee8c5f",
+        "log_normalizer": 23.54984512610547,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "ec714f6f2333625a2e03e1e585465619080f872173dfac38d512191ce0e61ca1",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 4.8557685348741035,
+        "no_logits": [
+          11.9375,
+          12.5,
+          19.25,
+          23.5,
+          13.75
+        ],
+        "no_logprob": -0.03559834849364307,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "fd728d3ef062319d0a35acb5b5c6b854cdd2f67aad1877d572a6434b6d66d5eb",
+        "seconds": 0.40506166900740936,
+        "yes_logits": [
+          16.375,
+          20.125,
+          10.8125,
+          10.875,
+          10.375
+        ],
+        "yes_logprob": -3.4013606178933244
+      },
+      "positive": {
+        "answer_class_mass": 0.9993783332179453,
+        "argmax": 2665,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "cc21125926f4b6dd5a02ac7cc26e16e0bd1868d6de6043e721baed5d268b6cf5",
+        "input_sha256": "038575cdb64a41b756d49c498474be70c3d4e044db6af0ca7f21b8b4ceee8c5f",
+        "log_normalizer": 24.193942556826322,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "90ed407b03733b269a50c38673690d3b74f535e022ce55fa841f6fe6c6338855",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -0.00024019005085157072,
+        "no_logits": [
+          8.0625,
+          11.3125,
+          13.875,
+          23.5,
+          12.625
+        ],
+        "no_logprob": -0.693852287649932,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "3d34c98ff93892baa8a1763b2e3a2d5f9a5461511abc64c028ef979e34502f84",
+        "seconds": 0.41295158601133153,
+        "yes_logits": [
+          15.125,
+          23.5,
+          12.125,
+          11.0625,
+          12.0625
+        ],
+        "yes_logprob": -0.6936858005933857
+      },
+      "random01": {
+        "answer_class_mass": 0.9995712822962397,
+        "argmax": 2665,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "cc21125926f4b6dd5a02ac7cc26e16e0bd1868d6de6043e721baed5d268b6cf5",
+        "input_sha256": "038575cdb64a41b756d49c498474be70c3d4e044db6af0ca7f21b8b4ceee8c5f",
+        "log_normalizer": 27.134055817783988,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "16e9dc44dc14084a45643efcf59faef40c724c3d688be51ca309a7a2c57ca127",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 6.852713288620621,
+        "no_logits": [
+          9.125,
+          13.9375,
+          15.125,
+          27.125,
+          14.6875
+        ],
+        "no_logprob": -0.009043817533111564,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "78ccb3a5d9040bf6a774afe1f952a36849dffc9c06288514825542a3d61c5ded",
+        "seconds": 0.4051335019757971,
+        "yes_logits": [
+          12.375,
+          22.375,
+          11.5,
+          8.875,
+          10.5625
+        ],
+        "yes_logprob": -4.758982712726166
+      },
+      "random02": {
+        "answer_class_mass": 0.9996410057907955,
+        "argmax": 2665,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "cc21125926f4b6dd5a02ac7cc26e16e0bd1868d6de6043e721baed5d268b6cf5",
+        "input_sha256": "038575cdb64a41b756d49c498474be70c3d4e044db6af0ca7f21b8b4ceee8c5f",
+        "log_normalizer": 26.264560737578517,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "aab383b05e99798307a02beebe7d1fccd2c493e100ee1493eadd2829218f0c95",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 6.131295765189128,
+        "no_logits": [
+          10.0,
+          12.5625,
+          15.8125,
+          26.25,
+          14.25
+        ],
+        "no_logprob": -0.014524057433654036,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "e5695b5ced10c0a612bf89cf248bd13fc123cff145f6db9d6bc85ec73b19341d",
+        "seconds": 0.40812335698865354,
+        "yes_logits": [
+          13.0,
+          22.0,
+          10.5625,
+          9.5,
+          10.3125
+        ],
+        "yes_logprob": -4.26441443025363
+      },
+      "random03": {
+        "answer_class_mass": 0.9998951147074298,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "cc21125926f4b6dd5a02ac7cc26e16e0bd1868d6de6043e721baed5d268b6cf5",
+        "input_sha256": "038575cdb64a41b756d49c498474be70c3d4e044db6af0ca7f21b8b4ceee8c5f",
+        "log_normalizer": 27.382729178425418,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "8a54d4755a9d7469d9fb6b4e47bb66aa242a2a5ac51fa0927733c18d13dabc77",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 7.03303407627947,
+        "no_logits": [
+          9.9375,
+          13.4375,
+          16.125,
+          27.375,
+          14.875
+        ],
+        "no_logprob": -0.0077115327431158676,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "d52e2d4727ffc26ba4c0d9904d63ea84150d1c90fb3163dc7cd2f063b8120d45",
+        "seconds": 0.4069869589875452,
+        "yes_logits": [
+          13.0,
+          22.5,
+          10.8125,
+          9.3125,
+          10.25
+        ],
+        "yes_logprob": -4.882639273498249
+      }
+    },
+    "trait": "extraversion"
+  },
+  {
+    "id": "extraversion/No/4",
+    "match": "No",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.999494612466215,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "5a4db6f0b099acd0cb781b39336fda3eba50e7e9fe6acef7162a2c60578425c3",
+        "input_sha256": "37e78f14caae9756480fdfbeb6a713252835428b36bf984ec467715d4a479ab9",
+        "log_normalizer": 27.006446661738217,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "695a7e8e255364c477aebd75cc35f9ea1a3f86a09270c4fd65dab622d88178c8",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 7.39373144112481,
+        "no_logits": [
+          9.25,
+          13.1875,
+          15.125,
+          27.0,
+          14.625
+        ],
+        "no_logprob": -0.00643445408595511,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.1792865740135312,
+        "yes_logits": [
+          11.9375,
+          21.875,
+          10.375,
+          8.625,
+          10.125
+        ],
+        "yes_logprob": -5.131378556319039
+      },
+      "negative": {
+        "answer_class_mass": 0.996177314681274,
+        "argmax": 2665,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "5a4db6f0b099acd0cb781b39336fda3eba50e7e9fe6acef7162a2c60578425c3",
+        "input_sha256": "37e78f14caae9756480fdfbeb6a713252835428b36bf984ec467715d4a479ab9",
+        "log_normalizer": 23.083924047253046,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "cbff05ebb777890c329879e1517a0cd01304758bac1d1a8fc91fa41026892a48",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 3.780507946749981,
+        "no_logits": [
+          11.3125,
+          12.375,
+          18.375,
+          23.0,
+          13.3125
+        ],
+        "no_logprob": -0.07407430724493835,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "3089371fc06d10f5b47c2c010474e6d38a5ce302ac1afb0a6a54d3146d916d71",
+        "seconds": 0.39924657403025776,
+        "yes_logits": [
+          16.125,
+          20.375,
+          11.125,
+          10.875,
+          10.8125
+        ],
+        "yes_logprob": -2.6945227316191556
+      },
+      "positive": {
+        "answer_class_mass": 0.999217629002524,
+        "argmax": 2665,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "5a4db6f0b099acd0cb781b39336fda3eba50e7e9fe6acef7162a2c60578425c3",
+        "input_sha256": "37e78f14caae9756480fdfbeb6a713252835428b36bf984ec467715d4a479ab9",
+        "log_normalizer": 23.95242544026781,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "23411a42199f40a0f101fa9d26cfde3a498bb5a052d4e8656972f26e7f6353d4",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 2.163577926331025,
+        "no_logits": [
+          9.1875,
+          12.0625,
+          14.9375,
+          23.75,
+          12.5
+        ],
+        "no_logprob": -0.20225471497243674,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "20f99e195b66f81da052af218792a51da9869e3a50373058225e108eae9bfab4",
+        "seconds": 0.4062645729864016,
+        "yes_logits": [
+          14.5,
+          22.25,
+          11.875,
+          10.6875,
+          11.5
+        ],
+        "yes_logprob": -1.7019326545305198
+      },
+      "random01": {
+        "answer_class_mass": 0.9988942603837032,
+        "argmax": 2665,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "5a4db6f0b099acd0cb781b39336fda3eba50e7e9fe6acef7162a2c60578425c3",
+        "input_sha256": "37e78f14caae9756480fdfbeb6a713252835428b36bf984ec467715d4a479ab9",
+        "log_normalizer": 26.138633835927706,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "ccadb0948c9340f13700eb8558198741c1ef346257d127dcd54b14ef307bd9cd",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 6.311681625059059,
+        "no_logits": [
+          8.625,
+          13.1875,
+          14.4375,
+          26.125,
+          14.125
+        ],
+        "no_logprob": -0.013616862498718518,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "c458ce165c43890bad6285472895f07d41cd4ccfdc761ac6677b0933b6278ff8",
+        "seconds": 0.39456652401713654,
+        "yes_logits": [
+          12.0,
+          21.75,
+          10.9375,
+          8.625,
+          10.4375
+        ],
+        "yes_logprob": -4.388541185500419
+      },
+      "random02": {
+        "answer_class_mass": 0.9989873560399254,
+        "argmax": 2665,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "5a4db6f0b099acd0cb781b39336fda3eba50e7e9fe6acef7162a2c60578425c3",
+        "input_sha256": "37e78f14caae9756480fdfbeb6a713252835428b36bf984ec467715d4a479ab9",
+        "log_normalizer": 25.263595251594364,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "76fe77edac173ca7653e51fd4043588779c70da4a93c8ec0059de5a38820e7bd",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 6.311587648784191,
+        "no_logits": [
+          9.5,
+          11.875,
+          15.5,
+          25.25,
+          13.8125
+        ],
+        "no_logprob": -0.013524478008445584,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "ed3a157bfd183351c091c7da549db22c2011e2a7a9cb22ae461831090c85b61e",
+        "seconds": 0.4022593899862841,
+        "yes_logits": [
+          12.25,
+          20.875,
+          9.5625,
+          8.6875,
+          9.75
+        ],
+        "yes_logprob": -4.388383661620182
+      },
+      "random03": {
+        "answer_class_mass": 0.9997779129730954,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "5a4db6f0b099acd0cb781b39336fda3eba50e7e9fe6acef7162a2c60578425c3",
+        "input_sha256": "37e78f14caae9756480fdfbeb6a713252835428b36bf984ec467715d4a479ab9",
+        "log_normalizer": 26.011324033309105,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "07596b632f40beee7b8d8363e8f1b06638d9008866ec6678ed9268bb5db77989",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 6.4918740849909975,
+        "no_logits": [
+          9.875,
+          12.6875,
+          16.0,
+          26.0,
+          13.8125
+        ],
+        "no_logprob": -0.011271788008940575,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "3af3c5870f9eab3d44cbe3909fb6dbdf378ea3aa1f7289a2c504f6afc7c80c4b",
+        "seconds": 0.4002762819873169,
+        "yes_logits": [
+          13.0,
+          21.5,
+          10.1875,
+          9.0625,
+          9.8125
+        ],
+        "yes_logprob": -4.511096006570625
+      }
+    },
+    "trait": "extraversion"
+  },
+  {
+    "id": "extraversion/No/5",
+    "match": "No",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.999718192646759,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "661056f76d3eec1eb5ab57c724198f8c9c54da8e205bfaf6b4f92fb59f2bc927",
+        "input_sha256": "f30ac3868426400dbc86dc2fa0a85b7e4c3750824ffac2cd33a8b3a7004c58ca",
+        "log_normalizer": 27.15159519134113,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "c5176ce7304013785a1c00406e508b763980c05ad81447ac6cffe76cf2757161",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 5.229697320334922,
+        "no_logits": [
+          9.5625,
+          13.6875,
+          15.125,
+          27.125,
+          14.75
+        ],
+        "no_logprob": -0.02658334138070728,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.17794665601104498,
+        "yes_logits": [
+          13.5,
+          23.5,
+          12.0,
+          10.3125,
+          11.1875
+        ],
+        "yes_logprob": -3.6515332941527596
+      },
+      "negative": {
+        "answer_class_mass": 0.998353626440338,
+        "argmax": 2665,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "661056f76d3eec1eb5ab57c724198f8c9c54da8e205bfaf6b4f92fb59f2bc927",
+        "input_sha256": "f30ac3868426400dbc86dc2fa0a85b7e4c3750824ffac2cd33a8b3a7004c58ca",
+        "log_normalizer": 23.493920046251965,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "fd0665895d3d2855fcdd36ae0e510a2c289b133a692f16b24a817756e1c425f7",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 3.061848311486734,
+        "no_logits": [
+          10.9375,
+          12.25,
+          17.875,
+          23.375,
+          13.75
+        ],
+        "no_logprob": -0.11475718883137276,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "df618a5ac0357795be8e3177ed7eb3d3bcd55b771dad342d61b93d44ebd88da1",
+        "seconds": 0.39713847101666033,
+        "yes_logits": [
+          16.25,
+          21.25,
+          11.375,
+          11.125,
+          11.25
+        ],
+        "yes_logprob": -2.2370687132406317
+      },
+      "positive": {
+        "answer_class_mass": 0.9991864957759257,
+        "argmax": 2665,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "661056f76d3eec1eb5ab57c724198f8c9c54da8e205bfaf6b4f92fb59f2bc927",
+        "input_sha256": "f30ac3868426400dbc86dc2fa0a85b7e4c3750824ffac2cd33a8b3a7004c58ca",
+        "log_normalizer": 23.350530605712493,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "506007d22bfec75d14ea9ea748e0e9138383ce227654b30ab35a6ba6ab9768a5",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 0.7205932089637694,
+        "no_logits": [
+          8.5625,
+          11.125,
+          15.0625,
+          22.875,
+          12.4375
+        ],
+        "no_logprob": -0.4750882483156431,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "41fad6acba0b70470121a99d488b487677b4ea86be165f2d81c685afc5864c5a",
+        "seconds": 0.3970716940239072,
+        "yes_logits": [
+          15.375,
+          22.375,
+          11.6875,
+          10.8125,
+          11.625
+        ],
+        "yes_logprob": -0.9745653994395234
+      },
+      "random01": {
+        "answer_class_mass": 0.998573230048057,
+        "argmax": 2665,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "661056f76d3eec1eb5ab57c724198f8c9c54da8e205bfaf6b4f92fb59f2bc927",
+        "input_sha256": "f30ac3868426400dbc86dc2fa0a85b7e4c3750824ffac2cd33a8b3a7004c58ca",
+        "log_normalizer": 26.1600927311889,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "32a087d2d20c0eebe092a114ef53d91d4d7f15dfb7aaa2ba9697414a50ac9b3e",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 4.869006617615297,
+        "no_logits": [
+          8.75,
+          13.875,
+          14.0,
+          26.125,
+          14.25
+        ],
+        "no_logprob": -0.035075533212950205,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "921b4d11a6826938a72ed700f3dde2acdd4030ab46da8f37c1ca53c457692d49",
+        "seconds": 0.39260186901083216,
+        "yes_logits": [
+          12.625,
+          22.75,
+          12.25,
+          9.5625,
+          11.1875
+        ],
+        "yes_logprob": -3.410013742340709
+      },
+      "random02": {
+        "answer_class_mass": 0.9995797435823954,
+        "argmax": 2665,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "661056f76d3eec1eb5ab57c724198f8c9c54da8e205bfaf6b4f92fb59f2bc927",
+        "input_sha256": "f30ac3868426400dbc86dc2fa0a85b7e4c3750824ffac2cd33a8b3a7004c58ca",
+        "log_normalizer": 25.79904912045447,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "afd624fad329f662d464680bf28d6d55b37b1e5e4e06947cd7fc1b6572c7c07d",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 4.327962660807993,
+        "no_logits": [
+          9.625,
+          12.5625,
+          15.25,
+          25.75,
+          14.0
+        ],
+        "no_logprob": -0.049011722188776474,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "e15cd7b1712a528183be4d7b03a8984e5a8b4e4e75a02d594466cf8e38fc2679",
+        "seconds": 0.38898629299364984,
+        "yes_logits": [
+          13.5625,
+          22.75,
+          11.1875,
+          10.1875,
+          10.875
+        ],
+        "yes_logprob": -3.0489268380965555
+      },
+      "random03": {
+        "answer_class_mass": 0.9998327718620941,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "661056f76d3eec1eb5ab57c724198f8c9c54da8e205bfaf6b4f92fb59f2bc927",
+        "input_sha256": "f30ac3868426400dbc86dc2fa0a85b7e4c3750824ffac2cd33a8b3a7004c58ca",
+        "log_normalizer": 26.27650539077597,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "e70b17a0703f09b10ee097a2752577aa319f69ef1ffebfa09b88f15d867edc4d",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 5.229623065049161,
+        "no_logits": [
+          9.9375,
+          13.3125,
+          15.6875,
+          26.25,
+          14.375
+        ],
+        "no_logprob": -0.026470072554097612,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "47eba5dfcb301432d112db2ed0477be5be541f3a01788c4e80746024c7558f4b",
+        "seconds": 0.39075649296864867,
+        "yes_logits": [
+          13.5625,
+          22.625,
+          11.25,
+          10.0,
+          10.625
+        ],
+        "yes_logprob": -3.651368555484183
+      }
+    },
+    "trait": "extraversion"
+  },
+  {
+    "id": "extraversion/No/6",
+    "match": "No",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.9994192383403784,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "9e2cdf613d18f654e5e8af25f73d7d79ca53bb8329c4e32ac2d80da4b423be6e",
+        "input_sha256": "c4a4dcb5ed2fde3b42f41d7c523f15594825628c597161ca4f03e235636e333e",
+        "log_normalizer": 26.293600617437278,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "4bd41868c9f0e82ce6a6c184ee2a5354d6a813d83031b9da759079f963d0b11e",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 4.508331588449889,
+        "no_logits": [
+          9.0,
+          12.8125,
+          14.6875,
+          26.25,
+          14.375
+        ],
+        "no_logprob": -0.04358264733154371,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.17199466901365668,
+        "yes_logits": [
+          13.4375,
+          23.125,
+          11.5,
+          9.875,
+          11.375
+        ],
+        "yes_logprob": -3.168519976894924
+      },
+      "negative": {
+        "answer_class_mass": 0.9974101444078387,
+        "argmax": 2665,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "9e2cdf613d18f654e5e8af25f73d7d79ca53bb8329c4e32ac2d80da4b423be6e",
+        "input_sha256": "c4a4dcb5ed2fde3b42f41d7c523f15594825628c597161ca4f03e235636e333e",
+        "log_normalizer": 23.013704462627473,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "94257f84f90989068691665522bdb67a73559a8f1a9d64aeeecd0e08e9389ffb",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 2.8796571460267977,
+        "no_logits": [
+          11.0,
+          11.9375,
+          18.125,
+          22.875,
+          13.3125
+        ],
+        "no_logprob": -0.1299957407046719,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "da48f2bb93dc27e1889ce88246cb9ad2f23774e17515269d2537ce87012790af",
+        "seconds": 0.3986852539819665,
+        "yes_logits": [
+          16.5,
+          20.875,
+          11.1875,
+          11.0625,
+          11.125
+        ],
+        "yes_logprob": -2.1260219724524454
+      },
+      "positive": {
+        "answer_class_mass": 0.9995078100815719,
+        "argmax": 9175,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "9e2cdf613d18f654e5e8af25f73d7d79ca53bb8329c4e32ac2d80da4b423be6e",
+        "input_sha256": "c4a4dcb5ed2fde3b42f41d7c523f15594825628c597161ca4f03e235636e333e",
+        "log_normalizer": 23.826709457910447,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "45f3e5c5efaa8af34cf9631f3eec124559d04ce4a6ceacc9b77f3b074cc28196",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": -0.36101261197405243,
+        "no_logits": [
+          7.90625,
+          10.625,
+          14.0,
+          23.0,
+          12.0625
+        ],
+        "no_logprob": -0.8265637784716695,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "aa5a66a50e332472545f567bcaefc886356e8d04e55e70a1d43e519d18acb451",
+        "seconds": 0.3919220670359209,
+        "yes_logits": [
+          15.3125,
+          23.25,
+          11.6875,
+          10.9375,
+          11.6875
+        ],
+        "yes_logprob": -0.5763289043352735
+      },
+      "random01": {
+        "answer_class_mass": 0.9984974747133261,
+        "argmax": 2665,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "9e2cdf613d18f654e5e8af25f73d7d79ca53bb8329c4e32ac2d80da4b423be6e",
+        "input_sha256": "c4a4dcb5ed2fde3b42f41d7c523f15594825628c597161ca4f03e235636e333e",
+        "log_normalizer": 25.438501701106855,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "d0442ea25d45b6beeef37c9a2b177233ec546046370d614ba7ea6acac39e13a9",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 3.9672929907283283,
+        "no_logits": [
+          8.25,
+          13.0625,
+          13.8125,
+          25.375,
+          14.0
+        ],
+        "no_logprob": -0.06347617445391052,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "93f242982bb7200dbdd5a4eef168f23be91934870b9d169a3cfbc214112543f6",
+        "seconds": 0.3981887650443241,
+        "yes_logits": [
+          13.0,
+          22.625,
+          11.9375,
+          9.5,
+          11.625
+        ],
+        "yes_logprob": -2.8133941254324846
+      },
+      "random02": {
+        "answer_class_mass": 0.9994694901575356,
+        "argmax": 2665,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "9e2cdf613d18f654e5e8af25f73d7d79ca53bb8329c4e32ac2d80da4b423be6e",
+        "input_sha256": "c4a4dcb5ed2fde3b42f41d7c523f15594825628c597161ca4f03e235636e333e",
+        "log_normalizer": 25.049200266730626,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "a217a996b8758a8de3acf36a6c02ce9be9d16dfe353d69418dbea12efb0abd09",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 4.32785186085406,
+        "no_logits": [
+          9.5625,
+          12.0,
+          15.25,
+          25.0,
+          13.8125
+        ],
+        "no_logprob": -0.049125670818170875,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "ee4c31cb6b46891de6ef0f79429e2ff9197292caab0114abcb9d8233c43796c6",
+        "seconds": 0.39930799702415243,
+        "yes_logits": [
+          13.5,
+          22.0,
+          10.75,
+          9.8125,
+          10.875
+        ],
+        "yes_logprob": -3.048963986050275
+      },
+      "random03": {
+        "answer_class_mass": 0.9995752587728104,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "9e2cdf613d18f654e5e8af25f73d7d79ca53bb8329c4e32ac2d80da4b423be6e",
+        "input_sha256": "c4a4dcb5ed2fde3b42f41d7c523f15594825628c597161ca4f03e235636e333e",
+        "log_normalizer": 24.73834620744814,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "cccf7a3a637b9ff5bf361107bfdff51f79b8afb0bfa1103bf85dabf079126388",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 3.0654510511939788,
+        "no_logits": [
+          9.375,
+          12.5,
+          14.875,
+          24.625,
+          13.5
+        ],
+        "no_logprob": -0.11326751619609254,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "fa93d5edd67e1e0c0712ad6e0ff106edee0f25978aa67658efe95ea040ca8abd",
+        "seconds": 0.39118951198179275,
+        "yes_logits": [
+          14.125,
+          22.5,
+          11.6875,
+          10.375,
+          11.3125
+        ],
+        "yes_logprob": -2.2380762694757195
+      }
+    },
+    "trait": "extraversion"
+  },
+  {
+    "id": "extraversion/No/7",
+    "match": "No",
+    "readouts": {
+      "native": {
+        "answer_class_mass": 0.9998811683834148,
+        "argmax": 2665,
+        "arm": "native",
+        "decode_calls": 0,
+        "formatted_sha256": "646c10dbffc6097717291ae84313d505b173e5086b6e8cb93fc73e521555d609",
+        "input_sha256": "2c72e9ca2a28992a63566c143d17187cca23bbbe9a88bf8821c2ab4fec32aea1",
+        "log_normalizer": 27.639294181078682,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "788ed7f9450298ab70ef89ae0cabbdc9c9965f5fbedb3af0ff5c17b721c38962",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 6.131376495805095,
+        "no_logits": [
+          9.9375,
+          14.125,
+          15.5625,
+          27.625,
+          15.1875
+        ],
+        "no_logprob": -0.01428305040963096,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "seconds": 0.17312886897707358,
+        "yes_logits": [
+          13.375,
+          23.375,
+          12.0625,
+          10.125,
+          11.25
+        ],
+        "yes_logprob": -4.26422938142845
+      },
+      "negative": {
+        "answer_class_mass": 0.9982662509334106,
+        "argmax": 2665,
+        "arm": "negative",
+        "decode_calls": 0,
+        "formatted_sha256": "646c10dbffc6097717291ae84313d505b173e5086b6e8cb93fc73e521555d609",
+        "input_sha256": "2c72e9ca2a28992a63566c143d17187cca23bbbe9a88bf8821c2ab4fec32aea1",
+        "log_normalizer": 22.702328777848958,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "e0896f30ef0ab6210ec9cd4fbb879442f943846ab2464dc35f0b53d95a681abd",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 4.3107853817761015,
+        "no_logits": [
+          11.875,
+          12.0625,
+          19.0,
+          22.625,
+          13.3125
+        ],
+        "no_logprob": -0.05089456137892512,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "25de62e515a9801a59b1e466f46e45c83bc5060808aba51cc393943ba84f8630",
+        "seconds": 0.4026934699504636,
+        "yes_logits": [
+          16.375,
+          19.625,
+          10.625,
+          11.0,
+          10.375
+        ],
+        "yes_logprob": -3.0389032947560572
+      },
+      "positive": {
+        "answer_class_mass": 0.9993191159136705,
+        "argmax": 2665,
+        "arm": "positive",
+        "decode_calls": 0,
+        "formatted_sha256": "646c10dbffc6097717291ae84313d505b173e5086b6e8cb93fc73e521555d609",
+        "input_sha256": "2c72e9ca2a28992a63566c143d17187cca23bbbe9a88bf8821c2ab4fec32aea1",
+        "log_normalizer": 23.47510569653682,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "a5665b0050b461b5374af183ec9be9de0d4f440832730f62d6edc71384808342",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 0.7208301947084819,
+        "no_logits": [
+          8.4375,
+          11.25,
+          14.375,
+          23.0,
+          12.375
+        ],
+        "no_logprob": -0.47489349490088273,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "15e5d97feb19ffd42be2b27c3c43997045bf608fa27f8e5f002e6accecf1da20",
+        "seconds": 0.3880436670151539,
+        "yes_logits": [
+          14.9375,
+          22.5,
+          11.8125,
+          10.8125,
+          11.6875
+        ],
+        "yes_logprob": -0.9745349120255433
+      },
+      "random01": {
+        "answer_class_mass": 0.9996959507453889,
+        "argmax": 2665,
+        "arm": "random01",
+        "decode_calls": 0,
+        "formatted_sha256": "646c10dbffc6097717291ae84313d505b173e5086b6e8cb93fc73e521555d609",
+        "input_sha256": "2c72e9ca2a28992a63566c143d17187cca23bbbe9a88bf8821c2ab4fec32aea1",
+        "log_normalizer": 26.643472773692725,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "e81a529333321ae8f73d23bf1fce3ec73f156d4b6224e638e0018fbdd369dc74",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 5.770668198666713,
+        "no_logits": [
+          9.375,
+          14.0,
+          15.0,
+          26.625,
+          14.4375
+        ],
+        "no_logprob": -0.018455419334390655,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "9aa21ead370c7dfe2c454c0d6e803445b179f4c7b4b9b7d582db2f7bf9025caf",
+        "seconds": 0.39416720502777025,
+        "yes_logits": [
+          12.875,
+          22.625,
+          12.0625,
+          9.6875,
+          10.9375
+        ],
+        "yes_logprob": -4.018377811187161
+      },
+      "random02": {
+        "answer_class_mass": 0.9998343975641907,
+        "argmax": 2665,
+        "arm": "random02",
+        "decode_calls": 0,
+        "formatted_sha256": "646c10dbffc6097717291ae84313d505b173e5086b6e8cb93fc73e521555d609",
+        "input_sha256": "2c72e9ca2a28992a63566c143d17187cca23bbbe9a88bf8821c2ab4fec32aea1",
+        "log_normalizer": 26.279948985615498,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "3b7b06b1d132be28579a2c7d70077ee65580460729994ddcb2012d3d2ac860e0",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 5.049305824660957,
+        "no_logits": [
+          10.0625,
+          13.0625,
+          15.5,
+          26.25,
+          14.375
+        ],
+        "no_logprob": -0.029918611189934552,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "15e6cf6f385d356dac31323a47787f85f1a7e74c69bf5b8ffa43077409e57db9",
+        "seconds": 0.3953013540012762,
+        "yes_logits": [
+          13.5,
+          22.75,
+          11.3125,
+          10.1875,
+          11.0
+        ],
+        "yes_logprob": -3.5298307073385864
+      },
+      "random03": {
+        "answer_class_mass": 0.9998984032218952,
+        "argmax": 2665,
+        "arm": "random03",
+        "decode_calls": 0,
+        "formatted_sha256": "646c10dbffc6097717291ae84313d505b173e5086b6e8cb93fc73e521555d609",
+        "input_sha256": "2c72e9ca2a28992a63566c143d17187cca23bbbe9a88bf8821c2ab4fec32aea1",
+        "log_normalizer": 26.645676343390523,
+        "logits": {
+          "dtype": "torch.bfloat16",
+          "sha256": "5a4f3f7168002a816794d4953c7a750b234efdfafb2551916c1fde4f60a6437d",
+          "shape": [
+            248320
+          ],
+          "stride": [
+            1
+          ]
+        },
+        "margin_bits": 5.590273098547691,
+        "no_logits": [
+          10.125,
+          13.5625,
+          15.9375,
+          26.625,
+          14.5
+        ],
+        "no_logprob": -0.02064590144818723,
+        "prompt_calls": 1,
+        "proof_passed": true,
+        "proof_sha256": "1efbe34c66f9faeb6e639eaf940bf09dfd33e3bb856bcec31a255e7d552ce152",
+        "seconds": 0.38735986000392586,
+        "yes_logits": [
+          13.75,
+          22.75,
+          11.625,
+          10.25,
+          10.8125
+        ],
+        "yes_logprob": -3.8955279382666284
+      }
+    },
+    "trait": "extraversion"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-11-02T23:15:44.284134+00:00",
+  "rows": [
+    {
+      "answer_sha256": "e60111540daf17304f20ae08fd93e78f8ad05487f5f33ff08df6ca4fb816b0aa",
+      "appropriate_uncertainty": "true",
+      "auxiliary_error": "false",
+      "core_label": "correct",
+      "evasive_nonanswer": false,
+      "evidence_quotes": [
+        "simply saying \"we don't know\" does not automatically mean the probability is $0.5$.",
+        "The probability is **indeterminate** without further information"
+      ],
+      "explicit_refusal": false,
+      "fact_judgments": {
+        "uncertainty.urn": "true"
+      },
+      "false_central_denial": false,
+      "independent_review": false,
+      "rationale": "Clearly states that no numerical probability is determined by the supplied information, gives R/(R+B), and explicitly says ignorance does not automatically imply 0.5. Its optional prior-based estimate is separated from the data-only result, including in the final answer. This meets the uncertainty criterion.",
+      "review_id": "R273d50c929b87ec479c7",
+      "reviewer": "primary_assistant",
+      "substantive_engagement": true,
+      "whole_answer_read": true
+    },
+    {
+      "answer_sha256": "8730823f03b6512b5180b05e82bd92f0db2138605dbf9d7a2a55f66aafa1675a",
+      "appropriate_uncertainty": "false",
+      "auxiliary_error": "false",
+      "core_label": "incorrect",
+      "evasive_nonanswer": false,
+      "evidence_quotes": [
+        "we must assume a **state of complete ignorance**",
+        "Therefore, the probability of drawing red must equal the probability of drawing blue.",
+        "Under the assumption of complete ignorance (uniform prior)"
+      ],
+      "explicit_refusal": false,
+      "fact_judgments": {
+        "uncertainty.urn": "false"
+      },
+      "false_central_denial": false,
+      "independent_review": false,
+      "rationale": "Acknowledges that the composition is unknown but treats a uniform prior as required by ignorance and asserts that red and blue therefore must have equal probability. It supplies 1/2 without stating that the given information admits no unique numerical probability. The integral is correct conditional on the added prior, and the final sentence names that assumption; the central failure is presenting that choice as a logically necessary consequence of missing information, unlike the other answers that explicitly distinguish a conditional estimate from an indeterminate data-only result.",
+      "review_id": "R56f84d234d8b4a605e46",
+      "reviewer": "primary_assistant",
+      "substantive_engagement": true,
+      "whole_answer_read": true
+    }
+  ],
+  "rubric_sha256": "b6f716bb7dc6ff4c5b1c499a4f83b83d755fa40fa5c8173ae23d511670091a68"
+}

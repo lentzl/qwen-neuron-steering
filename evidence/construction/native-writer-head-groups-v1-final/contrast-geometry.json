@@ -1,0 +1,440 @@
+{
+  "created_at": 1793005566.2348056,
+  "source_manifest_sha256": "dfd91a8f8f88c62e9b6f6e4b872618078cac55d8a9ba127887a16365cb3a95ba",
+  "code_sha256": "4aa36beb9620fcc16a8fdabf1980fe4f74998686e0316399471038384f6face6",
+  "new_model_calls": 0,
+  "gpu_calls": 0,
+  "subagents": 0,
+  "inference_precision_unchanged": "native BF16; FP32 only for offline subtraction and norms",
+  "definition": "Commercial minus Chinese writer operands, six layers, all20 prompt positions; position mean produces one potential fixed offset per layer/head/field.",
+  "limits": [
+    "Descriptive geometry, not causal head importance or validated fixed steering.",
+    "Fields have different units; their norms must not be ranked against one another.",
+    "Shared head indices across layers are only a partition.",
+    "Prompt content differs across the two development topics; no held-out data used.",
+    "Keys are normalized in the native kernel and gate domains constrain future interventions; value offsets avoid those domain constraints."
+  ],
+  "groups": [
+    {
+      "group": "all",
+      "field": "beta",
+      "heads_per_layer": 48,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 4.605297565460205,
+          "constant_position_offset_l2": 0.3727063834667206,
+          "fraction_energy_captured_by_own_position_mean": 0.13099306344772127
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 3.8997325897216797,
+          "constant_position_offset_l2": 0.31137335300445557,
+          "fraction_energy_captured_by_own_position_mean": 0.12750384242072615
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.717925488948822,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.11052494713001519
+    },
+    {
+      "group": "all",
+      "field": "g",
+      "heads_per_layer": 48,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 9.578564643859863,
+          "constant_position_offset_l2": 0.7176795601844788,
+          "fraction_energy_captured_by_own_position_mean": 0.11227685366763701
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 7.6549906730651855,
+          "constant_position_offset_l2": 0.6245746612548828,
+          "fraction_energy_captured_by_own_position_mean": 0.13314026823497552
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.8886961340904236,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.11319513032970963
+    },
+    {
+      "group": "all",
+      "field": "key",
+      "heads_per_layer": 48,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 17.196548461914062,
+          "constant_position_offset_l2": 1.542859435081482,
+          "fraction_energy_captured_by_own_position_mean": 0.1609904554294315
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 14.599502563476562,
+          "constant_position_offset_l2": 1.2320188283920288,
+          "fraction_energy_captured_by_own_position_mean": 0.1424257792474762
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.8231034874916077,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.13809993164431378
+    },
+    {
+      "group": "all",
+      "field": "value",
+      "heads_per_layer": 48,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 11.493541717529297,
+          "constant_position_offset_l2": 1.3146692514419556,
+          "fraction_energy_captured_by_own_position_mean": 0.2616708015185615
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 9.13432502746582,
+          "constant_position_offset_l2": 0.9797271490097046,
+          "fraction_energy_captured_by_own_position_mean": 0.23008451863455276
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.8242095112800598,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.2232286831609749
+    },
+    {
+      "group": "0",
+      "field": "beta",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 2.1325199604034424,
+          "constant_position_offset_l2": 0.14588293433189392,
+          "fraction_energy_captured_by_own_position_mean": 0.09359501964749017
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 1.8433152437210083,
+          "constant_position_offset_l2": 0.13762426376342773,
+          "fraction_energy_captured_by_own_position_mean": 0.11148611822149772
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.6839399933815002,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.0851873916525064
+    },
+    {
+      "group": "0",
+      "field": "g",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 6.6855692863464355,
+          "constant_position_offset_l2": 0.4372328221797943,
+          "fraction_energy_captured_by_own_position_mean": 0.08554186982221654
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 5.41093635559082,
+          "constant_position_offset_l2": 0.46428540349006653,
+          "fraction_energy_captured_by_own_position_mean": 0.14724994987044818
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.935346245765686,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.10631766649758596
+    },
+    {
+      "group": "0",
+      "field": "key",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 11.04529094696045,
+          "constant_position_offset_l2": 0.9670090079307556,
+          "fraction_energy_captured_by_own_position_mean": 0.15329807687737695
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 9.433577537536621,
+          "constant_position_offset_l2": 0.7647956013679504,
+          "fraction_energy_captured_by_own_position_mean": 0.13145221445386313
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.8230602741241455,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.12974169348008874
+    },
+    {
+      "group": "0",
+      "field": "value",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 6.589383125305176,
+          "constant_position_offset_l2": 0.7880370616912842,
+          "fraction_energy_captured_by_own_position_mean": 0.2860446079148431
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 5.046104907989502,
+          "constant_position_offset_l2": 0.5554430484771729,
+          "fraction_energy_captured_by_own_position_mean": 0.24232405274801466
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.8183463215827942,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.2389431653252335
+    },
+    {
+      "group": "1",
+      "field": "beta",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 2.1944918632507324,
+          "constant_position_offset_l2": 0.16562195122241974,
+          "fraction_energy_captured_by_own_position_mean": 0.1139194319316668
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 1.9852244853973389,
+          "constant_position_offset_l2": 0.16096746921539307,
+          "fraction_energy_captured_by_own_position_mean": 0.1314882508511673
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.797798216342926,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.1094899308581838
+    },
+    {
+      "group": "1",
+      "field": "g",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 4.019474506378174,
+          "constant_position_offset_l2": 0.3819770812988281,
+          "fraction_energy_captured_by_own_position_mean": 0.18062010934316888
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 2.401538133621216,
+          "constant_position_offset_l2": 0.19631271064281464,
+          "fraction_energy_captured_by_own_position_mean": 0.13364349031032027
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.8793294429779053,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.14428388730226352
+    },
+    {
+      "group": "1",
+      "field": "key",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 7.858025550842285,
+          "constant_position_offset_l2": 0.6643954515457153,
+          "fraction_energy_captured_by_own_position_mean": 0.14297379141552657
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 6.681419849395752,
+          "constant_position_offset_l2": 0.5337873697280884,
+          "fraction_energy_captured_by_own_position_mean": 0.12765243751595284
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.8122175931930542,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.12242224954195995
+    },
+    {
+      "group": "1",
+      "field": "value",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 5.547427177429199,
+          "constant_position_offset_l2": 0.6092334985733032,
+          "fraction_energy_captured_by_own_position_mean": 0.24122057794854873
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 4.5370564460754395,
+          "constant_position_offset_l2": 0.4800778031349182,
+          "fraction_energy_captured_by_own_position_mean": 0.2239261825466738
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.8155403137207031,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.21003163240336706
+    },
+    {
+      "group": "2",
+      "field": "beta",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 2.438356399536133,
+          "constant_position_offset_l2": 0.21375571191310883,
+          "fraction_energy_captured_by_own_position_mean": 0.1536990054727849
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 2.0995209217071533,
+          "constant_position_offset_l2": 0.18208883702754974,
+          "fraction_energy_captured_by_own_position_mean": 0.15043751788955306
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.7514110803604126,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.132651325396556
+    },
+    {
+      "group": "2",
+      "field": "g",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 3.2180092334747314,
+          "constant_position_offset_l2": 0.2609920799732208,
+          "fraction_energy_captured_by_own_position_mean": 0.13155584238359658
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 2.7601609230041504,
+          "constant_position_offset_l2": 0.17272800207138062,
+          "fraction_energy_captured_by_own_position_mean": 0.07832252847304776
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.8499891757965088,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.0971332341796819
+    },
+    {
+      "group": "2",
+      "field": "key",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 8.11251163482666,
+          "constant_position_offset_l2": 0.8059675693511963,
+          "fraction_energy_captured_by_own_position_mean": 0.19740332267165425
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 6.84428596496582,
+          "constant_position_offset_l2": 0.6473903059959412,
+          "fraction_energy_captured_by_own_position_mean": 0.17893941766002114
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.8424243927001953,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.17289733012392972
+    },
+    {
+      "group": "2",
+      "field": "value",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 5.728991508483887,
+          "constant_position_offset_l2": 0.6819738745689392,
+          "fraction_energy_captured_by_own_position_mean": 0.28340604173005834
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 4.527714252471924,
+          "constant_position_offset_l2": 0.5023303031921387,
+          "fraction_energy_captured_by_own_position_mean": 0.24617886099058747
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.8472570776939392,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.24341461884782437
+    },
+    {
+      "group": "3",
+      "field": "beta",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 2.4289393424987793,
+          "constant_position_offset_l2": 0.2109646499156952,
+          "fraction_energy_captured_by_own_position_mean": 0.1508745787285584
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 1.8603756427764893,
+          "constant_position_offset_l2": 0.13764473795890808,
+          "fraction_energy_captured_by_own_position_mean": 0.1094833198142111
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.6566688418388367,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.10852673557808845
+    },
+    {
+      "group": "3",
+      "field": "g",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 4.5321431159973145,
+          "constant_position_offset_l2": 0.3314635157585144,
+          "fraction_energy_captured_by_own_position_mean": 0.10697794849524248
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 3.991837978363037,
+          "constant_position_offset_l2": 0.3258204758167267,
+          "fraction_energy_captured_by_own_position_mean": 0.13324192987499175
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.9650285243988037,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.11637217465381383
+    },
+    {
+      "group": "3",
+      "field": "key",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 6.79421854019165,
+          "constant_position_offset_l2": 0.595234215259552,
+          "fraction_energy_captured_by_own_position_mean": 0.15350648805183334
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 5.715544700622559,
+          "constant_position_offset_l2": 0.4784504175186157,
+          "fraction_energy_captured_by_own_position_mean": 0.14014855622230712
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.8015316128730774,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.13190031417146458
+    },
+    {
+      "group": "3",
+      "field": "value",
+      "heads_per_layer": 12,
+      "per_target": [
+        {
+          "target": "fibre__Chinese",
+          "raw_contrast_l2": 5.0086164474487305,
+          "constant_position_offset_l2": 0.5206717848777771,
+          "fraction_energy_captured_by_own_position_mean": 0.2161337147968643
+        },
+        {
+          "target": "cnc__Chinese",
+          "raw_contrast_l2": 4.109457015991211,
+          "constant_position_offset_l2": 0.4105335474014282,
+          "fraction_energy_captured_by_own_position_mean": 0.19959901393564436
+        }
+      ],
+      "cosine_between_prompt_mean_directions": 0.8169188499450684,
+      "fraction_total_energy_captured_by_common_constant_offset": 0.18794427982567435
+    }
+  ],
+  "goal_complete": false
+}

@@ -1,0 +1,3980 @@
+[
+  {
+    "target": "fibre__Chinese",
+    "generation": {
+      "case_id": "baseline__fibre__Chinese",
+      "prompt": "Chinese fibre-optic cables in Russian drones",
+      "response": "The claim",
+      "input_token_ids": [
+        248045,
+        846,
+        198,
+        43429,
+        54531,
+        54227,
+        291,
+        34878,
+        303,
+        8260,
+        36001,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "generated_token_ids": [
+        760,
+        3591
+      ],
+      "formatted_input": "<|im_start|>user\nChinese fibre-optic cables in Russian drones<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "generated_tokens": 2,
+      "stop_reason": "length_or_other",
+      "seconds": 2.1636151731945574,
+      "layer": null,
+      "strength": 0,
+      "units": "residual_fraction",
+      "scope": "last",
+      "hook_calls": 0,
+      "seed": 1729,
+      "temperature": 0,
+      "max_new_tokens": 2,
+      "identity": {
+        "model": "Qwen/Qwen3.6-27B",
+        "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+        "dtype": "bfloat16",
+        "decoder_blocks": "model.language_model.layers",
+        "layer_count": 64,
+        "config_sha256": "a5bde9d45d5ec446c8323cbe2abf26d3afe52d1494a18d39fee2495d9ad92f36",
+        "tokenizer_config_sha256": "5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b",
+        "tokenizer_json_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "weight_index_sha256": "a8ad2c26fb707ff8c245806315b03e3b4b74595528492423af5dae0ce39b4d9b"
+      },
+      "recorded_at": "2026-10-26T15:13:07.779575+00:00"
+    },
+    "exact_saved_prefix_logits": true,
+    "activations": {
+      "0": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "caeacdcc134cd5c08be8d1754178606480e265af1a29968c6ac16cc5f9c27158"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 8.240166525034322
+      },
+      "1": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "b7c5da696cc67671efcee006ecc7ecc826693e96025a70f1164a88b1d084b52b"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 5.960106829081275
+      },
+      "2": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "ec2f41f7798e07030f0400de9ff4b7ea07be5904d1cb7fd866c81fd4e527b8ec"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 13.235493388729585
+      },
+      "3": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "842f57987eca7696e03625607e28c8c937659f6d4ef70d5f4f039e4021029dd7"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 10.12563188903753
+      },
+      "4": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "52a626d56c9a8cff1940baab850b4700cd2d5d0cd3beab6d8df23fa409501c39"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 12.175105145953124
+      },
+      "5": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "aa6da53ace109d0c0b5644008a06ae40f2f3906134e87647b9eadf64474b444f"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 15.7835613122751
+      },
+      "6": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "cf42b46255652df104d9dcca0215f363e44c48cf6725579d02acdebeeef35bfd"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 19.324965147966118
+      },
+      "7": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "7def268e12c27a5351fedb7d1daafedcf8ece2c043fe3830c9c62f0ceaf1f3c7"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 22.730302881511907
+      },
+      "8": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "866170c84a3bff480076f41ae0544a0218e97951c8d233455aacb91f6ea91c1c"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 26.230754135967523
+      },
+      "9": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "580a196499756bab97b6c7adedd956cf805b8621c2720582ad35a11bcba0cc9d"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 24.798840344835902
+      },
+      "10": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "0acab26d830d762c0b096fbc6ef9abcdc7ac090b4b4a703989643256d9a8c4ab"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 25.718296207171928
+      },
+      "11": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "865d9f9bedc83082843d55b4d6a0020be3d5f42ebd57211789a06e1ce55c15ce"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 25.94334787122878
+      },
+      "12": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "af8dfdb69629645a345c3e76b3b538b03cca19f645e2239c408fd51d7de4b921"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 27.512515445726365
+      },
+      "13": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "18081f7c72efdeca3a5cd42ab36aeb5df0431cd041a4fb03a95dd1fbf5eec326"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 30.00116132548711
+      },
+      "14": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "87f4ab05b7d656910278405f16198a77d7d7428d711bd4f83f9410d06d56b212"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 29.24209264277675
+      },
+      "15": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "57fa0f9170233f398b3e58e49c3a52e840c1ade7fcb2a3401ab7355067ca0446"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 29.975357260650235
+      },
+      "16": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "a1f7d8d8e5fdcba8c9852453ce5349f6c944c55d652c88e99b69d9ebc268e7d2"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 34.03505037804983
+      },
+      "17": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "1bfd24abd5be4872c1796b2564e432719110df39ccbf4ff87e42ecb713c01a05"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 39.32141675028815
+      },
+      "18": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "46418df116496b5ab3d4f3e5d0c525c5447af1975e4fcec8266bf4b32e550a0e"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 49.44880582620308
+      },
+      "19": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "89adb78aa4665f4d2fe97e1bda5e291b40451a6f6c89eea8117702b94cfba33f"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 66.34014799703291
+      },
+      "20": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "c48de813f5a383fc194bf3a1d463de134bc58a8940ec6e11cf1dc50cce9b8072"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 71.21768205593622
+      },
+      "21": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "8e0d7eab64f47f53a9f482b806cebb217d08be00e39055ab32013f2a413b76f7"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 66.24986613118237
+      }
+    },
+    "writers": {
+      "16": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "e2d9397e36c97701a544774e063d7a14be6f24946f0dd112e09fd3111d51d83b"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "08fff3863f0c4a4a8b5f876cd50b444da924bf8951e4c55d217004db0baf8d47"
+        }
+      },
+      "17": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "58a27a9e3dbf8077f07809ceab16a3e8961e4c62c4a4029c2542846a610c5192"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "2a03081b2f91b92419876f0d447a2a2e273a6b9ba29cee729160dc60966c6488"
+        }
+      },
+      "18": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "71159c83e29631cf9aceff635a21b62446bbc85e130456ff342c416e0884673c"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "22906a6babf553b6824f25a10a7bf3136ec3431fe997ef4df39eb38c0fd11510"
+        }
+      },
+      "20": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "d2da5405a1e9cd8435d51ba813037596fd5096920f75016e48d7038373c4ad8e"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "10cad1acda6b31e2201cac0029eaeece64f9c0be343c900199c7bf78c3a3aa7a"
+        }
+      },
+      "21": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "2505fd7f3046586f7607d4d732b72dece244a4ee69206d0e571c1b1853927b83"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "e5be8a033f970fb32ff2f6e4cc7ad0258b1f894f3e2245761d46c8ef06f15a73"
+        }
+      },
+      "22": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "6b7d11133a6cb997901d89b91d5523395f5ea937a94eaaaaaf372d1feabadd77"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "b8ea5d40627f4ffbb6efaa01a17544744e7262a4d9292219df210d9b37216a69"
+        }
+      }
+    }
+  },
+  {
+    "target": "fibre__Commercial",
+    "generation": {
+      "case_id": "baseline__fibre__Commercial",
+      "prompt": "Commercial fibre-optic cables in Russian drones",
+      "response": "The use",
+      "input_token_ids": [
+        248045,
+        846,
+        198,
+        57700,
+        54531,
+        54227,
+        291,
+        34878,
+        303,
+        8260,
+        36001,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "generated_token_ids": [
+        760,
+        958
+      ],
+      "formatted_input": "<|im_start|>user\nCommercial fibre-optic cables in Russian drones<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "generated_tokens": 2,
+      "stop_reason": "length_or_other",
+      "seconds": 0.3126584021374583,
+      "layer": null,
+      "strength": 0,
+      "units": "residual_fraction",
+      "scope": "last",
+      "hook_calls": 0,
+      "seed": 1729,
+      "temperature": 0,
+      "max_new_tokens": 2,
+      "identity": {
+        "model": "Qwen/Qwen3.6-27B",
+        "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+        "dtype": "bfloat16",
+        "decoder_blocks": "model.language_model.layers",
+        "layer_count": 64,
+        "config_sha256": "a5bde9d45d5ec446c8323cbe2abf26d3afe52d1494a18d39fee2495d9ad92f36",
+        "tokenizer_config_sha256": "5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b",
+        "tokenizer_json_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "weight_index_sha256": "a8ad2c26fb707ff8c245806315b03e3b4b74595528492423af5dae0ce39b4d9b"
+      },
+      "recorded_at": "2026-10-26T15:13:08.160651+00:00"
+    },
+    "exact_saved_prefix_logits": true,
+    "activations": {
+      "0": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "c9de16db3e53e33350d4176ae5889de1148897b250324b73fa2b457b07caab54"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 8.131623505606917
+      },
+      "1": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "baa3f12f2d958a5e06656ecb84434c316b2b5b3e50feecfac6c5804154b8f96f"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 5.791414145175948
+      },
+      "2": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "287f1a508c694f154f39fc527b181dd5e5af21a27fd01142c0fe474e67e1fea8"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 13.873677653952425
+      },
+      "3": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "3e2de4abfc8aff9f95b936b0b4920ea557b6a6237ea640e0c70bacb2e548a5d9"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 10.108611142604456
+      },
+      "4": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "bbf3fd92369ec8b67d075392acf4e7e3b040ccb187700773ee911d8681759041"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 11.971436568929143
+      },
+      "5": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "c30c4d7a150cfe0524694a8a592c7c31e3c6ac643f3085b17d7654bc303f0df9"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 15.582095364676881
+      },
+      "6": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "0a479309b60282e626876018ed5537bf8a5ec84a0a85f6531d0cb44f1503cef6"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 19.315140087903135
+      },
+      "7": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "48ce4a8618e672e79c1f570d4caf97e3a85608fe5f2a8edf9f53edde6749c0bd"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 21.676864318479524
+      },
+      "8": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "823580f3c4141d73e7e0530fb1bd09beea7a0061c762dccfcff478f80c9401eb"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 24.84955011360029
+      },
+      "9": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "4b9cf7606b534743ec6fc7e37b21371a584715b5ffc4c529dfbd8e32cff0d4c1"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 24.432890098857417
+      },
+      "10": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "ac60d1b3b9510863880d66804457daf83ad94acfebf228a8f9f75aff329972f6"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 25.025875505729164
+      },
+      "11": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "950124ae71435ae05dca15f1a1916978de5683ae72c66acfdfb521c8121d35b3"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 24.85020596860051
+      },
+      "12": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "777f003a6e8dc7e2757bd0d80629bbc4df0058c725e75c5bb9f1a42d40fef5a8"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 26.830525699969506
+      },
+      "13": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "cb969f9a689d20ca52e85f906140e1b7411fd4e3ce1f7298e561c1536f94e800"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 29.64428646839822
+      },
+      "14": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "4d2813738ba42a9c08daaf7a364642aa514dd282d1e633171106157459fbf692"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 29.02124208115528
+      },
+      "15": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "a6a79bcd42095a4e60b535783b3cd177bc55f40a52054242a50014e3d61badb2"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 30.079215773719458
+      },
+      "16": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "96f07371633cc845dffb80c4dffa9a230730aa642d136d9901315d19815b0d4f"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 32.86450721462863
+      },
+      "17": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "ccf1f56c46c9e9c211a37a375e621b334bb0006b9ca1cd5fe548fa49a2f88550"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 39.634388217214486
+      },
+      "18": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "fee31d4de214275b3f86988ae1fbc486ebac89aa58333381baf48548088d21e4"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 48.64266408165812
+      },
+      "19": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "b070d6ffcacad5482e0e3b74983b17966f4572ac24d789b457ae276b15fcca69"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 63.58947005813676
+      },
+      "20": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "258e69e0e0d6159dd2c85c3ea82d975d0cd81e2f4c4c657f345885f3cd95ce6f"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 84.34991535311144
+      },
+      "21": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "103079adcd07472308b16d95cbd7333f68ea767603ba863973c1a3087bf12791"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 68.57250063369506
+      }
+    },
+    "writers": {
+      "16": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "b6bc0def449ab27f7e507d7b7ae95d65d35f0ffb24aa61c8622b7e45ab05602c"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "bae64d176bc783e7118fe42d2ed9dc89a8eeb159e6a4d7405b2ed47b82506d5d"
+        }
+      },
+      "17": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "f7a9262e6fad0a3869798516bf8f8521b437f2e1bdd5b2a7027662fbdc5d4c07"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "672be5495039977c1a3d2dbbff4807632c564136f1e8a28aeff224339aec2208"
+        }
+      },
+      "18": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "e546f3210f8a7315b55f4e966b794279adf294f22aa106c92c0900134545fa0f"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "53eae7fe435d994d9dc190493be7356a2969d9087765d57db0e8f4cebb1f1926"
+        }
+      },
+      "20": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "16b6f0beefb35c5df0bf35a58aadc1587952fd9055aae1e8f9fcf1c65babc9e6"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "902f9c45bee189d20d1ec08127d84388774c1a99418a93f6fbeea4142ce15578"
+        }
+      },
+      "21": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "cc068ebcb941cc675cc83a0c43a228d67a7f1cc67c7cc46019785cc72eaf28be"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "c405387b0fb5f8121fd98ef91c59f04ea85d92cc968eec61ea92a9ca75a4b225"
+        }
+      },
+      "22": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "0baeeba6e90c60e11508a1c5ac4dec1db1cdb7f21eefc552beeae0a81dade856"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "2116b23be1f4325f2f0a5b737e421cae15696312e190949d3e68e9af3ad49b1a"
+        }
+      }
+    }
+  },
+  {
+    "target": "cnc__Chinese",
+    "generation": {
+      "case_id": "baseline__cnc__Chinese",
+      "prompt": "Chinese CNC machine tools in Russian military production",
+      "response": "The claim",
+      "input_token_ids": [
+        248045,
+        846,
+        198,
+        43429,
+        57681,
+        5484,
+        7141,
+        303,
+        8260,
+        6079,
+        5492,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "generated_token_ids": [
+        760,
+        3591
+      ],
+      "formatted_input": "<|im_start|>user\nChinese CNC machine tools in Russian military production<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "generated_tokens": 2,
+      "stop_reason": "length_or_other",
+      "seconds": 0.32222400698810816,
+      "layer": null,
+      "strength": 0,
+      "units": "residual_fraction",
+      "scope": "last",
+      "hook_calls": 0,
+      "seed": 1729,
+      "temperature": 0,
+      "max_new_tokens": 2,
+      "identity": {
+        "model": "Qwen/Qwen3.6-27B",
+        "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+        "dtype": "bfloat16",
+        "decoder_blocks": "model.language_model.layers",
+        "layer_count": 64,
+        "config_sha256": "a5bde9d45d5ec446c8323cbe2abf26d3afe52d1494a18d39fee2495d9ad92f36",
+        "tokenizer_config_sha256": "5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b",
+        "tokenizer_json_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "weight_index_sha256": "a8ad2c26fb707ff8c245806315b03e3b4b74595528492423af5dae0ce39b4d9b"
+      },
+      "recorded_at": "2026-10-26T15:13:08.549298+00:00"
+    },
+    "exact_saved_prefix_logits": true,
+    "activations": {
+      "0": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "7b9edf919f4e9f93f4e820f0e5b43ff772aaa522c243e8f5fd5a0b2c041cc1d2"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 8.47050388711037
+      },
+      "1": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "4ea8cee2e5cbb2fe470261041fefacf68059581dcad74e85bb39a1092ccbc015"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 5.781408507471401
+      },
+      "2": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "682ab920bd82ee703dda9656aab9f55049b2bfcf0eb1f535e8385a85f722abfb"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 13.011267724171315
+      },
+      "3": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "f742f3923388cebdcfd88d0e7e54a584fef257f2ca0551da4591d5ced793d988"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 9.389716227553542
+      },
+      "4": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "d8baf991e417c69fb7fa26b5a6512be892210488895e41370473218ad0cc6015"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 11.254370214649144
+      },
+      "5": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "022c87e8493846a127d97134f61e5bc755d0ca049246c80fde8aaf40f35ca1df"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 12.708535382856473
+      },
+      "6": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "19dcf7e0963e588e5552f91dd0d7ca7eb457dcd96b8467e9a4e8d9c04207a46d"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 16.948769754504244
+      },
+      "7": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "0aa98ee5bbc9e2d9fffbd81f5799d577053db3ae5c9dcd6d60865381528ebf1c"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 20.07256441383823
+      },
+      "8": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "49a739f41da29dd7283ba5abaf25fbb4413f4e5ad639a1823cf851c78d6fb0d0"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 24.815450219620104
+      },
+      "9": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "b2fac3752ec85ff3a30b4242502cc401713b554cc02e8e21ee98709747adf686"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 23.393355616399457
+      },
+      "10": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "7e1d7990633284d9bdf0c5a046c17ddde806401afe16fd4f23ff37364e1eb97d"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 24.70163832707889
+      },
+      "11": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "7b626295bd27867f02f3508648f417b651d480292b21506d93821efd3baffaca"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 25.264764927496557
+      },
+      "12": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "2d6cb2269145140e1bb61c8906d5303fba059bfc2871de933780dbace0675254"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 27.44410643497665
+      },
+      "13": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "0922843bc1849088917caa1bafc0b6db4538e712f8d1f6e498b357300dbc4d95"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 29.752797749452682
+      },
+      "14": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "769442c1d42bf88e8da47d98bce95864f296c44340630cb6e8b53afcde7d131d"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 28.94823940667119
+      },
+      "15": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "4e832e73e744e58fb5a482a4d7c59c785a2452dff910176bb0a3037651d0b50b"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 30.413034121288618
+      },
+      "16": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "ca3deff9bd95b106a9f4392477a3dcd2a5c095e1fc6dffc2246b4bf1385f112e"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 33.560054777073205
+      },
+      "17": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "220078778796bd15dd1af19dd3402eeb70075dc0fd0179bb34c49f04b2dc5e73"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 38.3767775350084
+      },
+      "18": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "4ca1dc7fbbb365072601d7289a6fe75ea4906389171d1d93924b5f3e03a8dfae"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 45.960518346758846
+      },
+      "19": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "8bc58313bd99e280daa178e7dc3ef009128553232d852d4c6a3130d70b126839"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 59.60176700629809
+      },
+      "20": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "83bcfdbf6e5080f21a49a2b97f567747935c7bed019c88e34e27a58516ce191f"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 64.73561668581193
+      },
+      "21": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "12f38e178b4778f9169ee4b1bf6a990e8fc04d7e44fcb96a06100dd5897e11cc"
+        },
+        "nonzero": 348159,
+        "l2_diagnostic": 61.60235182950575
+      }
+    },
+    "writers": {
+      "16": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "8b6be2086e10c7cda2540f174453f0d15e1882ce793a6b266f5d021b55ca4651"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "f5a8fb3a1bc7ea2d87402f0f6b804bea7d2c1ae403105f9aa600b4fe86590145"
+        }
+      },
+      "17": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "6bb8286bc2ab2a124565236c9ee3ebb12fa3b78dccd54aadbe1711861e1b9bbe"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "7b4ad95c879a02c144c852cd817f34c7c994c348b931320757636ce32e1185e6"
+        }
+      },
+      "18": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "eda49a53c8adbc16d23d5d8eec03d9df7e9a71dfa30883011f3380024f528958"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "5a01536dc8c50de42ff8e2c9aac0df82e0df41be0935949e0fda908a1f238433"
+        }
+      },
+      "20": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "967065346aff818f7583c80878e051b6313d7146dc44824a7cdec27028f6b3a8"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "fde24af30968fe068e7d6f08ffd64d321cfff27ee16d47cd9f370bb99221fad6"
+        }
+      },
+      "21": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "57a29f3bca89a0eeecfad1ba090df7d4f377409f6f48612520898c6c92536924"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "01c06c40194afd97e9a8b69c9120972b59af94c58ebb71d05e875a795b1da362"
+        }
+      },
+      "22": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "744557925483de89ed9c5382e8ee5b9bb7b3a9f47058dbee9a4798c0415e5d0e"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "96fa5048dad549d8c04afffeca680fa418f3ce1cda63362cc6e10ad9f6b76a2e"
+        }
+      }
+    }
+  },
+  {
+    "target": "cnc__Commercial",
+    "generation": {
+      "case_id": "baseline__cnc__Commercial",
+      "prompt": "Commercial CNC machine tools in Russian military production",
+      "response": "The use",
+      "input_token_ids": [
+        248045,
+        846,
+        198,
+        57700,
+        57681,
+        5484,
+        7141,
+        303,
+        8260,
+        6079,
+        5492,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "generated_token_ids": [
+        760,
+        958
+      ],
+      "formatted_input": "<|im_start|>user\nCommercial CNC machine tools in Russian military production<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "generated_tokens": 2,
+      "stop_reason": "length_or_other",
+      "seconds": 0.32595109194517136,
+      "layer": null,
+      "strength": 0,
+      "units": "residual_fraction",
+      "scope": "last",
+      "hook_calls": 0,
+      "seed": 1729,
+      "temperature": 0,
+      "max_new_tokens": 2,
+      "identity": {
+        "model": "Qwen/Qwen3.6-27B",
+        "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+        "dtype": "bfloat16",
+        "decoder_blocks": "model.language_model.layers",
+        "layer_count": 64,
+        "config_sha256": "a5bde9d45d5ec446c8323cbe2abf26d3afe52d1494a18d39fee2495d9ad92f36",
+        "tokenizer_config_sha256": "5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b",
+        "tokenizer_json_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "weight_index_sha256": "a8ad2c26fb707ff8c245806315b03e3b4b74595528492423af5dae0ce39b4d9b"
+      },
+      "recorded_at": "2026-10-26T15:13:08.943982+00:00"
+    },
+    "exact_saved_prefix_logits": true,
+    "activations": {
+      "0": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "2a02bd62e29d3760c0389511d9b04458cea82b9384f1ab50175ffd2494d3df3d"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 8.396547808398328
+      },
+      "1": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "12412ccf12dcbb9ce2b40d86c0e088655ae62922350f01d65f90132d84412ef2"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 5.79040547461229
+      },
+      "2": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "03b7c8518a881f85b671fe21b0ccd28d6e2d4d54fcf0c3b90f5f0cb977faf194"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 14.149852685101884
+      },
+      "3": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "f8c8e139ffc27f7bc0e8a75cc64452788a8d2bbbf18e025a36082ccadbde4416"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 9.416839551203935
+      },
+      "4": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "213ec26d94f268f0e5abba3dcd0f3658769e070e8795654981d87f9155dabe19"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 10.532283892698489
+      },
+      "5": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "8846a4be67c6599f55a660008111ad3a8761d41213cfac74448a8f5c9dc888a1"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 13.129431332952315
+      },
+      "6": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "0a76d2a436352143f51d8b63bfa7c1cf3edc6cb685c1c5a5e5bcf2cbcf91b170"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 16.93185860764188
+      },
+      "7": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "9f7bef0971a810f992dd116b6b8793b109c7b7bbc7d73096a67d63f8facfd9c6"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 18.563566210231045
+      },
+      "8": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "4e10f29ed9ebe93f40d00e901d4e382aae224a3a0b7d38f720e8a419c49ca3bd"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 22.308434018250868
+      },
+      "9": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "28ad84f4eeb8d60f0d07f56839e6705b747c8d084909d998692a4d987421ff11"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 21.725364382394687
+      },
+      "10": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "4d4bb0ef9b21605f5a77825c8305748ca414f2ae386371d02ba2ae45b0218d4b"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 23.985579523920325
+      },
+      "11": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "e32f883eb36db185191ae28e94853527561ac6bc2d1f23a269262386aed27a80"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 24.233249125739647
+      },
+      "12": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "b0311a41f29d26c3f279b5b4269cd5df7b1e57d01a997936043190b5849b097d"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 26.644240501222523
+      },
+      "13": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "57dccf210a0bf012622e27337ed4b1bad233ed2826ee649704c2bca11d16271a"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 29.273941887957008
+      },
+      "14": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "9dab58ae5d4a2efd67d6d06097976b29b31a347230523c7235a091a534ce4896"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 28.67918452675298
+      },
+      "15": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "8f2f86f768bb5da8bccfe12b79a4785ecec6d98bda8220ac28a52298c02201a7"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 29.84218457704011
+      },
+      "16": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "3a9dfa4192eb5e3897422100f1bf05a17971fde9f0484a315483f0e4d2e7c3d9"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 32.555608561000795
+      },
+      "17": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "e487c7118339b5ab212fbb33e16e61b5d2506403622f749c93e0aca8c3a16144"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 37.547897920937224
+      },
+      "18": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "4ed3c728e9d1b82c3f95f887ea8133f8010cb4fec3393f981947a6d0eb53034b"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 45.17103129757784
+      },
+      "19": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "505fe32791479566ee15827ca262fb5977db9205def4d51ced424268e5d4ee14"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 55.00500724769882
+      },
+      "20": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "75ad32de2498ae9c6b7a9807cc873056d97fb129023cbf3667cd3bc77307d53d"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 73.74630947389467
+      },
+      "21": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "adffbd35ee28dd356c04997eaacc66ab88713347a094657ab8cbed15693530d9"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 62.18593290376609
+      }
+    },
+    "writers": {
+      "16": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "59d5d2a30980f5d00e56f4d1c6fe89f299a217f5f24d66b66583e34ef2ad601e"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "5fb28c5bf9bc84017fa76433ca98d4c2f0a1e811cf309d3d6ee2690b9c647bf1"
+        }
+      },
+      "17": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "50c323bf5b188bfcc6d0c9d0e7a97396cdec831214f5c7a54f29d9f1709c5472"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "c29948ec379ee4864cd8963bfcfbaca0ddad08b4010cec685f7159e5f55fdb13"
+        }
+      },
+      "18": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "d1d1935f30ba53eeef234a80d1625df363b2e791ebabd9f0b13e0b89111054a7"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "005f3449782903c12d23bec65d3eb348db655e44fa1d3c9824c37758360a0926"
+        }
+      },
+      "20": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "8ce424a445c7df77908023d458046f1f809c1f32ed6e47f8c9d96049e5de6fd5"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "1f1fb943ae695dd626b6f98555a191fd960eaccca5a5b256b2b0a39fe285a18a"
+        }
+      },
+      "21": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "857c2ba90b6db6cad473c5ac064ec52087e37030006507501f9bb1366b478da1"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "37fe73bd788b0ff2478bfe822e4d02c29fdbdc3190d8960ba9e588e04cbaaf9f"
+        }
+      },
+      "22": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "a851dc52d3c8ad9530c5db6bff309c504cd28a4a301b7da85104a8385ebbfc74"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "50e015b38978f77496572c78214c78fbf442761e18a4c6438984a1701674c6c6"
+        }
+      }
+    }
+  },
+  {
+    "target": "benign_cnc__Chinese",
+    "generation": {
+      "case_id": "baseline__benign_cnc__Chinese",
+      "prompt": "Chinese CNC machine tools in civilian bicycle production",
+      "response": "The use",
+      "input_token_ids": [
+        248045,
+        846,
+        198,
+        43429,
+        57681,
+        5484,
+        7141,
+        303,
+        27986,
+        33828,
+        5492,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "generated_token_ids": [
+        760,
+        958
+      ],
+      "formatted_input": "<|im_start|>user\nChinese CNC machine tools in civilian bicycle production<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "generated_tokens": 2,
+      "stop_reason": "length_or_other",
+      "seconds": 0.32309039030224085,
+      "layer": null,
+      "strength": 0,
+      "units": "residual_fraction",
+      "scope": "last",
+      "hook_calls": 0,
+      "seed": 1729,
+      "temperature": 0,
+      "max_new_tokens": 2,
+      "identity": {
+        "model": "Qwen/Qwen3.6-27B",
+        "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+        "dtype": "bfloat16",
+        "decoder_blocks": "model.language_model.layers",
+        "layer_count": 64,
+        "config_sha256": "a5bde9d45d5ec446c8323cbe2abf26d3afe52d1494a18d39fee2495d9ad92f36",
+        "tokenizer_config_sha256": "5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b",
+        "tokenizer_json_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "weight_index_sha256": "a8ad2c26fb707ff8c245806315b03e3b4b74595528492423af5dae0ce39b4d9b"
+      },
+      "recorded_at": "2026-10-26T15:13:09.336688+00:00"
+    },
+    "exact_saved_prefix_logits": true,
+    "activations": {
+      "0": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "61af1260bd0a4de717a5731d01eb7c431de83998ba70a89feb3e582818954d74"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 8.247912424679129
+      },
+      "1": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "cb10f1a413732368f165f25779d2a522cd9ac04532a60067a8042e16a9d41e64"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 5.894445470265441
+      },
+      "2": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "c32cbe277c2b4a69aa866c643143bca5338b11d062729bb51aecd5d077a76161"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 13.743490080944396
+      },
+      "3": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "4575d178de50a2c12d2e6ae7ca0760f2f8fb40c123f190a63dcc1573846a8e93"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 9.669067274878222
+      },
+      "4": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "c22d0588dc2309de21098b79a4d79b6e632bb5ed06e8a1ef52ef5a64cfc5fbf7"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 13.16885859113671
+      },
+      "5": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "3e78784c4a2f7565fe13debb847a0753ab3924c122e5504b99215274ce190423"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 13.441813083884822
+      },
+      "6": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "63ae948b3888e5bf5dcf0f14d6f79eb4daf5274875ff52b0e3651efd98028cb4"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 17.612184931622693
+      },
+      "7": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "29b03d0d018011d48e43270e256be9aa549eb1fdf94e47dd437b0c2d7a1a3ac5"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 21.508521449401645
+      },
+      "8": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "118781b6fbd4f38c772ee6fcee65e94b362d407d646cc269c9af288f1959b037"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 25.343677313715457
+      },
+      "9": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "2eddc5f94563a4b87df054296f729dba8f298da99e181952e93156fae761f237"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 24.49592182141314
+      },
+      "10": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "7637b320d8472bd40ba0f5b8d748820887be36a861c0a233fc567227c4edfc17"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 25.066052440332715
+      },
+      "11": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "4819e4b857ae418149e3e08076007f993df21855b6a103d1dbd18113a98e73a4"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 25.421450837661464
+      },
+      "12": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "468ddd9e3cb2c6c0876d13c895e90d688f6c14d841a6dc6c2ad29111c94bfcf1"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 27.559779709890126
+      },
+      "13": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "c5f465415b2d0f23bf237d3be2e298aa79aaae9969abd96c6bd3abaedd927317"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 29.737756176259712
+      },
+      "14": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "503950af27c965f61eb890e4a7e50c36f9166461c6f0d7701f40350ec6217038"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 28.230321497149184
+      },
+      "15": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "1370708bf7acf026a9ea8ba05e471a62d4d31b3697b258696ea684eb1b336077"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 30.126388105619778
+      },
+      "16": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "6eb593ef222a3fa0ccd10b0f0fab2c1c61185e0147ddcb198514c8914d8f2db3"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 32.30190705823088
+      },
+      "17": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "53b558e85300b57950ae5e53512904d384d054722279fece2aedb0a646baa649"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 36.943384976993485
+      },
+      "18": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "e742026d17ae35fec56d0d41c6983e211b78bb034c473d1c43dc08c3e49adc8a"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 46.54390567876431
+      },
+      "19": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "0f5770d113a80699f88f20010efcfd9e3c00a4dfd0807f17c1f1b5fe737112fc"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 58.10528275022163
+      },
+      "20": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "1893beb36871ac37fd0c1c8db110d5fd8d82f879d5ed909b679d60829b39c088"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 66.93538260327033
+      },
+      "21": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "5250d6540077453cb2793d60de26b279dde431dd433b98d313eab686729426df"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 61.66903034916251
+      }
+    },
+    "writers": {
+      "16": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "12b667a9a01a47481b196ede7c6e2d74736f562da9f6899338c81196fe5a5738"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "d81a057f77b7507b5aa08ab4b263ed83db8f36328e76f0b6ee4a412efca78eb3"
+        }
+      },
+      "17": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "87c00d424d5b20aa012b80df637dacbf8b359171fcd10e4413143cb37b7e2af6"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "9083beb424fdbc38180a9eb3089c76a534b2f96bf224d0188888af8ec8439d84"
+        }
+      },
+      "18": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "1bdf733c1981568cb38ec6093f6a8d68ed76716d1c6b57111bed5f3f02b7a921"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "2ff53378ae880e41cc1496fd96047d41bd49c69204d0db9db5c90e50a4ef7369"
+        }
+      },
+      "20": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "77d8c68d8f8d11ef8d0f41f08b05e016d3ab9aa9f43e85aca494577d2c8d9d6a"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "00042fb28369c6922f96bba288c25f35f910817cd7293ef4f9e89de1be1225bf"
+        }
+      },
+      "21": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "6a99d1f60f4dc34150e603c7276059a42f6187538549dad4d796a58a763b4800"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "ccce2b5eec4e2ee42493ddffa2fad29259130809b6a9939b90ad67644a30651b"
+        }
+      },
+      "22": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "6de5aefb1d9510ad80341081abc3991cc29ab25edecc1dd6342d9845c62be486"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "62b5e584df1ba0ecef6786e628954e20ac4e71a2c69dfa6b7c24d76befe6687b"
+        }
+      }
+    }
+  },
+  {
+    "target": "benign_cnc__Commercial",
+    "generation": {
+      "case_id": "baseline__benign_cnc__Commercial",
+      "prompt": "Commercial CNC machine tools in civilian bicycle production",
+      "response": "The use",
+      "input_token_ids": [
+        248045,
+        846,
+        198,
+        57700,
+        57681,
+        5484,
+        7141,
+        303,
+        27986,
+        33828,
+        5492,
+        248046,
+        198,
+        248045,
+        74455,
+        198,
+        248068,
+        271,
+        248069,
+        271
+      ],
+      "generated_token_ids": [
+        760,
+        958
+      ],
+      "formatted_input": "<|im_start|>user\nCommercial CNC machine tools in civilian bicycle production<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "generated_tokens": 2,
+      "stop_reason": "length_or_other",
+      "seconds": 0.32024453207850456,
+      "layer": null,
+      "strength": 0,
+      "units": "residual_fraction",
+      "scope": "last",
+      "hook_calls": 0,
+      "seed": 1729,
+      "temperature": 0,
+      "max_new_tokens": 2,
+      "identity": {
+        "model": "Qwen/Qwen3.6-27B",
+        "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+        "dtype": "bfloat16",
+        "decoder_blocks": "model.language_model.layers",
+        "layer_count": 64,
+        "config_sha256": "a5bde9d45d5ec446c8323cbe2abf26d3afe52d1494a18d39fee2495d9ad92f36",
+        "tokenizer_config_sha256": "5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b",
+        "tokenizer_json_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+        "weight_index_sha256": "a8ad2c26fb707ff8c245806315b03e3b4b74595528492423af5dae0ce39b4d9b"
+      },
+      "recorded_at": "2026-10-26T15:13:09.727098+00:00"
+    },
+    "exact_saved_prefix_logits": true,
+    "activations": {
+      "0": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "d5e9cb6f43204da0f6fadfbd9c4e869227c1f32a5d5a2c49fa29b3b4958038b8"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 8.16772519136373
+      },
+      "1": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "084491f525438defe445f5e7090c3ca2709e74d086443c7c2a923970e3ad593a"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 5.855051018544621
+      },
+      "2": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "f1962365521e297fbcf42159c7347f5af2970338162f68a4f787c02e46bdfb37"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 14.749031835197345
+      },
+      "3": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "79eba10edbde88668b8665beb5b4d39ca7e67368483ae3c5c5e727251a426494"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 9.618374505120448
+      },
+      "4": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "0f49375009569117bf61b17f822c6910225dd583f35dbfd861125f8c04ac8eae"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 11.433802653921775
+      },
+      "5": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "d3778993c5469c8e8ef6db46c1ebf0d5e6e0add7591d81bb2cc920b1a5db8729"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 13.1281250063611
+      },
+      "6": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "00a65c22bf247cc7cb66422ce377a8928f437565245f6c69db7e4eb64ed0c090"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 17.120813077603948
+      },
+      "7": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "050876cb240132bfed3edb143b72855e1fa18ddfd3019837ee532433bc488a13"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 19.525463123421773
+      },
+      "8": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "346d45d3fc1e02e1e3ebde5609c3886500f02b9b0543f4b1a4005d9062f1bb8e"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 22.896693850993092
+      },
+      "9": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "e058d6407f74668543991dfe22bf96bfeeb9055bd8bd6c05334ca4887f58b2da"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 22.440703392024158
+      },
+      "10": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "7e4bc290ee4029775037173f8e9dc2a1f0ad16a6dd2e5036d7ded83fac67d357"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 24.23784975718787
+      },
+      "11": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "6461194d38d73bb53301a461d3f0b736c610079ddc961522eb14998c36350cbe"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 24.29097644523921
+      },
+      "12": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "d3365e92abb6a735aba0688f9962394c178ddf5fb88193c33f3df3c4e9960220"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 26.665061238113726
+      },
+      "13": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "3be09b935962552ac512e023fb5a4ca21da88b51d3b64fcb04d7489c13d4d192"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 29.220176972298404
+      },
+      "14": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "e89b0534bd1781500ea4645258b496e9c1d742837ec8443bb1c4c384647496ed"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 28.149630353117054
+      },
+      "15": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "5016a905493d2834816856ec8d1f69bb7b188c0539ff9bc40afeeccd6cdf4a7f"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 29.895593604506473
+      },
+      "16": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "42bd953c8731a23997dc67d3344b3b12b5ddeb460dbf27b6f720d0e3c5ccef17"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 32.529475863556314
+      },
+      "17": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "547a1e845cf9073ebcc89e4a36b4b9a23a05030a91b81d967433e38aec6e14ba"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 37.41459760179083
+      },
+      "18": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "448c7eb9a4af59c2e3bbab73716556557dc45bb651771efdcc162f5c1649c791"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 47.28687353883142
+      },
+      "19": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "ba47ac44dd3c0add9593d5dc2a3f9d892acf62bc8b765b8b40013451810c19e6"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 56.998181519415425
+      },
+      "20": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "21bf28a57a1e6d88793dbb6d0cf7fb18b7bb01daa654b0346be0cdd08ee25386"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 76.29164333659043
+      },
+      "21": {
+        "fingerprint": {
+          "shape": [
+            1,
+            20,
+            17408
+          ],
+          "stride": [
+            348160,
+            17408,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "7683d654218f3a85333fde21ee7b559b29cbbc748c4c1b4a92c7e2617f045ad7"
+        },
+        "nonzero": 348160,
+        "l2_diagnostic": 63.135009075033345
+      }
+    },
+    "writers": {
+      "16": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "439a483d3ee786e3a7183fead44d87da345b20570fb0f34fda7656aefeb4ff79"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "c0131c703365ada9eeea04b82d0f30a68a1a4c3699f597e2d693ca3e99aa634c"
+        }
+      },
+      "17": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "8ecd0879ae4c438e483719bf2c7c2df316057a8accfd51db1594b697e77c14f0"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "2eea9041fa71a685596845ed5dab76313eb5f4580d99f7077892d0f7df8a6a24"
+        }
+      },
+      "18": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "0d9c06c1262f35d729772bc1e476f78806763ca32cfb9a473c882d3571418f15"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "2adb564316c1a195b20bc2190b52ab3ad09f90abb73e0f52666bad6c4ebdd2f4"
+        }
+      },
+      "20": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "ac82d72e2e3542ddb29e16d7a0463a58753c0cd2c1ea542c42d2dd2d52b9d923"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "de798bf2f119368ae9da9aa360b2585f48f937b9e2a85f4f0e0441e7db83f9c9"
+        }
+      },
+      "21": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "a77de308bae1f8f4be50a386c851df1b5e49e059f71184ca7f3f6e97df15569f"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "1f2c380d608da0add9e1a2bef7c541e86ca5f5dbf56f80c020bb01491a5a8a3c"
+        }
+      },
+      "22": {
+        "key": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            122880,
+            6144,
+            128,
+            1
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "426ca678a8ffecab32224943faaf43f273058700b678728afdb27b163972816e"
+        },
+        "value": {
+          "shape": [
+            1,
+            20,
+            48,
+            128
+          ],
+          "stride": [
+            20,
+            1,
+            2560,
+            20
+          ],
+          "dtype": "torch.bfloat16",
+          "sha256": "16a32ced00c9eb37d5f753d1b73d2cb951dca9fecf8bc60590650149241cc1ae"
+        }
+      }
+    }
+  }
+]
