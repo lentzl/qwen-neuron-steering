@@ -1,6 +1,6 @@
 # Third-party materials and attribution
 
-The MIT license at the root applies to original project code. CC BY 4.0 applies to the original article, illustration and research records. These grants do not override the licenses of incorporated material.
+The MIT license at the root applies to original project code. CC BY 4.0 applies to the original article and illustration. CC0 1.0 applies to our own research data, measurements and steering offsets, as scoped in [LICENSE-DATA](LICENSE-DATA). These grants do not override the licenses of incorporated material. Files containing both our measurements and third-party benchmark text retain these separate terms for their respective components.
 
 | Material | Source and attribution | Terms / scope |
 |---|---|---|

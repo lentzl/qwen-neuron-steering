@@ -35,6 +35,6 @@ pre{overflow-x:auto;background:#f0f1ec;padding:16px}code{font:13px/1.5 ui-monosp
 nav=''.join(f'<li><a href="#{s}">{html.escape(t)}</a></li>' for s,t in toc)
 page=f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Making Qwen’s “crimethink” public</title><style>{css}</style></head>
-<body><div class="topbar"><span>An interpretability investigation</span><a href="README.md">Repository guide</a></div><div class="layout"><aside><nav aria-label="Contents"><ol>{nav}</ol></nav></aside><main>{body}<footer>Research direction: lentzl. Research, analysis and writing assistance: GPT-6 Astra through Codex. <a href="ACKNOWLEDGMENTS.md">Acknowledgments</a> · <a href="REPRODUCING.md">Reproduction</a> · <a href="LICENSE-DATA">CC BY 4.0</a></footer></main></div></body></html>'''
+<body><div class="topbar"><span>An interpretability investigation</span><a href="README.md">Repository guide</a></div><div class="layout"><aside><nav aria-label="Contents"><ol>{nav}</ol></nav></aside><main>{body}<footer>Research direction: lentzl. Research, analysis and writing assistance: GPT-6 Astra through Codex. <a href="ACKNOWLEDGMENTS.md">Acknowledgments</a> · <a href="REPRODUCING.md">Reproduction</a> · <a href="LICENSE-ARTICLE">CC BY 4.0</a></footer></main></div></body></html>'''
 (ROOT/'index.html').write_text(page)
 print('Built index.html; all article evidence links resolve.')

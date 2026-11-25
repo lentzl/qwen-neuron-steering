@@ -49,4 +49,4 @@ python3 -m venv .venv
 
 This repository is published as an archived, read-only research snapshot. It can be cloned and forked. A future update can be published by unarchiving and issuing another version.
 
-Original code is under the [MIT license](LICENSE). The article, illustration and original research records are under [CC BY 4.0](LICENSE-DATA), attributed to **lentzl**. Third-party material retains its own terms; see [THIRD_PARTY.md](THIRD_PARTY.md). Model weights are not redistributed.
+Original code is under the [MIT license](LICENSE). The article and illustration are under [CC BY 4.0](LICENSE-ARTICLE), attributed to **lentzl**. Our own research data, measurements and steering offsets are dedicated under [CC0 1.0](LICENSE-DATA), without an attribution requirement. Third-party material—including benchmark text embedded in our records—retains its own terms; see [THIRD_PARTY.md](THIRD_PARTY.md). Model weights are not redistributed.
